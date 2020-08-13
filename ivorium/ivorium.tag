@@ -2,8 +2,8 @@
 <tagfile>
   <compound kind="file">
     <name>ivorium.cpp</name>
-    <path>/github/workspace/src/</path>
-    <filename>ivorium_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/</path>
+    <filename>ivorium_8cpp.html</filename>
     <includes id="ivorium_8hpp" name="ivorium.hpp" local="yes" imported="no">ivorium.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -26,8 +26,8 @@
   </compound>
   <compound kind="file">
     <name>ivorium.hpp</name>
-    <path>/github/workspace/src/</path>
-    <filename>ivorium_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/</path>
+    <filename>ivorium_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="yes" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="ivorium__game_8hpp" name="ivorium_game.hpp" local="yes" imported="no">ivorium_game/ivorium_game.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="yes" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
@@ -51,15 +51,15 @@
   </compound>
   <compound kind="file">
     <name>Attribute.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/</path>
-    <filename>Attribute_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/</path>
+    <filename>Attribute_8cpp.html</filename>
     <includes id="Attribute_8hpp" name="Attribute.hpp" local="yes" imported="no">Attribute.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Attribute.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/</path>
-    <filename>Attribute_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/</path>
+    <filename>Attribute_8hpp.html</filename>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">../Instancing/Instance.hpp</includes>
     <includes id="volatile__set_8hpp" name="volatile_set.hpp" local="yes" imported="no">../Basics/volatile_set.hpp</includes>
     <includes id="StringIO__Table_8hpp" name="StringIO_Table.hpp" local="yes" imported="no">../Basics/StringIO_Table.hpp</includes>
@@ -76,14 +76,14 @@
   </compound>
   <compound kind="file">
     <name>Attribute.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/</path>
-    <filename>Attribute_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/</path>
+    <filename>Attribute_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DirtyAttr.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>DirtyAttr_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>DirtyAttr_8hpp.html</filename>
     <includes id="Local__AEP_8hpp" name="Local_AEP.hpp" local="yes" imported="no">Local_AEP.hpp</includes>
     <includes id="Attribute_8hpp" name="Attribute.hpp" local="yes" imported="no">../Attribute.hpp</includes>
     <includes id="DirtyAttr_8inl" name="DirtyAttr.inl" local="yes" imported="no">DirtyAttr.inl</includes>
@@ -94,21 +94,21 @@
   </compound>
   <compound kind="file">
     <name>DirtyAttr.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>DirtyAttr_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>DirtyAttr_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>FunctorActivatorAttribute.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>FunctorActivatorAttribute_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>FunctorActivatorAttribute_8cpp.html</filename>
     <includes id="FunctorActivatorAttribute_8hpp" name="FunctorActivatorAttribute.hpp" local="yes" imported="no">FunctorActivatorAttribute.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>FunctorActivatorAttribute.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>FunctorActivatorAttribute_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>FunctorActivatorAttribute_8hpp.html</filename>
     <includes id="Local__AEP_8hpp" name="Local_AEP.hpp" local="yes" imported="no">Local_AEP.hpp</includes>
     <includes id="Activator_8hpp" name="Activator.hpp" local="yes" imported="no">../Types/Activator.hpp</includes>
     <class kind="class">iv::FunctorActivatorAttribute</class>
@@ -116,15 +116,15 @@
   </compound>
   <compound kind="file">
     <name>Local_AEP.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>Local__AEP_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>Local__AEP_8cpp.html</filename>
     <includes id="Local__AEP_8hpp" name="Local_AEP.hpp" local="yes" imported="no">Local_AEP.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Local_AEP.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>Local__AEP_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>Local__AEP_8hpp.html</filename>
     <includes id="Attribute_8hpp" name="Attribute.hpp" local="yes" imported="no">../Attribute.hpp</includes>
     <includes id="volatile__set_8hpp" name="volatile_set.hpp" local="yes" imported="no">../../Basics/volatile_set.hpp</includes>
     <class kind="class">iv::Local_AEP</class>
@@ -132,8 +132,8 @@
   </compound>
   <compound kind="file">
     <name>PrivAttr.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>PrivAttr_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>PrivAttr_8hpp.html</filename>
     <includes id="Local__AEP_8hpp" name="Local_AEP.hpp" local="yes" imported="no">Local_AEP.hpp</includes>
     <includes id="Attribute_8hpp" name="Attribute.hpp" local="yes" imported="no">../Attribute.hpp</includes>
     <includes id="PrivAttr_8inl" name="PrivAttr.inl" local="yes" imported="no">PrivAttr.inl</includes>
@@ -145,14 +145,14 @@
   </compound>
   <compound kind="file">
     <name>PrivAttr.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>PrivAttr_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>PrivAttr_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>PrivValAttr.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>PrivValAttr_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>PrivValAttr_8hpp.html</filename>
     <includes id="Attribute_8hpp" name="Attribute.hpp" local="yes" imported="no">../Attribute.hpp</includes>
     <includes id="PrivValAttr_8inl" name="PrivValAttr.inl" local="yes" imported="no">PrivValAttr.inl</includes>
     <class kind="class">iv::PrivValAttr_I</class>
@@ -163,14 +163,14 @@
   </compound>
   <compound kind="file">
     <name>PrivValAttr.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>PrivValAttr_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>PrivValAttr_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SharedAttr.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>SharedAttr_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>SharedAttr_8hpp.html</filename>
     <includes id="Attribute_8hpp" name="Attribute.hpp" local="yes" imported="no">../Attribute.hpp</includes>
     <includes id="SharedAttr_8inl" name="SharedAttr.inl" local="yes" imported="no">SharedAttr.inl</includes>
     <class kind="class">iv::SharedAttr_I</class>
@@ -179,21 +179,21 @@
   </compound>
   <compound kind="file">
     <name>SharedAttr.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Attributes/</path>
-    <filename>SharedAttr_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Attributes/</path>
+    <filename>SharedAttr_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Field.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/</path>
-    <filename>Field_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/</path>
+    <filename>Field_8cpp.html</filename>
     <includes id="Field_8hpp" name="Field.hpp" local="yes" imported="no">Field.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Field.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/</path>
-    <filename>Field_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/</path>
+    <filename>Field_8hpp.html</filename>
     <includes id="Attribute_8hpp" name="Attribute.hpp" local="yes" imported="no">Attribute.hpp</includes>
     <includes id="valgrind_8hpp" name="valgrind.hpp" local="yes" imported="no">../Basics/valgrind.hpp</includes>
     <includes id="Field_8inl" name="Field.inl" local="yes" imported="no">Field.inl</includes>
@@ -205,21 +205,21 @@
   </compound>
   <compound kind="file">
     <name>Field.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/</path>
-    <filename>Field_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/</path>
+    <filename>Field_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>FunctorActivatorField.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Fields/</path>
-    <filename>FunctorActivatorField_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Fields/</path>
+    <filename>FunctorActivatorField_8cpp.html</filename>
     <includes id="FunctorActivatorField_8hpp" name="FunctorActivatorField.hpp" local="yes" imported="no">FunctorActivatorField.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>FunctorActivatorField.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Fields/</path>
-    <filename>FunctorActivatorField_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Fields/</path>
+    <filename>FunctorActivatorField_8hpp.html</filename>
     <includes id="Activator_8hpp" name="Activator.hpp" local="yes" imported="no">../Types/Activator.hpp</includes>
     <includes id="Field_8hpp" name="Field.hpp" local="yes" imported="no">../Field.hpp</includes>
     <class kind="class">iv::FunctorActivatorField</class>
@@ -227,8 +227,8 @@
   </compound>
   <compound kind="file">
     <name>FunctorField.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Fields/</path>
-    <filename>FunctorField_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Fields/</path>
+    <filename>FunctorField_8hpp.html</filename>
     <includes id="Field_8hpp" name="Field.hpp" local="yes" imported="no">../Field.hpp</includes>
     <includes id="FunctorField_8inl" name="FunctorField.inl" local="yes" imported="no">FunctorField.inl</includes>
     <class kind="class">iv::FunctorField</class>
@@ -236,14 +236,14 @@
   </compound>
   <compound kind="file">
     <name>FunctorField.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Fields/</path>
-    <filename>FunctorField_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Fields/</path>
+    <filename>FunctorField_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>PrivField.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Fields/</path>
-    <filename>PrivField_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Fields/</path>
+    <filename>PrivField_8hpp.html</filename>
     <includes id="Field_8hpp" name="Field.hpp" local="yes" imported="no">../Field.hpp</includes>
     <includes id="PrivField_8inl" name="PrivField.inl" local="yes" imported="no">PrivField.inl</includes>
     <class kind="class">iv::PrivField</class>
@@ -253,21 +253,21 @@
   </compound>
   <compound kind="file">
     <name>PrivField.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Fields/</path>
-    <filename>PrivField_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Fields/</path>
+    <filename>PrivField_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Activator.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Types/</path>
-    <filename>Activator_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Types/</path>
+    <filename>Activator_8cpp.html</filename>
     <includes id="Activator_8hpp" name="Activator.hpp" local="yes" imported="no">Activator.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Activator.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Types/</path>
-    <filename>Activator_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Types/</path>
+    <filename>Activator_8hpp.html</filename>
     <includes id="StringIO_8hpp" name="StringIO.hpp" local="yes" imported="no">../../Basics/StringIO.hpp</includes>
     <includes id="StringIO__defs_8hpp" name="StringIO_defs.hpp" local="yes" imported="no">../../Basics/StringIO_defs.hpp</includes>
     <class kind="struct">iv::Activator</class>
@@ -276,8 +276,8 @@
   </compound>
   <compound kind="file">
     <name>MulAgg.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Types/</path>
-    <filename>MulAgg_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Types/</path>
+    <filename>MulAgg_8hpp.html</filename>
     <includes id="MulAgg_8inl" name="MulAgg.inl" local="yes" imported="no">MulAgg.inl</includes>
     <class kind="class">iv::MulAgg</class>
     <class kind="struct">iv::StringIO&lt; MulAgg&lt; Float &gt; &gt;</class>
@@ -285,14 +285,14 @@
   </compound>
   <compound kind="file">
     <name>MulAgg.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Types/</path>
-    <filename>MulAgg_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Types/</path>
+    <filename>MulAgg_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SumAgg.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Types/</path>
-    <filename>SumAgg_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Types/</path>
+    <filename>SumAgg_8hpp.html</filename>
     <includes id="SumAgg_8inl" name="SumAgg.inl" local="yes" imported="no">SumAgg.inl</includes>
     <class kind="class">iv::SumAgg</class>
     <class kind="struct">iv::StringIO&lt; SumAgg&lt; Int &gt; &gt;</class>
@@ -300,21 +300,21 @@
   </compound>
   <compound kind="file">
     <name>SumAgg.inl</name>
-    <path>/github/workspace/src/ivorium_core/Attribute/Types/</path>
-    <filename>SumAgg_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Attribute/Types/</path>
+    <filename>SumAgg_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Context.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>Context_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>Context_8cpp.html</filename>
     <includes id="Context_8hpp" name="Context.hpp" local="yes" imported="no">Context.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Context.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>Context_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>Context_8hpp.html</filename>
     <includes id="multiline__ostream_8hpp" name="multiline_ostream.hpp" local="yes" imported="no">multiline_ostream.hpp</includes>
     <includes id="ivorium__core_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <includes id="StringIO_8hpp" name="StringIO.hpp" local="yes" imported="no">StringIO.hpp</includes>
@@ -327,14 +327,14 @@
   </compound>
   <compound kind="file">
     <name>Context.inl</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>Context_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>Context_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>glm_alias.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>glm__alias_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>glm__alias_8hpp.html</filename>
     <includes id="StringIO_8hpp" name="StringIO.hpp" local="yes" imported="no">StringIO.hpp</includes>
     <includes id="SS_8hpp" name="SS.hpp" local="yes" imported="no">SS.hpp</includes>
     <includes id="Interpolator_8hpp" name="Interpolator.hpp" local="yes" imported="no">Interpolator.hpp</includes>
@@ -491,8 +491,8 @@
   </compound>
   <compound kind="file">
     <name>hash.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>hash_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>hash_8hpp.html</filename>
     <includes id="glm__alias_8hpp" name="glm_alias.hpp" local="yes" imported="no">glm_alias.hpp</includes>
     <class kind="struct">iv::hash</class>
     <class kind="struct">iv::hash</class>
@@ -515,15 +515,15 @@
   </compound>
   <compound kind="file">
     <name>Input.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>Input_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>Input_8cpp.html</filename>
     <includes id="Input_8hpp" name="Input.hpp" local="yes" imported="no">Input.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Input.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>Input_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>Input_8hpp.html</filename>
     <includes id="glm__alias_8hpp" name="glm_alias.hpp" local="yes" imported="no">glm_alias.hpp</includes>
     <includes id="hash_8hpp" name="hash.hpp" local="yes" imported="no">hash.hpp</includes>
     <includes id="StringIO__Table_8hpp" name="StringIO_Table.hpp" local="yes" imported="no">StringIO_Table.hpp</includes>
@@ -535,8 +535,8 @@
   </compound>
   <compound kind="file">
     <name>Interpolator.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>Interpolator_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>Interpolator_8hpp.html</filename>
     <includes id="glm__alias_8hpp" name="glm_alias.hpp" local="yes" imported="no">glm_alias.hpp</includes>
     <includes id="math_8hpp" name="math.hpp" local="yes" imported="no">math.hpp</includes>
     <includes id="utils_8hpp" name="utils.hpp" local="yes" imported="no">utils.hpp</includes>
@@ -561,15 +561,15 @@
   </compound>
   <compound kind="file">
     <name>LogId.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>LogId_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>LogId_8cpp.html</filename>
     <includes id="LogId_8hpp" name="LogId.hpp" local="yes" imported="no">LogId.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>LogId.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>LogId_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>LogId_8hpp.html</filename>
     <includes id="RuntimeId_8hpp" name="RuntimeId.hpp" local="yes" imported="no">RuntimeId.hpp</includes>
     <class kind="class">iv::LogId</class>
     <class kind="struct">std::hash&lt; iv::LogId &gt;</class>
@@ -577,23 +577,23 @@
   </compound>
   <compound kind="file">
     <name>LogTrace.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>LogTrace_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>LogTrace_8cpp.html</filename>
     <includes id="LogTrace_8hpp" name="LogTrace.hpp" local="yes" imported="no">LogTrace.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>LogTrace.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>LogTrace_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>LogTrace_8hpp.html</filename>
     <class kind="class">iv::LogTrace</class>
     <class kind="class">iv::LambdaLogTrace</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>math.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>math_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>math_8hpp.html</filename>
     <namespace>iv</namespace>
     <member kind="function">
       <type>Float</type>
@@ -619,24 +619,24 @@
   </compound>
   <compound kind="file">
     <name>multiline_ostream.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>multiline__ostream_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>multiline__ostream_8cpp.html</filename>
     <includes id="multiline__ostream_8hpp" name="multiline_ostream.hpp" local="yes" imported="no">multiline_ostream.hpp</includes>
     <includes id="utils_8hpp" name="utils.hpp" local="yes" imported="no">utils.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>multiline_ostream.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>multiline__ostream_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>multiline__ostream_8hpp.html</filename>
     <class kind="class">iv::multiline_ostream_streambuf</class>
     <class kind="class">iv::multiline_ostream</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>RuntimeId.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>RuntimeId_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>RuntimeId_8cpp.html</filename>
     <includes id="RuntimeId_8hpp" name="RuntimeId.hpp" local="yes" imported="no">RuntimeId.hpp</includes>
     <includes id="static__warning_8hpp" name="static_warning.hpp" local="yes" imported="no">static_warning.hpp</includes>
     <includes id="Context_8hpp" name="Context.hpp" local="yes" imported="no">Context.hpp</includes>
@@ -653,8 +653,8 @@
   </compound>
   <compound kind="file">
     <name>RuntimeId.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>RuntimeId_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>RuntimeId_8hpp.html</filename>
     <includes id="static__warning_8hpp" name="static_warning.hpp" local="yes" imported="no">static_warning.hpp</includes>
     <includes id="hash_8hpp" name="hash.hpp" local="yes" imported="no">hash.hpp</includes>
     <includes id="RuntimeId_8inl" name="RuntimeId.inl" local="yes" imported="no">RuntimeId.inl</includes>
@@ -681,8 +681,8 @@
   </compound>
   <compound kind="file">
     <name>RuntimeId.inl</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>RuntimeId_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>RuntimeId_8inl.html</filename>
     <namespace>iv</namespace>
     <member kind="function">
       <type>std::ostream &amp;</type>
@@ -694,8 +694,8 @@
   </compound>
   <compound kind="file">
     <name>sig_div.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>sig__div_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>sig__div_8hpp.html</filename>
     <includes id="glm__alias_8hpp" name="glm_alias.hpp" local="yes" imported="no">glm_alias.hpp</includes>
     <namespace>iv</namespace>
     <member kind="function">
@@ -750,8 +750,8 @@
   </compound>
   <compound kind="file">
     <name>SrcInfo.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>SrcInfo_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>SrcInfo_8hpp.html</filename>
     <class kind="struct">iv::SrcInfo</class>
     <namespace>iv</namespace>
     <member kind="define">
@@ -764,15 +764,15 @@
   </compound>
   <compound kind="file">
     <name>SS.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>SS_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>SS_8cpp.html</filename>
     <includes id="SS_8hpp" name="SS.hpp" local="yes" imported="no">SS.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SS.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>SS_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>SS_8hpp.html</filename>
     <class kind="class">iv::SS</class>
     <class kind="struct">iv::SS::str</class>
     <class kind="struct">iv::SS::c_str</class>
@@ -780,8 +780,8 @@
   </compound>
   <compound kind="file">
     <name>static_warning.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>static__warning_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>static__warning_8cpp.html</filename>
     <includes id="static__warning_8hpp" name="static_warning.hpp" local="yes" imported="no">static_warning.hpp</includes>
     <includes id="TextOutput_8hpp" name="TextOutput.hpp" local="yes" imported="no">TextOutput.hpp</includes>
     <namespace>iv</namespace>
@@ -802,8 +802,8 @@
   </compound>
   <compound kind="file">
     <name>static_warning.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>static__warning_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>static__warning_8hpp.html</filename>
     <includes id="SrcInfo_8hpp" name="SrcInfo.hpp" local="yes" imported="no">SrcInfo.hpp</includes>
     <namespace>iv</namespace>
     <member kind="function">
@@ -823,8 +823,8 @@
   </compound>
   <compound kind="file">
     <name>StringIO.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>StringIO_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>StringIO_8hpp.html</filename>
     <class kind="struct">iv::StringIO</class>
     <namespace>iv</namespace>
     <member kind="function">
@@ -851,8 +851,8 @@
   </compound>
   <compound kind="file">
     <name>StringIO_defs.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>StringIO__defs_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>StringIO__defs_8hpp.html</filename>
     <includes id="StringIO_8hpp" name="StringIO.hpp" local="yes" imported="no">StringIO.hpp</includes>
     <includes id="RuntimeId_8hpp" name="RuntimeId.hpp" local="yes" imported="no">RuntimeId.hpp</includes>
     <includes id="Context_8hpp" name="Context.hpp" local="yes" imported="no">Context.hpp</includes>
@@ -861,8 +861,8 @@
     <class kind="struct">iv::StringIO</class>
     <class kind="struct">iv::StringIO&lt; bool &gt;</class>
     <class kind="struct">iv::StringIO&lt; std::string &gt;</class>
-    <class kind="struct">iv::StringIO&lt; const char *&gt;</class>
-    <class kind="struct">iv::StringIO&lt; T *&gt;</class>
+    <class kind="struct">iv::StringIO&lt; const char * &gt;</class>
+    <class kind="struct">iv::StringIO&lt; T * &gt;</class>
     <class kind="struct">iv::StringIO&lt; std::nullptr_t &gt;</class>
     <class kind="struct">iv::StringIO&lt; std::optional&lt; T &gt; &gt;</class>
     <class kind="struct">iv::StringIO&lt; std::pair&lt; T, U &gt; &gt;</class>
@@ -872,8 +872,8 @@
   </compound>
   <compound kind="file">
     <name>StringIO_Table.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>StringIO__Table_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>StringIO__Table_8hpp.html</filename>
     <includes id="StringIO_8hpp" name="StringIO.hpp" local="yes" imported="no">StringIO.hpp</includes>
     <includes id="SS_8hpp" name="SS.hpp" local="yes" imported="no">SS.hpp</includes>
     <includes id="Context_8hpp" name="Context.hpp" local="yes" imported="no">Context.hpp</includes>
@@ -882,16 +882,16 @@
   </compound>
   <compound kind="file">
     <name>StringIOIndex.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>StringIOIndex_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>StringIOIndex_8cpp.html</filename>
     <includes id="StringIOIndex_8hpp" name="StringIOIndex.hpp" local="yes" imported="no">StringIOIndex.hpp</includes>
     <includes id="Context_8hpp" name="Context.hpp" local="yes" imported="no">Context.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>StringIOIndex.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>StringIOIndex_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>StringIOIndex_8hpp.html</filename>
     <includes id="StringIO_8hpp" name="StringIO.hpp" local="yes" imported="no">StringIO.hpp</includes>
     <includes id="StringIOIndex_8inl" name="StringIOIndex.inl" local="yes" imported="no">StringIOIndex.inl</includes>
     <class kind="struct">iv::StringIOIndex</class>
@@ -900,14 +900,14 @@
   </compound>
   <compound kind="file">
     <name>StringIOIndex.inl</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>StringIOIndex_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>StringIOIndex_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TextOutput.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>TextOutput_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>TextOutput_8cpp.html</filename>
     <includes id="TextOutput_8hpp" name="TextOutput.hpp" local="yes" imported="no">TextOutput.hpp</includes>
     <namespace>iv</namespace>
     <member kind="variable">
@@ -920,16 +920,16 @@
   </compound>
   <compound kind="file">
     <name>TextOutput.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>TextOutput_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>TextOutput_8hpp.html</filename>
     <class kind="class">iv::TextOutput_streambuf</class>
     <class kind="class">iv::TextOutput_ostream</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>utils.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>utils_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>utils_8cpp.html</filename>
     <includes id="utils_8hpp" name="utils.hpp" local="yes" imported="no">utils.hpp</includes>
     <namespace>iv</namespace>
     <member kind="function">
@@ -943,8 +943,8 @@
       <type>size_t</type>
       <name>utf8_size</name>
       <anchorfile>namespaceiv.html</anchorfile>
-      <anchor>ae45500e93e3e1c4cbefcf378cdd311a9</anchor>
-      <arglist>(const char *val)</arglist>
+      <anchor>a8d6c09f59d2a557cead50f5635c0276e</anchor>
+      <arglist>(const char *)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -984,16 +984,16 @@
   </compound>
   <compound kind="file">
     <name>utils.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>utils_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>utils_8hpp.html</filename>
     <class kind="struct">iv::reversed</class>
     <namespace>iv</namespace>
     <member kind="function">
       <type>size_t</type>
       <name>utf8_size</name>
       <anchorfile>namespaceiv.html</anchorfile>
-      <anchor>ae45500e93e3e1c4cbefcf378cdd311a9</anchor>
-      <arglist>(const char *val)</arglist>
+      <anchor>a8d6c09f59d2a557cead50f5635c0276e</anchor>
+      <arglist>(const char *)</arglist>
     </member>
     <member kind="function">
       <type>size_t</type>
@@ -1040,8 +1040,8 @@
   </compound>
   <compound kind="file">
     <name>valgrind.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>valgrind_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>valgrind_8hpp.html</filename>
     <member kind="define">
       <type>#define</type>
       <name>IV_MEMCHECK</name>
@@ -1066,45 +1066,45 @@
   </compound>
   <compound kind="file">
     <name>volatile_set.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>volatile__set_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>volatile__set_8hpp.html</filename>
     <includes id="volatile__set_8inl" name="volatile_set.inl" local="yes" imported="no">volatile_set.inl</includes>
     <class kind="class">iv::volatile_set</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>volatile_set.inl</name>
-    <path>/github/workspace/src/ivorium_core/Basics/</path>
-    <filename>volatile__set_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Basics/</path>
+    <filename>volatile__set_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DebugView.cpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>DebugView_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>DebugView_8cpp.html</filename>
     <includes id="DebugView_8hpp" name="DebugView.hpp" local="yes" imported="no">DebugView.hpp</includes>
     <includes id="ClientMarker_8hpp" name="ClientMarker.hpp" local="yes" imported="no">../Instancing/ClientMarker.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DebugView.hpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>DebugView_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>DebugView_8hpp.html</filename>
     <includes id="Context_8hpp" name="Context.hpp" local="yes" imported="no">../Basics/Context.hpp</includes>
     <class kind="class">iv::DebugView</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Ostream_TextDebugView.cpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>Ostream__TextDebugView_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>Ostream__TextDebugView_8cpp.html</filename>
     <includes id="Ostream__TextDebugView_8hpp" name="Ostream_TextDebugView.hpp" local="yes" imported="no">Ostream_TextDebugView.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Ostream_TextDebugView.hpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>Ostream__TextDebugView_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>Ostream__TextDebugView_8hpp.html</filename>
     <includes id="DebugView_8hpp" name="DebugView.hpp" local="yes" imported="no">DebugView.hpp</includes>
     <includes id="TextDebugView_8hpp" name="TextDebugView.hpp" local="yes" imported="no">TextDebugView.hpp</includes>
     <class kind="class">iv::Ostream_TextDebugView</class>
@@ -1112,16 +1112,16 @@
   </compound>
   <compound kind="file">
     <name>TableDebugView.cpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>TableDebugView_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>TableDebugView_8cpp.html</filename>
     <includes id="TableDebugView_8hpp" name="TableDebugView.hpp" local="yes" imported="no">TableDebugView.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::table_debug_context</namespace>
   </compound>
   <compound kind="file">
     <name>TableDebugView.hpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>TableDebugView_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>TableDebugView_8hpp.html</filename>
     <includes id="DebugView_8hpp" name="DebugView.hpp" local="yes" imported="no">DebugView.hpp</includes>
     <includes id="RuntimeId_8hpp" name="RuntimeId.hpp" local="yes" imported="no">../Basics/RuntimeId.hpp</includes>
     <includes id="StringIOIndex_8hpp" name="StringIOIndex.hpp" local="yes" imported="no">../Basics/StringIOIndex.hpp</includes>
@@ -1142,30 +1142,30 @@
   </compound>
   <compound kind="file">
     <name>TableDebugView.inl</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>TableDebugView_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>TableDebugView_8inl.html</filename>
     <namespace>iv</namespace>
     <namespace>iv::table_debug_context</namespace>
   </compound>
   <compound kind="file">
     <name>TextDebugView.cpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>TextDebugView_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>TextDebugView_8cpp.html</filename>
     <includes id="TextDebugView_8hpp" name="TextDebugView.hpp" local="yes" imported="no">TextDebugView.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TextDebugView.hpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>TextDebugView_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>TextDebugView_8hpp.html</filename>
     <includes id="DebugView_8hpp" name="DebugView.hpp" local="yes" imported="no">DebugView.hpp</includes>
     <class kind="class">iv::TextDebugView</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ToText_TableDebugView.cpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>ToText__TableDebugView_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>ToText__TableDebugView_8cpp.html</filename>
     <includes id="ToText__TableDebugView_8hpp" name="ToText_TableDebugView.hpp" local="yes" imported="no">ToText_TableDebugView.hpp</includes>
     <includes id="TextDebugView_8hpp" name="TextDebugView.hpp" local="yes" imported="no">TextDebugView.hpp</includes>
     <includes id="StringIOIndex_8hpp" name="StringIOIndex.hpp" local="yes" imported="no">../Basics/StringIOIndex.hpp</includes>
@@ -1175,8 +1175,8 @@
   </compound>
   <compound kind="file">
     <name>ToText_TableDebugView.hpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>ToText__TableDebugView_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>ToText__TableDebugView_8hpp.html</filename>
     <includes id="TableDebugView_8hpp" name="TableDebugView.hpp" local="yes" imported="no">TableDebugView.hpp</includes>
     <includes id="TextDebugView_8hpp" name="TextDebugView.hpp" local="yes" imported="no">TextDebugView.hpp</includes>
     <class kind="class">iv::ToText_TableDebugView</class>
@@ -1184,8 +1184,8 @@
   </compound>
   <compound kind="file">
     <name>TreeDebugView.cpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>TreeDebugView_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>TreeDebugView_8cpp.html</filename>
     <includes id="TreeDebugView_8hpp" name="TreeDebugView.hpp" local="yes" imported="no">TreeDebugView.hpp</includes>
     <includes id="utils_8hpp" name="utils.hpp" local="yes" imported="no">../Basics/utils.hpp</includes>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">../Instancing/Instance.hpp</includes>
@@ -1193,16 +1193,16 @@
   </compound>
   <compound kind="file">
     <name>TreeDebugView.hpp</name>
-    <path>/github/workspace/src/ivorium_core/DebugView/</path>
-    <filename>TreeDebugView_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/DebugView/</path>
+    <filename>TreeDebugView_8hpp.html</filename>
     <includes id="TextDebugView_8hpp" name="TextDebugView.hpp" local="yes" imported="no">TextDebugView.hpp</includes>
     <class kind="class">iv::TreeDebugView</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Defs.cpp</name>
-    <path>/github/workspace/src/ivorium_core/</path>
-    <filename>ivorium__core_2Defs_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/</path>
+    <filename>ivorium__core_2Defs_8cpp.html</filename>
     <includes id="ivorium__core_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1259,8 +1259,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.cpp</name>
-    <path>/github/workspace/src/ivorium_game/</path>
-    <filename>ivorium__game_2Defs_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/</path>
+    <filename>ivorium__game_2Defs_8cpp.html</filename>
     <includes id="ivorium__game_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1275,8 +1275,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/</path>
-    <filename>ivorium__graphics_2Defs_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/</path>
+    <filename>ivorium__graphics_2Defs_8cpp.html</filename>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1403,8 +1403,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/</path>
-    <filename>ivorium__systems_2Defs_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/</path>
+    <filename>ivorium__systems_2Defs_8cpp.html</filename>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1469,8 +1469,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>ivorium__UI_2Defs_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>ivorium__UI_2Defs_8cpp.html</filename>
     <includes id="ivorium__UI_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1521,8 +1521,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.hpp</name>
-    <path>/github/workspace/src/ivorium_core/</path>
-    <filename>ivorium__core_2Defs_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/</path>
+    <filename>ivorium__core_2Defs_8hpp.html</filename>
     <includes id="LogId_8hpp" name="LogId.hpp" local="yes" imported="no">Basics/LogId.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1530,8 +1530,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.hpp</name>
-    <path>/github/workspace/src/ivorium_game/</path>
-    <filename>ivorium__game_2Defs_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/</path>
+    <filename>ivorium__game_2Defs_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1539,8 +1539,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/</path>
-    <filename>ivorium__graphics_2Defs_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/</path>
+    <filename>ivorium__graphics_2Defs_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <namespace>iv</namespace>
@@ -1549,8 +1549,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/</path>
-    <filename>ivorium__systems_2Defs_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/</path>
+    <filename>ivorium__systems_2Defs_8hpp.html</filename>
     <includes id="TimeId_8hpp" name="TimeId.hpp" local="yes" imported="no">TimeSystem/TimeId.hpp</includes>
     <includes id="InputId_8hpp" name="InputId.hpp" local="yes" imported="no">InputSystem/InputBindingSystem/InputId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -1561,8 +1561,8 @@
   </compound>
   <compound kind="file">
     <name>Defs.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>ivorium__UI_2Defs_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>ivorium__UI_2Defs_8hpp.html</filename>
     <includes id="LumaSystem_8hpp" name="LumaSystem.hpp" local="yes" imported="no">LumaSystem.hpp</includes>
     <namespace>iv</namespace>
     <namespace>iv::Defs</namespace>
@@ -1571,8 +1571,8 @@
   </compound>
   <compound kind="file">
     <name>client_ptr.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>client__ptr_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>client__ptr_8hpp.html</filename>
     <includes id="instance__ptr_8hpp" name="instance_ptr.hpp" local="yes" imported="no">instance_ptr.hpp</includes>
     <includes id="InstanceSystem_8hpp" name="InstanceSystem.hpp" local="yes" imported="no">InstanceSystem.hpp</includes>
     <includes id="client__ptr_8inl" name="client_ptr.inl" local="yes" imported="no">client_ptr.inl</includes>
@@ -1583,14 +1583,14 @@
   </compound>
   <compound kind="file">
     <name>client_ptr.inl</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>client__ptr_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>client__ptr_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ClientMarker.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>ClientMarker_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>ClientMarker_8cpp.html</filename>
     <includes id="ClientMarker_8hpp" name="ClientMarker.hpp" local="yes" imported="no">ClientMarker.hpp</includes>
     <includes id="DebugView_8hpp" name="DebugView.hpp" local="yes" imported="no">../DebugView/DebugView.hpp</includes>
     <includes id="TreeDebugView_8hpp" name="TreeDebugView.hpp" local="yes" imported="no">../DebugView/TreeDebugView.hpp</includes>
@@ -1599,8 +1599,8 @@
   </compound>
   <compound kind="file">
     <name>ClientMarker.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>ClientMarker_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>ClientMarker_8hpp.html</filename>
     <includes id="StringIO_8hpp" name="StringIO.hpp" local="yes" imported="no">../Basics/StringIO.hpp</includes>
     <includes id="multiline__ostream_8hpp" name="multiline_ostream.hpp" local="yes" imported="no">../Basics/multiline_ostream.hpp</includes>
     <includes id="LogId_8hpp" name="LogId.hpp" local="yes" imported="no">../Basics/LogId.hpp</includes>
@@ -1613,26 +1613,26 @@
     <class kind="struct">iv::ClientMarker::Status</class>
     <class kind="class">iv::ClientMarkerIds</class>
     <class kind="struct">iv::StringIO&lt; ClientMarker &gt;</class>
-    <class kind="struct">iv::StringIO&lt; ClientMarker const *&gt;</class>
+    <class kind="struct">iv::StringIO&lt; ClientMarker const * &gt;</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ClientMarker.inl</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>ClientMarker_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>ClientMarker_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DebugInstanceListener.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>DebugInstanceListener_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>DebugInstanceListener_8cpp.html</filename>
     <includes id="DebugInstanceListener_8hpp" name="DebugInstanceListener.hpp" local="yes" imported="no">DebugInstanceListener.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DebugInstanceListener.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>DebugInstanceListener_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>DebugInstanceListener_8hpp.html</filename>
     <includes id="ClientMarker_8hpp" name="ClientMarker.hpp" local="yes" imported="no">ClientMarker.hpp</includes>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">Instance.hpp</includes>
     <class kind="class">iv::DebugInstanceListener</class>
@@ -1640,15 +1640,15 @@
   </compound>
   <compound kind="file">
     <name>Heap.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>Heap_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>Heap_8cpp.html</filename>
     <includes id="Heap_8hpp" name="Heap.hpp" local="yes" imported="no">Heap.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Heap.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>Heap_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>Heap_8hpp.html</filename>
     <includes id="I_8hpp" name="I.hpp" local="yes" imported="no">I.hpp</includes>
     <includes id="static__warning_8hpp" name="static_warning.hpp" local="yes" imported="no">../Basics/static_warning.hpp</includes>
     <includes id="Heap_8inl" name="Heap.inl" local="yes" imported="no">Heap.inl</includes>
@@ -1657,22 +1657,22 @@
   </compound>
   <compound kind="file">
     <name>Heap.inl</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>Heap_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>Heap_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>I.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>I_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>I_8hpp.html</filename>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">Instance.hpp</includes>
     <class kind="class">iv::I</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Instance.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>Instance_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>Instance_8cpp.html</filename>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">Instance.hpp</includes>
     <includes id="instance__ptr_8hpp" name="instance_ptr.hpp" local="yes" imported="no">instance_ptr.hpp</includes>
     <includes id="DebugInstanceListener_8hpp" name="DebugInstanceListener.hpp" local="yes" imported="no">DebugInstanceListener.hpp</includes>
@@ -1682,8 +1682,8 @@
   </compound>
   <compound kind="file">
     <name>Instance.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>Instance_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>Instance_8hpp.html</filename>
     <includes id="LogId_8hpp" name="LogId.hpp" local="yes" imported="no">../Basics/LogId.hpp</includes>
     <includes id="SrcInfo_8hpp" name="SrcInfo.hpp" local="yes" imported="no">../Basics/SrcInfo.hpp</includes>
     <includes id="volatile__set_8hpp" name="volatile_set.hpp" local="yes" imported="no">../Basics/volatile_set.hpp</includes>
@@ -1697,22 +1697,22 @@
   </compound>
   <compound kind="file">
     <name>Instance.inl</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>Instance_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>Instance_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>instance_ptr.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>instance__ptr_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>instance__ptr_8cpp.html</filename>
     <includes id="instance__ptr_8hpp" name="instance_ptr.hpp" local="yes" imported="no">instance_ptr.hpp</includes>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">Instance.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>instance_ptr.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>instance__ptr_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>instance__ptr_8hpp.html</filename>
     <class kind="class">iv::instance_ptr_interface</class>
     <class kind="class">iv::instance_ptr</class>
     <class kind="class">iv::callback_instance_ptr</class>
@@ -1721,8 +1721,8 @@
   </compound>
   <compound kind="file">
     <name>InstanceSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>InstanceSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>InstanceSystem_8cpp.html</filename>
     <includes id="InstanceSystem_8hpp" name="InstanceSystem.hpp" local="yes" imported="no">InstanceSystem.hpp</includes>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">Instance.hpp</includes>
     <includes id="instance__ptr_8hpp" name="instance_ptr.hpp" local="yes" imported="no">instance_ptr.hpp</includes>
@@ -1733,8 +1733,8 @@
   </compound>
   <compound kind="file">
     <name>InstanceSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>InstanceSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>InstanceSystem_8hpp.html</filename>
     <includes id="LogId_8hpp" name="LogId.hpp" local="yes" imported="no">../Basics/LogId.hpp</includes>
     <includes id="volatile__set_8hpp" name="volatile_set.hpp" local="yes" imported="no">../Basics/volatile_set.hpp</includes>
     <includes id="SystemContainer_8hpp" name="SystemContainer.hpp" local="yes" imported="no">SystemContainer.hpp</includes>
@@ -1746,8 +1746,8 @@
   </compound>
   <compound kind="file">
     <name>SystemContainer.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>SystemContainer_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>SystemContainer_8cpp.html</filename>
     <includes id="SystemContainer_8hpp" name="SystemContainer.hpp" local="yes" imported="no">SystemContainer.hpp</includes>
     <includes id="TextOutput_8hpp" name="TextOutput.hpp" local="yes" imported="no">../Basics/TextOutput.hpp</includes>
     <includes id="utils_8hpp" name="utils.hpp" local="yes" imported="no">../Basics/utils.hpp</includes>
@@ -1758,8 +1758,8 @@
   </compound>
   <compound kind="file">
     <name>SystemContainer.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>SystemContainer_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>SystemContainer_8hpp.html</filename>
     <includes id="TextDebugView_8hpp" name="TextDebugView.hpp" local="yes" imported="no">../DebugView/TextDebugView.hpp</includes>
     <includes id="SrcInfo_8hpp" name="SrcInfo.hpp" local="yes" imported="no">../Basics/SrcInfo.hpp</includes>
     <includes id="static__warning_8hpp" name="static_warning.hpp" local="yes" imported="no">../Basics/static_warning.hpp</includes>
@@ -1769,14 +1769,14 @@
   </compound>
   <compound kind="file">
     <name>SystemContainer.inl</name>
-    <path>/github/workspace/src/ivorium_core/Instancing/</path>
-    <filename>SystemContainer_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Instancing/</path>
+    <filename>SystemContainer_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ivorium_core.hpp</name>
-    <path>/github/workspace/src/ivorium_core/</path>
-    <filename>ivorium__core_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/</path>
+    <filename>ivorium__core_8hpp.html</filename>
     <includes id="I_8hpp" name="I.hpp" local="yes" imported="no">Instancing/I.hpp</includes>
     <includes id="Instance_8hpp" name="Instance.hpp" local="yes" imported="no">Instancing/Instance.hpp</includes>
     <includes id="InstanceSystem_8hpp" name="InstanceSystem.hpp" local="yes" imported="no">Instancing/InstanceSystem.hpp</includes>
@@ -1835,23 +1835,23 @@
   </compound>
   <compound kind="file">
     <name>JsonLex.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Parsing/</path>
-    <filename>JsonLex_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Parsing/</path>
+    <filename>JsonLex_8cpp.html</filename>
     <includes id="JsonLex_8hpp" name="JsonLex.hpp" local="yes" imported="no">JsonLex.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>JsonLex.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Parsing/</path>
-    <filename>JsonLex_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Parsing/</path>
+    <filename>JsonLex_8hpp.html</filename>
     <includes id="Lex_8hpp" name="Lex.hpp" local="yes" imported="no">Lex.hpp</includes>
     <class kind="class">iv::JsonLex</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Lex.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Parsing/</path>
-    <filename>Lex_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Parsing/</path>
+    <filename>Lex_8cpp.html</filename>
     <includes id="Lex_8hpp" name="Lex.hpp" local="yes" imported="no">Lex.hpp</includes>
     <includes id="ivorium__core_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <includes id="SS_8hpp" name="SS.hpp" local="yes" imported="no">../Basics/SS.hpp</includes>
@@ -1860,8 +1860,8 @@
   </compound>
   <compound kind="file">
     <name>Lex.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Parsing/</path>
-    <filename>Lex_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Parsing/</path>
+    <filename>Lex_8hpp.html</filename>
     <includes id="ClientMarker_8hpp" name="ClientMarker.hpp" local="yes" imported="no">../Instancing/ClientMarker.hpp</includes>
     <includes id="LogTrace_8hpp" name="LogTrace.hpp" local="yes" imported="no">../Basics/LogTrace.hpp</includes>
     <class kind="class">iv::Lex</class>
@@ -1870,15 +1870,15 @@
   </compound>
   <compound kind="file">
     <name>Pratt.cpp</name>
-    <path>/github/workspace/src/ivorium_core/Parsing/</path>
-    <filename>Pratt_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Parsing/</path>
+    <filename>Pratt_8cpp.html</filename>
     <includes id="Pratt_8hpp" name="Pratt.hpp" local="yes" imported="no">Pratt.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Pratt.hpp</name>
-    <path>/github/workspace/src/ivorium_core/Parsing/</path>
-    <filename>Pratt_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_core/Parsing/</path>
+    <filename>Pratt_8hpp.html</filename>
     <includes id="Lex_8hpp" name="Lex.hpp" local="yes" imported="no">Lex.hpp</includes>
     <class kind="class">iv::Pratt</class>
     <class kind="struct">iv::Pratt::Expression</class>
@@ -1889,16 +1889,16 @@
   </compound>
   <compound kind="file">
     <name>SimpleDiagnostics.cpp</name>
-    <path>/github/workspace/src/ivorium_game/Debug/</path>
-    <filename>SimpleDiagnostics_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Debug/</path>
+    <filename>SimpleDiagnostics_8cpp.html</filename>
     <includes id="SimpleDiagnostics_8hpp" name="SimpleDiagnostics.hpp" local="yes" imported="no">SimpleDiagnostics.hpp</includes>
     <includes id="ivorium__game_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SimpleDiagnostics.hpp</name>
-    <path>/github/workspace/src/ivorium_game/Debug/</path>
-    <filename>SimpleDiagnostics_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Debug/</path>
+    <filename>SimpleDiagnostics_8hpp.html</filename>
     <includes id="SimpleLogger_8hpp" name="SimpleLogger.hpp" local="yes" imported="no">SimpleLogger.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -1908,15 +1908,15 @@
   </compound>
   <compound kind="file">
     <name>SimpleLogger.cpp</name>
-    <path>/github/workspace/src/ivorium_game/Debug/</path>
-    <filename>SimpleLogger_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Debug/</path>
+    <filename>SimpleLogger_8cpp.html</filename>
     <includes id="SimpleLogger_8hpp" name="SimpleLogger.hpp" local="yes" imported="no">SimpleLogger.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SimpleLogger.hpp</name>
-    <path>/github/workspace/src/ivorium_game/Debug/</path>
-    <filename>SimpleLogger_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Debug/</path>
+    <filename>SimpleLogger_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::SimpleLogger</class>
     <class kind="struct">iv::StringIO&lt; SimpleLogger::Flags &gt;</class>
@@ -1924,8 +1924,8 @@
   </compound>
   <compound kind="file">
     <name>Game.cpp</name>
-    <path>/github/workspace/src/ivorium_game/</path>
-    <filename>Game_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/</path>
+    <filename>Game_8cpp.html</filename>
     <includes id="Game_8hpp" name="Game.hpp" local="yes" imported="no">Game.hpp</includes>
     <includes id="PlatformDefault__ResourceProvider_8hpp" name="PlatformDefault_ResourceProvider.hpp" local="yes" imported="no">Misc/PlatformDefault_ResourceProvider.hpp</includes>
     <includes id="DefaultBinder_8hpp" name="DefaultBinder.hpp" local="yes" imported="no">Misc/DefaultBinder.hpp</includes>
@@ -1936,8 +1936,8 @@
   </compound>
   <compound kind="file">
     <name>Game.hpp</name>
-    <path>/github/workspace/src/ivorium_game/</path>
-    <filename>Game_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/</path>
+    <filename>Game_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="struct">iv::GameIdentity</class>
@@ -1946,8 +1946,8 @@
   </compound>
   <compound kind="file">
     <name>ivorium_game.hpp</name>
-    <path>/github/workspace/src/ivorium_game/</path>
-    <filename>ivorium__game_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/</path>
+    <filename>ivorium__game_8hpp.html</filename>
     <includes id="Game_8hpp" name="Game.hpp" local="yes" imported="no">Game.hpp</includes>
     <includes id="DefaultBinder_8hpp" name="DefaultBinder.hpp" local="yes" imported="no">Misc/DefaultBinder.hpp</includes>
     <includes id="XcfInfo_8hpp" name="XcfInfo.hpp" local="yes" imported="no">Misc/XcfInfo.hpp</includes>
@@ -1959,22 +1959,22 @@
   </compound>
   <compound kind="file">
     <name>AndroidAssetResourceProvider.cpp</name>
-    <path>/github/workspace/src/ivorium_game/Misc/</path>
-    <filename>AndroidAssetResourceProvider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Misc/</path>
+    <filename>AndroidAssetResourceProvider_8cpp.html</filename>
     <includes id="AndroidAssetResourceProvider_8hpp" name="AndroidAssetResourceProvider.hpp" local="yes" imported="no">AndroidAssetResourceProvider.hpp</includes>
   </compound>
   <compound kind="file">
     <name>AndroidAssetResourceProvider.hpp</name>
-    <path>/github/workspace/src/ivorium_game/Misc/</path>
-    <filename>AndroidAssetResourceProvider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Misc/</path>
+    <filename>AndroidAssetResourceProvider_8hpp.html</filename>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <class kind="class">iv::AndroidAssetResourceProvider</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DefaultBinder.hpp</name>
-    <path>/github/workspace/src/ivorium_game/Misc/</path>
-    <filename>DefaultBinder_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Misc/</path>
+    <filename>DefaultBinder_8hpp.html</filename>
     <includes id="ivorium__UI_8hpp" name="ivorium_UI.hpp" local="no" imported="no">ivorium_UI/ivorium_UI.hpp</includes>
     <includes id="ivorium__game_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <class kind="class">iv::DefaultBinder</class>
@@ -1982,15 +1982,15 @@
   </compound>
   <compound kind="file">
     <name>PlatformDefault_ResourceProvider.cpp</name>
-    <path>/github/workspace/src/ivorium_game/Misc/</path>
-    <filename>PlatformDefault__ResourceProvider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Misc/</path>
+    <filename>PlatformDefault__ResourceProvider_8cpp.html</filename>
     <includes id="PlatformDefault__ResourceProvider_8hpp" name="PlatformDefault_ResourceProvider.hpp" local="yes" imported="no">PlatformDefault_ResourceProvider.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>PlatformDefault_ResourceProvider.hpp</name>
-    <path>/github/workspace/src/ivorium_game/Misc/</path>
-    <filename>PlatformDefault__ResourceProvider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Misc/</path>
+    <filename>PlatformDefault__ResourceProvider_8hpp.html</filename>
     <includes id="AndroidAssetResourceProvider_8hpp" name="AndroidAssetResourceProvider.hpp" local="yes" imported="no">AndroidAssetResourceProvider.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <class kind="class">iv::PlatformDefault_ResourceProvider</class>
@@ -1998,15 +1998,15 @@
   </compound>
   <compound kind="file">
     <name>XcfInfo.cpp</name>
-    <path>/github/workspace/src/ivorium_game/Misc/</path>
-    <filename>XcfInfo_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Misc/</path>
+    <filename>XcfInfo_8cpp.html</filename>
     <includes id="XcfInfo_8hpp" name="XcfInfo.hpp" local="yes" imported="no">XcfInfo.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>XcfInfo.hpp</name>
-    <path>/github/workspace/src/ivorium_game/Misc/</path>
-    <filename>XcfInfo_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_game/Misc/</path>
+    <filename>XcfInfo_8hpp.html</filename>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2018,16 +2018,16 @@
   </compound>
   <compound kind="file">
     <name>AnimConnector.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Animation/</path>
-    <filename>AnimConnector_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Animation/</path>
+    <filename>AnimConnector_8cpp.html</filename>
     <includes id="AnimConnector_8hpp" name="AnimConnector.hpp" local="yes" imported="no">AnimConnector.hpp</includes>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">AnimNode.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>AnimConnector.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Animation/</path>
-    <filename>AnimConnector_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Animation/</path>
+    <filename>AnimConnector_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::AnimNode</class>
     <class kind="class">iv::AnimConnector</class>
@@ -2042,8 +2042,8 @@
   </compound>
   <compound kind="file">
     <name>AnimNode.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Animation/</path>
-    <filename>AnimNode_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Animation/</path>
+    <filename>AnimNode_8cpp.html</filename>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">AnimNode.hpp</includes>
     <includes id="AnimSystem_8hpp" name="AnimSystem.hpp" local="yes" imported="no">AnimSystem.hpp</includes>
     <namespace>iv</namespace>
@@ -2057,8 +2057,8 @@
   </compound>
   <compound kind="file">
     <name>AnimNode.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Animation/</path>
-    <filename>AnimNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Animation/</path>
+    <filename>AnimNode_8hpp.html</filename>
     <includes id="AnimConnector_8hpp" name="AnimConnector.hpp" local="yes" imported="no">AnimConnector.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../../Defs.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2069,14 +2069,14 @@
   </compound>
   <compound kind="file">
     <name>AnimNode.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Animation/</path>
-    <filename>AnimNode_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Animation/</path>
+    <filename>AnimNode_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>AnimSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Animation/</path>
-    <filename>AnimSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Animation/</path>
+    <filename>AnimSystem_8cpp.html</filename>
     <includes id="AnimSystem_8hpp" name="AnimSystem.hpp" local="yes" imported="no">AnimSystem.hpp</includes>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">AnimNode.hpp</includes>
     <includes id="AnimConnector_8hpp" name="AnimConnector.hpp" local="yes" imported="no">AnimConnector.hpp</includes>
@@ -2084,8 +2084,8 @@
   </compound>
   <compound kind="file">
     <name>AnimSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Animation/</path>
-    <filename>AnimSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Animation/</path>
+    <filename>AnimSystem_8hpp.html</filename>
     <includes id="AnimConnector_8hpp" name="AnimConnector.hpp" local="yes" imported="no">AnimConnector.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::AnimSystem</class>
@@ -2093,16 +2093,16 @@
   </compound>
   <compound kind="file">
     <name>AnimHeap.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/</path>
-    <filename>AnimHeap_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/</path>
+    <filename>AnimHeap_8cpp.html</filename>
     <includes id="AnimHeap_8hpp" name="AnimHeap.hpp" local="yes" imported="no">AnimHeap.hpp</includes>
     <includes id="AnimSystem_8hpp" name="AnimSystem.hpp" local="yes" imported="no">Animation/AnimSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>AnimHeap.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/</path>
-    <filename>AnimHeap_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/</path>
+    <filename>AnimHeap_8hpp.html</filename>
     <includes id="Destination__AnimNode_8hpp" name="Destination_AnimNode.hpp" local="yes" imported="no">Connectors/Destination_AnimNode.hpp</includes>
     <includes id="Source__AnimNode_8hpp" name="Source_AnimNode.hpp" local="yes" imported="no">Connectors/Source_AnimNode.hpp</includes>
     <includes id="State__AnimNode_8hpp" name="State_AnimNode.hpp" local="yes" imported="no">Connectors/State_AnimNode.hpp</includes>
@@ -2116,14 +2116,14 @@
   </compound>
   <compound kind="file">
     <name>AnimHeap.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/</path>
-    <filename>AnimHeap_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/</path>
+    <filename>AnimHeap_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Activator_AnimNode.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Activator__AnimNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Activator__AnimNode_8hpp.html</filename>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">../Animation/AnimNode.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::Activator_AnimNode</class>
@@ -2131,8 +2131,8 @@
   </compound>
   <compound kind="file">
     <name>Cooldown_Connector.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Cooldown__Connector_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Cooldown__Connector_8hpp.html</filename>
     <includes id="Transform__ConnectorI_8hpp" name="Transform_ConnectorI.hpp" local="yes" imported="no">Transform_ConnectorI.hpp</includes>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">../Animation/AnimNode.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../../Defs.hpp</includes>
@@ -2143,22 +2143,22 @@
   </compound>
   <compound kind="file">
     <name>Cooldown_Connector.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Cooldown__Connector_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Cooldown__Connector_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Destination_AnimNode.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Destination__AnimNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Destination__AnimNode_8hpp.html</filename>
     <includes id="Destination__Connector_8hpp" name="Destination_Connector.hpp" local="yes" imported="no">Destination_Connector.hpp</includes>
     <class kind="class">iv::Destination_AnimNode</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Destination_Connector.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Destination__Connector_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Destination__Connector_8hpp.html</filename>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">../Animation/AnimNode.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="Destination__Connector_8inl" name="Destination_Connector.inl" local="yes" imported="no">Destination_Connector.inl</includes>
@@ -2168,22 +2168,22 @@
   </compound>
   <compound kind="file">
     <name>Destination_Connector.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Destination__Connector_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Destination__Connector_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Lambda_Connector.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Lambda__Connector_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Lambda__Connector_8cpp.html</filename>
     <includes id="Lambda__Connector_8hpp" name="Lambda_Connector.hpp" local="yes" imported="no">Lambda_Connector.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Lambda_Connector.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Lambda__Connector_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Lambda__Connector_8hpp.html</filename>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">../Animation/AnimNode.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::Lambda_Connector</class>
@@ -2191,16 +2191,16 @@
   </compound>
   <compound kind="file">
     <name>Source_AnimNode.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Source__AnimNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Source__AnimNode_8hpp.html</filename>
     <includes id="Source__Connector_8hpp" name="Source_Connector.hpp" local="yes" imported="no">Source_Connector.hpp</includes>
     <class kind="class">iv::Source_AnimNode</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Source_Connector.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Source__Connector_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Source__Connector_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="Source__Connector_8inl" name="Source_Connector.inl" local="yes" imported="no">Source_Connector.inl</includes>
     <class kind="class">iv::Source_Connector</class>
@@ -2208,14 +2208,14 @@
   </compound>
   <compound kind="file">
     <name>Source_Connector.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Source__Connector_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Source__Connector_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>State_AnimNode.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>State__AnimNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>State__AnimNode_8hpp.html</filename>
     <includes id="Destination__Connector_8hpp" name="Destination_Connector.hpp" local="yes" imported="no">Destination_Connector.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::State_AnimNode</class>
@@ -2223,8 +2223,8 @@
   </compound>
   <compound kind="file">
     <name>TimeTransform.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>TimeTransform_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>TimeTransform_8hpp.html</filename>
     <includes id="AnimConnector_8hpp" name="AnimConnector.hpp" local="yes" imported="no">../Animation/AnimConnector.hpp</includes>
     <class kind="class">iv::TimeTransform</class>
     <class kind="struct">iv::LinearTransform</class>
@@ -2236,8 +2236,8 @@
   </compound>
   <compound kind="file">
     <name>TimeTransform_Connector.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>TimeTransform__Connector_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>TimeTransform__Connector_8cpp.html</filename>
     <includes id="TimeTransform__Connector_8hpp" name="TimeTransform_Connector.hpp" local="yes" imported="no">TimeTransform_Connector.hpp</includes>
     <namespace>iv</namespace>
     <member kind="variable">
@@ -2250,8 +2250,8 @@
   </compound>
   <compound kind="file">
     <name>TimeTransform_Connector.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>TimeTransform__Connector_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>TimeTransform__Connector_8hpp.html</filename>
     <includes id="TimeTransform_8hpp" name="TimeTransform.hpp" local="yes" imported="no">TimeTransform.hpp</includes>
     <includes id="Transform__ConnectorI_8hpp" name="Transform_ConnectorI.hpp" local="yes" imported="no">Transform_ConnectorI.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2261,14 +2261,14 @@
   </compound>
   <compound kind="file">
     <name>TimeTransform_Connector.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>TimeTransform__Connector_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>TimeTransform__Connector_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Transform_ConnectorI.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Transform__ConnectorI_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Transform__ConnectorI_8hpp.html</filename>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../../Defs.hpp</includes>
     <includes id="AnimNode_8hpp" name="AnimNode.hpp" local="yes" imported="no">../Animation/AnimNode.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2278,21 +2278,21 @@
   </compound>
   <compound kind="file">
     <name>Transform_ConnectorI.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Animation/Connectors/</path>
-    <filename>Transform__ConnectorI_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Animation/Connectors/</path>
+    <filename>Transform__ConnectorI_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Align.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Align_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Align_8cpp.html</filename>
     <includes id="Align_8hpp" name="Align.hpp" local="yes" imported="no">Align.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Align.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Align_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Align_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="OneChildElem_8hpp" name="OneChildElem.hpp" local="yes" imported="no">OneChildElem.hpp</includes>
@@ -2301,15 +2301,15 @@
   </compound>
   <compound kind="file">
     <name>Axis.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Axis_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Axis_8cpp.html</filename>
     <includes id="Axis_8hpp" name="Axis.hpp" local="yes" imported="no">Axis.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Axis.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Axis_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Axis_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="struct">iv::StringIO&lt; Axis &gt;</class>
     <class kind="struct">iv::StringIO&lt; AxisOrder &gt;</class>
@@ -2356,10 +2356,10 @@
       <arglist>(float3 &amp;vec, Axis axis)</arglist>
     </member>
     <member kind="function">
-      <type>float const  &amp;</type>
+      <type>const float &amp;</type>
       <name>float3_Axis</name>
       <anchorfile>namespaceiv.html</anchorfile>
-      <anchor>a7fd6f50e766f8a2d73393f82ca40c187</anchor>
+      <anchor>aeff418b6ac2fa43b74b619b097e38402</anchor>
       <arglist>(float3 const &amp;vec, Axis axis)</arglist>
     </member>
     <member kind="function">
@@ -2372,16 +2372,16 @@
   </compound>
   <compound kind="file">
     <name>Border.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Border_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Border_8cpp.html</filename>
     <includes id="Border_8hpp" name="Border.hpp" local="yes" imported="no">Border.hpp</includes>
     <includes id="Axis_8hpp" name="Axis.hpp" local="yes" imported="no">Axis.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Border.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Border_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Border_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="OneChildElem_8hpp" name="OneChildElem.hpp" local="yes" imported="no">OneChildElem.hpp</includes>
@@ -2390,8 +2390,8 @@
   </compound>
   <compound kind="file">
     <name>Camera.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Camera_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Camera_8cpp.html</filename>
     <includes id="Camera_8hpp" name="Camera.hpp" local="yes" imported="no">Camera.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <includes id="ElementSystem_8hpp" name="ElementSystem.hpp" local="yes" imported="no">ElementSystem.hpp</includes>
@@ -2399,8 +2399,8 @@
   </compound>
   <compound kind="file">
     <name>Camera.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Camera_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Camera_8hpp.html</filename>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="ElementRenderer_8hpp" name="ElementRenderer.hpp" local="yes" imported="no">ElementRenderer.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -2409,16 +2409,16 @@
   </compound>
   <compound kind="file">
     <name>Divider.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Divider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Divider_8cpp.html</filename>
     <includes id="Divider_8hpp" name="Divider.hpp" local="yes" imported="no">Divider.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Divider.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Divider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Divider_8hpp.html</filename>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="Axis_8hpp" name="Axis.hpp" local="yes" imported="no">Axis.hpp</includes>
     <class kind="class">iv::DividerSlot</class>
@@ -2427,8 +2427,8 @@
   </compound>
   <compound kind="file">
     <name>Elem.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Elem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Elem_8cpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="Camera_8hpp" name="Camera.hpp" local="yes" imported="no">Camera.hpp</includes>
     <includes id="ElementSystem_8hpp" name="ElementSystem.hpp" local="yes" imported="no">ElementSystem.hpp</includes>
@@ -2437,8 +2437,8 @@
   </compound>
   <compound kind="file">
     <name>Elem.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Elem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Elem_8hpp.html</filename>
     <includes id="ElementRenderer_8hpp" name="ElementRenderer.hpp" local="yes" imported="no">ElementRenderer.hpp</includes>
     <includes id="CameraState_8hpp" name="CameraState.hpp" local="yes" imported="no">../Rendering/CameraState.hpp</includes>
     <includes id="FlatShader_8hpp" name="FlatShader.hpp" local="yes" imported="no">../Rendering/FlatShader.hpp</includes>
@@ -2449,8 +2449,8 @@
   </compound>
   <compound kind="file">
     <name>ElementRenderer.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>ElementRenderer_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>ElementRenderer_8cpp.html</filename>
     <includes id="ElementRenderer_8hpp" name="ElementRenderer.hpp" local="yes" imported="no">ElementRenderer.hpp</includes>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
@@ -2458,8 +2458,8 @@
   </compound>
   <compound kind="file">
     <name>ElementRenderer.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>ElementRenderer_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>ElementRenderer_8hpp.html</filename>
     <includes id="CameraState_8hpp" name="CameraState.hpp" local="yes" imported="no">../Rendering/CameraState.hpp</includes>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">../OpenGL/gl.h</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2469,21 +2469,21 @@
   </compound>
   <compound kind="file">
     <name>Elements.dox</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Elements_8dox</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Elements_8dox.html</filename>
   </compound>
   <compound kind="file">
     <name>ElementSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>ElementSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>ElementSystem_8cpp.html</filename>
     <includes id="ElementSystem_8hpp" name="ElementSystem.hpp" local="yes" imported="no">ElementSystem.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ElementSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>ElementSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>ElementSystem_8hpp.html</filename>
     <includes id="Camera_8hpp" name="Camera.hpp" local="yes" imported="no">Camera.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::ElementSystem</class>
@@ -2491,16 +2491,16 @@
   </compound>
   <compound kind="file">
     <name>FixedOrder_Camera.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>FixedOrder__Camera_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>FixedOrder__Camera_8cpp.html</filename>
     <includes id="FixedOrder__Camera_8hpp" name="FixedOrder_Camera.hpp" local="yes" imported="no">FixedOrder_Camera.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>FixedOrder_Camera.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>FixedOrder__Camera_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>FixedOrder__Camera_8hpp.html</filename>
     <includes id="Camera_8hpp" name="Camera.hpp" local="yes" imported="no">Camera.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::FixedOrder_Camera</class>
@@ -2508,16 +2508,16 @@
   </compound>
   <compound kind="file">
     <name>Image.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Image_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Image_8cpp.html</filename>
     <includes id="Image_8hpp" name="Image.hpp" local="yes" imported="no">Image.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Image.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Image_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Image_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="TranslucentElem_8hpp" name="TranslucentElem.hpp" local="yes" imported="no">TranslucentElem.hpp</includes>
@@ -2530,8 +2530,8 @@
   </compound>
   <compound kind="file">
     <name>OneChildElem.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>OneChildElem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>OneChildElem_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="OneChildElem_8inl" name="OneChildElem.inl" local="yes" imported="no">OneChildElem.inl</includes>
@@ -2540,14 +2540,14 @@
   </compound>
   <compound kind="file">
     <name>OneChildElem.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>OneChildElem_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>OneChildElem_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>PickableSlot.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>PickableSlot_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>PickableSlot_8cpp.html</filename>
     <includes id="PickableSlot_8hpp" name="PickableSlot.hpp" local="yes" imported="no">PickableSlot.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -2555,8 +2555,8 @@
   </compound>
   <compound kind="file">
     <name>PickableSlot.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>PickableSlot_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>PickableSlot_8hpp.html</filename>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <class kind="class">iv::PickableSlot</class>
@@ -2564,15 +2564,15 @@
   </compound>
   <compound kind="file">
     <name>Prefsize.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Prefsize_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Prefsize_8cpp.html</filename>
     <includes id="Prefsize_8hpp" name="Prefsize.hpp" local="yes" imported="no">Prefsize.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Prefsize.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Prefsize_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Prefsize_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="OneChildElem_8hpp" name="OneChildElem.hpp" local="yes" imported="no">OneChildElem.hpp</includes>
@@ -2581,16 +2581,16 @@
   </compound>
   <compound kind="file">
     <name>Scroller.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Scroller_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Scroller_8cpp.html</filename>
     <includes id="Scroller_8hpp" name="Scroller.hpp" local="yes" imported="no">Scroller.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Scroller.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Scroller_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Scroller_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="OneChildElem_8hpp" name="OneChildElem.hpp" local="yes" imported="no">OneChildElem.hpp</includes>
@@ -2601,8 +2601,8 @@
   </compound>
   <compound kind="file">
     <name>Slot.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Slot_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Slot_8cpp.html</filename>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <includes id="Camera_8hpp" name="Camera.hpp" local="yes" imported="no">Camera.hpp</includes>
@@ -2611,8 +2611,8 @@
   </compound>
   <compound kind="file">
     <name>Slot.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Slot_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Slot_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="VectorChildrenElem_8hpp" name="VectorChildrenElem.hpp" local="yes" imported="no">VectorChildrenElem.hpp</includes>
     <class kind="class">iv::SlotChild</class>
@@ -2622,16 +2622,16 @@
   </compound>
   <compound kind="file">
     <name>Transform.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Transform_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Transform_8cpp.html</filename>
     <includes id="Transform_8hpp" name="Transform.hpp" local="yes" imported="no">Transform.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Transform.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>Transform_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>Transform_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="OneChildElem_8hpp" name="OneChildElem.hpp" local="yes" imported="no">OneChildElem.hpp</includes>
@@ -2640,15 +2640,15 @@
   </compound>
   <compound kind="file">
     <name>TranslucentElem.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>TranslucentElem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>TranslucentElem_8cpp.html</filename>
     <includes id="TranslucentElem_8hpp" name="TranslucentElem.hpp" local="yes" imported="no">TranslucentElem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TranslucentElem.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>TranslucentElem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>TranslucentElem_8hpp.html</filename>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">Elem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::TranslucentElem</class>
@@ -2656,8 +2656,8 @@
   </compound>
   <compound kind="file">
     <name>VectorChildrenElem.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>VectorChildrenElem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>VectorChildrenElem_8hpp.html</filename>
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">Slot.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <includes id="VectorChildrenElem_8inl" name="VectorChildrenElem.inl" local="yes" imported="no">VectorChildrenElem.inl</includes>
@@ -2666,14 +2666,14 @@
   </compound>
   <compound kind="file">
     <name>VectorChildrenElem.inl</name>
-    <path>/github/workspace/src/ivorium_graphics/Elements/</path>
-    <filename>VectorChildrenElem_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Elements/</path>
+    <filename>VectorChildrenElem_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ImageLoader.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/FreeImage/</path>
-    <filename>ImageLoader_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/FreeImage/</path>
+    <filename>ImageLoader_8cpp.html</filename>
     <includes id="ImageLoader_8hpp" name="ImageLoader.hpp" local="yes" imported="no">ImageLoader.hpp</includes>
     <includes id="StreamTexture_8hpp" name="StreamTexture.hpp" local="yes" imported="no">StreamTexture.hpp</includes>
     <namespace>iv</namespace>
@@ -2687,8 +2687,8 @@
   </compound>
   <compound kind="file">
     <name>ImageLoader.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/FreeImage/</path>
-    <filename>ImageLoader_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/FreeImage/</path>
+    <filename>ImageLoader_8hpp.html</filename>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="struct">iv::ImageLoader_Metadata</class>
     <namespace>iv</namespace>
@@ -2702,16 +2702,16 @@
   </compound>
   <compound kind="file">
     <name>StreamTexture.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/FreeImage/</path>
-    <filename>StreamTexture_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/FreeImage/</path>
+    <filename>StreamTexture_8cpp.html</filename>
     <includes id="StreamTexture_8hpp" name="StreamTexture.hpp" local="yes" imported="no">StreamTexture.hpp</includes>
     <includes id="ImageLoader_8hpp" name="ImageLoader.hpp" local="yes" imported="no">ImageLoader.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>StreamTexture.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/FreeImage/</path>
-    <filename>StreamTexture_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/FreeImage/</path>
+    <filename>StreamTexture_8hpp.html</filename>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="class">iv::StreamTexture_Subprovider</class>
     <class kind="class">iv::StreamTexture</class>
@@ -2719,14 +2719,14 @@
   </compound>
   <compound kind="file">
     <name>GlfmWindow.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>GlfmWindow_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>GlfmWindow_8cpp.html</filename>
     <includes id="GlfmWindow_8hpp" name="GlfmWindow.hpp" local="yes" imported="no">GlfmWindow.hpp</includes>
   </compound>
   <compound kind="file">
     <name>GlfmWindow.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>GlfmWindow_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>GlfmWindow_8hpp.html</filename>
     <includes id="WindowListener_8hpp" name="WindowListener.hpp" local="yes" imported="no">WindowListener.hpp</includes>
     <includes id="Window_8hpp" name="Window.hpp" local="yes" imported="no">Window.hpp</includes>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">../OpenGL/RenderTarget.hpp</includes>
@@ -2737,16 +2737,16 @@
   </compound>
   <compound kind="file">
     <name>GlfwWindow.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>GlfwWindow_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>GlfwWindow_8cpp.html</filename>
     <includes id="GlfwWindow_8hpp" name="GlfwWindow.hpp" local="yes" imported="no">GlfwWindow.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>GlfwWindow.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>GlfwWindow_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>GlfwWindow_8hpp.html</filename>
     <includes id="WindowListener_8hpp" name="WindowListener.hpp" local="yes" imported="no">WindowListener.hpp</includes>
     <includes id="Window_8hpp" name="Window.hpp" local="yes" imported="no">Window.hpp</includes>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">../OpenGL/RenderTarget.hpp</includes>
@@ -2757,14 +2757,14 @@
   </compound>
   <compound kind="file">
     <name>TestGlfmWindow.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>TestGlfmWindow_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>TestGlfmWindow_8cpp.html</filename>
     <includes id="TestGlfmWindow_8hpp" name="TestGlfmWindow.hpp" local="yes" imported="no">TestGlfmWindow.hpp</includes>
   </compound>
   <compound kind="file">
     <name>TestGlfmWindow.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>TestGlfmWindow_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>TestGlfmWindow_8hpp.html</filename>
     <includes id="WindowListener_8hpp" name="WindowListener.hpp" local="yes" imported="no">WindowListener.hpp</includes>
     <includes id="Window_8hpp" name="Window.hpp" local="yes" imported="no">Window.hpp</includes>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">../OpenGL/RenderTarget.hpp</includes>
@@ -2774,15 +2774,15 @@
   </compound>
   <compound kind="file">
     <name>Window.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>Window_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>Window_8cpp.html</filename>
     <includes id="Window_8hpp" name="Window.hpp" local="yes" imported="no">Window.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Window.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>Window_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>Window_8hpp.html</filename>
     <includes id="WindowListener_8hpp" name="WindowListener.hpp" local="yes" imported="no">WindowListener.hpp</includes>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">../OpenGL/RenderTarget.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2791,8 +2791,8 @@
   </compound>
   <compound kind="file">
     <name>WindowListener.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Game/</path>
-    <filename>WindowListener_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>WindowListener_8hpp.html</filename>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">../OpenGL/RenderTarget.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::WindowListener</class>
@@ -2800,8 +2800,8 @@
   </compound>
   <compound kind="file">
     <name>ivorium_graphics.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/</path>
-    <filename>ivorium__graphics_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/</path>
+    <filename>ivorium__graphics_8hpp.html</filename>
     <includes id="Divider_8hpp" name="Divider.hpp" local="yes" imported="no">Elements/Divider.hpp</includes>
     <includes id="VectorChildrenElem_8hpp" name="VectorChildrenElem.hpp" local="yes" imported="no">Elements/VectorChildrenElem.hpp</includes>
     <includes id="Prefsize_8hpp" name="Prefsize.hpp" local="yes" imported="no">Elements/Prefsize.hpp</includes>
@@ -2864,13 +2864,13 @@
   </compound>
   <compound kind="file">
     <name>gl.h</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>gl_8h</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>gl_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>GlError.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlError_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlError_8cpp.html</filename>
     <includes id="GlError_8hpp" name="GlError.hpp" local="yes" imported="no">GlError.hpp</includes>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">gl.h</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2885,8 +2885,8 @@
   </compound>
   <compound kind="file">
     <name>GlError.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlError_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlError_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
     <member kind="function">
@@ -2899,8 +2899,8 @@
   </compound>
   <compound kind="file">
     <name>GlMesh.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlMesh_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlMesh_8cpp.html</filename>
     <includes id="GlMesh_8hpp" name="GlMesh.hpp" local="yes" imported="no">GlMesh.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <includes id="GlError_8hpp" name="GlError.hpp" local="yes" imported="no">GlError.hpp</includes>
@@ -2908,8 +2908,8 @@
   </compound>
   <compound kind="file">
     <name>GlMesh.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlMesh_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlMesh_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">gl.h</includes>
     <class kind="struct">iv::GlMeshData</class>
@@ -2918,8 +2918,8 @@
   </compound>
   <compound kind="file">
     <name>GlProgram.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlProgram_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlProgram_8cpp.html</filename>
     <includes id="GlProgram_8hpp" name="GlProgram.hpp" local="yes" imported="no">GlProgram.hpp</includes>
     <includes id="GlError_8hpp" name="GlError.hpp" local="yes" imported="no">GlError.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -2927,8 +2927,8 @@
   </compound>
   <compound kind="file">
     <name>GlProgram.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlProgram_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlProgram_8hpp.html</filename>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">gl.h</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::GlProgram</class>
@@ -2936,8 +2936,8 @@
   </compound>
   <compound kind="file">
     <name>GlTexture.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlTexture_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlTexture_8cpp.html</filename>
     <includes id="GlTexture_8hpp" name="GlTexture.hpp" local="yes" imported="no">GlTexture.hpp</includes>
     <includes id="GlError_8hpp" name="GlError.hpp" local="yes" imported="no">GlError.hpp</includes>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">RenderTarget.hpp</includes>
@@ -2946,8 +2946,8 @@
   </compound>
   <compound kind="file">
     <name>GlTexture.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>GlTexture_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>GlTexture_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">gl.h</includes>
     <class kind="class">iv::GlTexture</class>
@@ -2997,16 +2997,16 @@
   </compound>
   <compound kind="file">
     <name>RenderTarget.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>RenderTarget_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>RenderTarget_8cpp.html</filename>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">RenderTarget.hpp</includes>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">gl.h</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>RenderTarget.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/OpenGL/</path>
-    <filename>RenderTarget_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/OpenGL/</path>
+    <filename>RenderTarget_8hpp.html</filename>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">gl.h</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::RenderTarget</class>
@@ -3015,32 +3015,32 @@
   </compound>
   <compound kind="file">
     <name>CameraState.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>CameraState_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>CameraState_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="struct">iv::CameraState</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ColorTransform.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>ColorTransform_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>ColorTransform_8cpp.html</filename>
     <includes id="ColorTransform_8hpp" name="ColorTransform.hpp" local="yes" imported="no">ColorTransform.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ColorTransform.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>ColorTransform_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>ColorTransform_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="struct">iv::ColorTransform</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>FlatShader.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>FlatShader_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>FlatShader_8cpp.html</filename>
     <includes id="FlatShader_8hpp" name="FlatShader.hpp" local="yes" imported="no">FlatShader.hpp</includes>
     <includes id="ColorTransform_8hpp" name="ColorTransform.hpp" local="yes" imported="no">ColorTransform.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
@@ -3048,8 +3048,8 @@
   </compound>
   <compound kind="file">
     <name>FlatShader.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>FlatShader_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>FlatShader_8hpp.html</filename>
     <includes id="Shader_8hpp" name="Shader.hpp" local="yes" imported="no">Shader.hpp</includes>
     <includes id="Texture_8hpp" name="Texture.hpp" local="yes" imported="no">Texture.hpp</includes>
     <includes id="CameraState_8hpp" name="CameraState.hpp" local="yes" imported="no">CameraState.hpp</includes>
@@ -3071,16 +3071,16 @@
   </compound>
   <compound kind="file">
     <name>GlSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>GlSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>GlSystem_8cpp.html</filename>
     <includes id="GlSystem_8hpp" name="GlSystem.hpp" local="yes" imported="no">GlSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>GlSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>GlSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>GlSystem_8hpp.html</filename>
     <includes id="RenderTarget_8hpp" name="RenderTarget.hpp" local="yes" imported="no">../OpenGL/RenderTarget.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::GlInfo</class>
@@ -3090,15 +3090,15 @@
   </compound>
   <compound kind="file">
     <name>Mesh.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>Mesh_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>Mesh_8cpp.html</filename>
     <includes id="Mesh_8hpp" name="Mesh.hpp" local="yes" imported="no">Mesh.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Mesh.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>Mesh_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>Mesh_8hpp.html</filename>
     <includes id="GlSystem_8hpp" name="GlSystem.hpp" local="yes" imported="no">GlSystem.hpp</includes>
     <includes id="GlMesh_8hpp" name="GlMesh.hpp" local="yes" imported="no">../OpenGL/GlMesh.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -3108,8 +3108,8 @@
   </compound>
   <compound kind="file">
     <name>Shader.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>Shader_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>Shader_8cpp.html</filename>
     <includes id="Shader_8hpp" name="Shader.hpp" local="yes" imported="no">Shader.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -3117,8 +3117,8 @@
   </compound>
   <compound kind="file">
     <name>Shader.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>Shader_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>Shader_8hpp.html</filename>
     <includes id="GlTexture_8hpp" name="GlTexture.hpp" local="yes" imported="no">../OpenGL/GlTexture.hpp</includes>
     <includes id="GlProgram_8hpp" name="GlProgram.hpp" local="yes" imported="no">../OpenGL/GlProgram.hpp</includes>
     <includes id="gl_8h" name="gl.h" local="yes" imported="no">../OpenGL/gl.h</includes>
@@ -3130,15 +3130,15 @@
   </compound>
   <compound kind="file">
     <name>SquareMesh.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>SquareMesh_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>SquareMesh_8cpp.html</filename>
     <includes id="SquareMesh_8hpp" name="SquareMesh.hpp" local="yes" imported="no">SquareMesh.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SquareMesh.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>SquareMesh_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>SquareMesh_8hpp.html</filename>
     <includes id="Mesh_8hpp" name="Mesh.hpp" local="yes" imported="no">Mesh.hpp</includes>
     <class kind="class">iv::SquareMesh_Subprovider</class>
     <class kind="class">iv::SquareMesh</class>
@@ -3147,8 +3147,8 @@
   </compound>
   <compound kind="file">
     <name>Texture.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>Texture_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>Texture_8cpp.html</filename>
     <includes id="Texture_8hpp" name="Texture.hpp" local="yes" imported="no">Texture.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -3156,8 +3156,8 @@
   </compound>
   <compound kind="file">
     <name>Texture.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Rendering/</path>
-    <filename>Texture_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Rendering/</path>
+    <filename>Texture_8hpp.html</filename>
     <includes id="GlSystem_8hpp" name="GlSystem.hpp" local="yes" imported="no">GlSystem.hpp</includes>
     <includes id="GlTexture_8hpp" name="GlTexture.hpp" local="yes" imported="no">../OpenGL/GlTexture.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
@@ -3170,15 +3170,15 @@
   </compound>
   <compound kind="file">
     <name>Font.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>Font_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>Font_8cpp.html</filename>
     <includes id="Font_8hpp" name="Font.hpp" local="yes" imported="no">Font.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Font.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>Font_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>Font_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="Texture_8hpp" name="Texture.hpp" local="yes" imported="no">../Rendering/Texture.hpp</includes>
     <class kind="class">iv::Font</class>
@@ -3190,8 +3190,8 @@
   </compound>
   <compound kind="file">
     <name>FontMesh.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>FontMesh_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>FontMesh_8cpp.html</filename>
     <includes id="FontMesh_8hpp" name="FontMesh.hpp" local="yes" imported="no">FontMesh.hpp</includes>
     <includes id="ivorium__graphics_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <includes id="ColorTransform_8hpp" name="ColorTransform.hpp" local="yes" imported="no">../Rendering/ColorTransform.hpp</includes>
@@ -3199,8 +3199,8 @@
   </compound>
   <compound kind="file">
     <name>FontMesh.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>FontMesh_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>FontMesh_8hpp.html</filename>
     <includes id="Font_8hpp" name="Font.hpp" local="yes" imported="no">Font.hpp</includes>
     <includes id="FlatShader_8hpp" name="FlatShader.hpp" local="yes" imported="no">../Rendering/FlatShader.hpp</includes>
     <includes id="ElementRenderer_8hpp" name="ElementRenderer.hpp" local="yes" imported="no">../Elements/ElementRenderer.hpp</includes>
@@ -3212,16 +3212,16 @@
   </compound>
   <compound kind="file">
     <name>StreamFont.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>StreamFont_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>StreamFont_8cpp.html</filename>
     <includes id="StreamFont_8hpp" name="StreamFont.hpp" local="yes" imported="no">StreamFont.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>StreamFont.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>StreamFont_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>StreamFont_8hpp.html</filename>
     <includes id="Font_8hpp" name="Font.hpp" local="yes" imported="no">Font.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="no" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <class kind="class">iv::StreamFont_Subprovider</class>
@@ -3230,16 +3230,16 @@
   </compound>
   <compound kind="file">
     <name>Text.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>Text_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>Text_8cpp.html</filename>
     <includes id="Text_8hpp" name="Text.hpp" local="yes" imported="no">Text.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Text.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>Text_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>Text_8hpp.html</filename>
     <includes id="TextLayout_8hpp" name="TextLayout.hpp" local="yes" imported="no">TextLayout.hpp</includes>
     <includes id="TranslucentElem_8hpp" name="TranslucentElem.hpp" local="yes" imported="no">../Elements/TranslucentElem.hpp</includes>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">../Elements/Elem.hpp</includes>
@@ -3250,15 +3250,15 @@
   </compound>
   <compound kind="file">
     <name>TextLayout.cpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>TextLayout_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>TextLayout_8cpp.html</filename>
     <includes id="Text_8hpp" name="Text.hpp" local="yes" imported="no">Text.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TextLayout.hpp</name>
-    <path>/github/workspace/src/ivorium_graphics/Text/</path>
-    <filename>TextLayout_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Text/</path>
+    <filename>TextLayout_8hpp.html</filename>
     <includes id="FontMesh_8hpp" name="FontMesh.hpp" local="yes" imported="no">FontMesh.hpp</includes>
     <includes id="Elem_8hpp" name="Elem.hpp" local="yes" imported="no">../Elements/Elem.hpp</includes>
     <includes id="ElementRenderer_8hpp" name="ElementRenderer.hpp" local="yes" imported="no">../Elements/ElementRenderer.hpp</includes>
@@ -3269,15 +3269,15 @@
   </compound>
   <compound kind="file">
     <name>ConfigFileSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ConfigFileSystem/</path>
-    <filename>ConfigFileSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ConfigFileSystem/</path>
+    <filename>ConfigFileSystem_8cpp.html</filename>
     <includes id="ConfigFileSystem_8hpp" name="ConfigFileSystem.hpp" local="yes" imported="no">ConfigFileSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ConfigFileSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ConfigFileSystem/</path>
-    <filename>ConfigFileSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ConfigFileSystem/</path>
+    <filename>ConfigFileSystem_8hpp.html</filename>
     <includes id="fs_8hpp" name="fs.hpp" local="yes" imported="no">../fs.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::ConfigStream</class>
@@ -3286,32 +3286,32 @@
   </compound>
   <compound kind="file">
     <name>DelayedLoad.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/DelayedLoadSystem/</path>
-    <filename>DelayedLoad_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DelayedLoadSystem/</path>
+    <filename>DelayedLoad_8cpp.html</filename>
     <includes id="DelayedLoadSystem_8hpp" name="DelayedLoadSystem.hpp" local="yes" imported="no">DelayedLoadSystem.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DelayedLoad.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DelayedLoadSystem/</path>
-    <filename>DelayedLoad_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DelayedLoadSystem/</path>
+    <filename>DelayedLoad_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::DelayedLoad</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DelayedLoader.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/DelayedLoadSystem/</path>
-    <filename>DelayedLoader_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DelayedLoadSystem/</path>
+    <filename>DelayedLoader_8cpp.html</filename>
     <includes id="DelayedLoader_8hpp" name="DelayedLoader.hpp" local="yes" imported="no">DelayedLoader.hpp</includes>
     <includes id="DelayedLoadSystem_8hpp" name="DelayedLoadSystem.hpp" local="yes" imported="no">DelayedLoadSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DelayedLoader.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DelayedLoadSystem/</path>
-    <filename>DelayedLoader_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DelayedLoadSystem/</path>
+    <filename>DelayedLoader_8hpp.html</filename>
     <includes id="DelayedLoadSystem_8hpp" name="DelayedLoadSystem.hpp" local="yes" imported="no">DelayedLoadSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::DelayedLoader</class>
@@ -3319,8 +3319,8 @@
   </compound>
   <compound kind="file">
     <name>DelayedLoadSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/DelayedLoadSystem/</path>
-    <filename>DelayedLoadSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DelayedLoadSystem/</path>
+    <filename>DelayedLoadSystem_8cpp.html</filename>
     <includes id="DelayedLoadSystem_8hpp" name="DelayedLoadSystem.hpp" local="yes" imported="no">DelayedLoadSystem.hpp</includes>
     <includes id="DelayedLoader_8hpp" name="DelayedLoader.hpp" local="yes" imported="no">DelayedLoader.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
@@ -3328,8 +3328,8 @@
   </compound>
   <compound kind="file">
     <name>DelayedLoadSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DelayedLoadSystem/</path>
-    <filename>DelayedLoadSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DelayedLoadSystem/</path>
+    <filename>DelayedLoadSystem_8hpp.html</filename>
     <includes id="DelayedLoad_8hpp" name="DelayedLoad.hpp" local="yes" imported="no">DelayedLoad.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::DelayedLoadStatus</class>
@@ -3338,8 +3338,8 @@
   </compound>
   <compound kind="file">
     <name>DVar.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVar_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVar_8hpp.html</filename>
     <includes id="DVarSystem_8hpp" name="DVarSystem.hpp" local="yes" imported="no">DVarSystem.hpp</includes>
     <includes id="DVar_8inl" name="DVar.inl" local="yes" imported="no">DVar.inl</includes>
     <class kind="class">iv::DVar</class>
@@ -3347,14 +3347,14 @@
   </compound>
   <compound kind="file">
     <name>DVar.inl</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVar_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVar_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVar_Field.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVar__Field_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVar__Field_8hpp.html</filename>
     <includes id="DVarSystem_8hpp" name="DVarSystem.hpp" local="yes" imported="no">DVarSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="DVar__Field_8inl" name="DVar_Field.inl" local="yes" imported="no">DVar_Field.inl</includes>
@@ -3363,14 +3363,14 @@
   </compound>
   <compound kind="file">
     <name>DVar_Field.inl</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVar__Field_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVar__Field_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarCloner.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarCloner_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarCloner_8hpp.html</filename>
     <includes id="DVarListener_8hpp" name="DVarListener.hpp" local="yes" imported="no">DVarListener.hpp</includes>
     <includes id="DVarId_8hpp" name="DVarId.hpp" local="yes" imported="no">DVarId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -3380,21 +3380,21 @@
   </compound>
   <compound kind="file">
     <name>DVarCloner.inl</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarCloner_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarCloner_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarId.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarId_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarId_8cpp.html</filename>
     <includes id="DVarId_8hpp" name="DVarId.hpp" local="yes" imported="no">DVarId.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarId.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarId_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarId_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::DVarId</class>
     <class kind="class">iv::DVarIdT</class>
@@ -3403,16 +3403,16 @@
   </compound>
   <compound kind="file">
     <name>DVarListener.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarListener_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarListener_8cpp.html</filename>
     <includes id="DVarListener_8hpp" name="DVarListener.hpp" local="yes" imported="no">DVarListener.hpp</includes>
     <includes id="DVarSystem_8hpp" name="DVarSystem.hpp" local="yes" imported="no">DVarSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarListener.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarListener_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarListener_8hpp.html</filename>
     <includes id="DVarId_8hpp" name="DVarId.hpp" local="yes" imported="no">DVarId.hpp</includes>
     <includes id="DVarSystem_8hpp" name="DVarSystem.hpp" local="yes" imported="no">DVarSystem.hpp</includes>
     <class kind="class">iv::DVarListener</class>
@@ -3420,16 +3420,16 @@
   </compound>
   <compound kind="file">
     <name>DVarManipulator.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarManipulator_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarManipulator_8cpp.html</filename>
     <includes id="DVarManipulator_8hpp" name="DVarManipulator.hpp" local="yes" imported="no">DVarManipulator.hpp</includes>
     <includes id="DVarSystem_8hpp" name="DVarSystem.hpp" local="yes" imported="no">DVarSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarManipulator.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarManipulator_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarManipulator_8hpp.html</filename>
     <includes id="DVarId_8hpp" name="DVarId.hpp" local="yes" imported="no">DVarId.hpp</includes>
     <includes id="DVarSystem_8hpp" name="DVarSystem.hpp" local="yes" imported="no">DVarSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -3439,14 +3439,14 @@
   </compound>
   <compound kind="file">
     <name>DVarManipulator.inl</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarManipulator_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarManipulator_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarProperty.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarProperty_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarProperty_8hpp.html</filename>
     <includes id="DVarId_8hpp" name="DVarId.hpp" local="yes" imported="no">DVarId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="DVarProperty_8inl" name="DVarProperty.inl" local="yes" imported="no">DVarProperty.inl</includes>
@@ -3455,21 +3455,21 @@
   </compound>
   <compound kind="file">
     <name>DVarProperty.inl</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarProperty_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarProperty_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarSystem_8cpp.html</filename>
     <includes id="DVarSystem_8hpp" name="DVarSystem.hpp" local="yes" imported="no">DVarSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DVarSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarSystem_8hpp.html</filename>
     <includes id="DVarId_8hpp" name="DVarId.hpp" local="yes" imported="no">DVarId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="DVarSystem_8inl" name="DVarSystem.inl" local="yes" imported="no">DVarSystem.inl</includes>
@@ -3479,27 +3479,27 @@
   </compound>
   <compound kind="file">
     <name>DVarSystem.inl</name>
-    <path>/github/workspace/src/ivorium_systems/DVarSystem/</path>
-    <filename>DVarSystem_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/DVarSystem/</path>
+    <filename>DVarSystem_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>fs.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/</path>
-    <filename>fs_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/</path>
+    <filename>fs_8hpp.html</filename>
   </compound>
   <compound kind="file">
     <name>BlockAll_InputNode.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>BlockAll__InputNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>BlockAll__InputNode_8hpp.html</filename>
     <includes id="InputNode_8hpp" name="InputNode.hpp" local="yes" imported="no">InputNode.hpp</includes>
     <class kind="class">iv::BlockAll_InputNode</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Char_InputNode.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>Char__InputNode_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>Char__InputNode_8cpp.html</filename>
     <includes id="Char__InputNode_8hpp" name="Char_InputNode.hpp" local="yes" imported="no">Char_InputNode.hpp</includes>
     <includes id="InputQuery_8hpp" name="InputQuery.hpp" local="yes" imported="no">InputSystem/InputQuery.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
@@ -3507,8 +3507,8 @@
   </compound>
   <compound kind="file">
     <name>Char_InputNode.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>Char__InputNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>Char__InputNode_8hpp.html</filename>
     <includes id="InputNode_8hpp" name="InputNode.hpp" local="yes" imported="no">InputNode.hpp</includes>
     <includes id="Watch_8hpp" name="Watch.hpp" local="yes" imported="no">../TimeSystem/Watch.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -3518,8 +3518,8 @@
   </compound>
   <compound kind="file">
     <name>InputBinder.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBinder_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBinder_8cpp.html</filename>
     <includes id="InputBinder_8hpp" name="InputBinder.hpp" local="yes" imported="no">InputBinder.hpp</includes>
     <includes id="InputBindingSystem_8hpp" name="InputBindingSystem.hpp" local="yes" imported="no">InputBindingSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -3527,8 +3527,8 @@
   </compound>
   <compound kind="file">
     <name>InputBinder.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBinder_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBinder_8hpp.html</filename>
     <includes id="InputId_8hpp" name="InputId.hpp" local="yes" imported="no">InputId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::InputBinder</class>
@@ -3536,31 +3536,31 @@
   </compound>
   <compound kind="file">
     <name>InputBindingListener.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBindingListener_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBindingListener_8cpp.html</filename>
     <includes id="InputBindingListener_8hpp" name="InputBindingListener.hpp" local="yes" imported="no">InputBindingListener.hpp</includes>
     <includes id="InputBindingSystem_8hpp" name="InputBindingSystem.hpp" local="yes" imported="no">InputBindingSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputBindingListener.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBindingListener_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBindingListener_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::InputBindingListener</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputBindingQuery.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBindingQuery_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBindingQuery_8cpp.html</filename>
     <includes id="InputBindingQuery_8hpp" name="InputBindingQuery.hpp" local="yes" imported="no">InputBindingQuery.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputBindingQuery.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBindingQuery_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBindingQuery_8hpp.html</filename>
     <includes id="InputBindingSystem_8hpp" name="InputBindingSystem.hpp" local="yes" imported="no">InputBindingSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::InputBindingQuery</class>
@@ -3568,8 +3568,8 @@
   </compound>
   <compound kind="file">
     <name>InputBindingSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBindingSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBindingSystem_8cpp.html</filename>
     <includes id="InputBindingSystem_8hpp" name="InputBindingSystem.hpp" local="yes" imported="no">InputBindingSystem.hpp</includes>
     <includes id="InputBindingQuery_8hpp" name="InputBindingQuery.hpp" local="yes" imported="no">InputBindingQuery.hpp</includes>
     <includes id="InputBindingListener_8hpp" name="InputBindingListener.hpp" local="yes" imported="no">InputBindingListener.hpp</includes>
@@ -3577,8 +3577,8 @@
   </compound>
   <compound kind="file">
     <name>InputBindingSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputBindingSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputBindingSystem_8hpp.html</filename>
     <includes id="InputId_8hpp" name="InputId.hpp" local="yes" imported="no">InputId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::InputBindingSystem</class>
@@ -3586,15 +3586,15 @@
   </compound>
   <compound kind="file">
     <name>InputId.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputId_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputId_8cpp.html</filename>
     <includes id="InputId_8hpp" name="InputId.hpp" local="yes" imported="no">InputId.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputId.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
-    <filename>InputId_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputBindingSystem/</path>
+    <filename>InputId_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::InputId</class>
     <class kind="struct">std::hash&lt; iv::InputId &gt;</class>
@@ -3602,16 +3602,16 @@
   </compound>
   <compound kind="file">
     <name>InputEvent.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>InputEvent_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>InputEvent_8cpp.html</filename>
     <includes id="InputEvent_8hpp" name="InputEvent.hpp" local="yes" imported="no">InputEvent.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputEvent.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>InputEvent_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>InputEvent_8hpp.html</filename>
     <includes id="Watch_8hpp" name="Watch.hpp" local="yes" imported="no">../TimeSystem/Watch.hpp</includes>
     <includes id="DVar_8hpp" name="DVar.hpp" local="yes" imported="no">../DVarSystem/DVar.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -3620,16 +3620,16 @@
   </compound>
   <compound kind="file">
     <name>InputNode.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>InputNode_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>InputNode_8cpp.html</filename>
     <includes id="InputNode_8hpp" name="InputNode.hpp" local="yes" imported="no">InputNode.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputNode.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>InputNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>InputNode_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::InputRoot</class>
     <class kind="class">iv::InputNode</class>
@@ -3637,23 +3637,23 @@
   </compound>
   <compound kind="file">
     <name>InputQuery.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputSystem/</path>
-    <filename>InputQuery_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputSystem/</path>
+    <filename>InputQuery_8cpp.html</filename>
     <includes id="InputQuery_8hpp" name="InputQuery.hpp" local="yes" imported="no">InputQuery.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputQuery.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputSystem/</path>
-    <filename>InputQuery_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputSystem/</path>
+    <filename>InputQuery_8hpp.html</filename>
     <includes id="InputSystem_8hpp" name="InputSystem.hpp" local="yes" imported="no">InputSystem.hpp</includes>
     <class kind="class">iv::InputQuery</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>InputSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputSystem/</path>
-    <filename>InputSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputSystem/</path>
+    <filename>InputSystem_8cpp.html</filename>
     <includes id="InputSystem_8hpp" name="InputSystem.hpp" local="yes" imported="no">InputSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="InputNode_8hpp" name="InputNode.hpp" local="yes" imported="no">../InputNode.hpp</includes>
@@ -3663,24 +3663,24 @@
   </compound>
   <compound kind="file">
     <name>InputSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/InputSystem/</path>
-    <filename>InputSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/InputSystem/</path>
+    <filename>InputSystem_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::InputSystem</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Key_InputNode.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>Key__InputNode_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>Key__InputNode_8cpp.html</filename>
     <includes id="Key__InputNode_8hpp" name="Key_InputNode.hpp" local="yes" imported="no">Key_InputNode.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Key_InputNode.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>Key__InputNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>Key__InputNode_8hpp.html</filename>
     <includes id="InputEvent_8hpp" name="InputEvent.hpp" local="yes" imported="no">InputEvent.hpp</includes>
     <includes id="InputNode_8hpp" name="InputNode.hpp" local="yes" imported="no">InputNode.hpp</includes>
     <includes id="InputBindingQuery_8hpp" name="InputBindingQuery.hpp" local="yes" imported="no">InputBindingSystem/InputBindingQuery.hpp</includes>
@@ -3691,16 +3691,16 @@
   </compound>
   <compound kind="file">
     <name>Position_InputNode.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>Position__InputNode_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>Position__InputNode_8cpp.html</filename>
     <includes id="Position__InputNode_8hpp" name="Position_InputNode.hpp" local="yes" imported="no">Position_InputNode.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Position_InputNode.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>Position__InputNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>Position__InputNode_8hpp.html</filename>
     <includes id="InputBindingQuery_8hpp" name="InputBindingQuery.hpp" local="yes" imported="no">InputBindingSystem/InputBindingQuery.hpp</includes>
     <includes id="InputQuery_8hpp" name="InputQuery.hpp" local="yes" imported="no">InputSystem/InputQuery.hpp</includes>
     <includes id="InputNode_8hpp" name="InputNode.hpp" local="yes" imported="no">InputNode.hpp</includes>
@@ -3712,16 +3712,16 @@
   </compound>
   <compound kind="file">
     <name>SourceInputNode.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>SourceInputNode_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>SourceInputNode_8cpp.html</filename>
     <includes id="SourceInputNode_8hpp" name="SourceInputNode.hpp" local="yes" imported="no">SourceInputNode.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SourceInputNode.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/InputSystem/</path>
-    <filename>SourceInputNode_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/InputSystem/</path>
+    <filename>SourceInputNode_8hpp.html</filename>
     <includes id="InputNode_8hpp" name="InputNode.hpp" local="yes" imported="no">InputNode.hpp</includes>
     <includes id="InputBindingListener_8hpp" name="InputBindingListener.hpp" local="yes" imported="no">InputBindingSystem/InputBindingListener.hpp</includes>
     <includes id="FrameUpdateClient_8hpp" name="FrameUpdateClient.hpp" local="yes" imported="no">../TimeSystem/FrameUpdateClient.hpp</includes>
@@ -3730,8 +3730,8 @@
   </compound>
   <compound kind="file">
     <name>ivorium_systems.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/</path>
-    <filename>ivorium__systems_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/</path>
+    <filename>ivorium__systems_8hpp.html</filename>
     <includes id="TimeSystem_8hpp" name="TimeSystem.hpp" local="yes" imported="no">TimeSystem/TimeSystem.hpp</includes>
     <includes id="FrameUpdateClient_8hpp" name="FrameUpdateClient.hpp" local="yes" imported="no">TimeSystem/FrameUpdateClient.hpp</includes>
     <includes id="TimeId_8hpp" name="TimeId.hpp" local="yes" imported="no">TimeSystem/TimeId.hpp</includes>
@@ -3782,15 +3782,15 @@
   </compound>
   <compound kind="file">
     <name>RandomGenerator.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/RandomSystem/</path>
-    <filename>RandomGenerator_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/RandomSystem/</path>
+    <filename>RandomGenerator_8cpp.html</filename>
     <includes id="RandomGenerator_8hpp" name="RandomGenerator.hpp" local="yes" imported="no">RandomGenerator.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>RandomGenerator.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/RandomSystem/</path>
-    <filename>RandomGenerator_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/RandomSystem/</path>
+    <filename>RandomGenerator_8hpp.html</filename>
     <includes id="RandomSystem_8hpp" name="RandomSystem.hpp" local="yes" imported="no">RandomSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="RandomGenerator_8inl" name="RandomGenerator.inl" local="yes" imported="no">RandomGenerator.inl</includes>
@@ -3799,21 +3799,21 @@
   </compound>
   <compound kind="file">
     <name>RandomGenerator.inl</name>
-    <path>/github/workspace/src/ivorium_systems/RandomSystem/</path>
-    <filename>RandomGenerator_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/RandomSystem/</path>
+    <filename>RandomGenerator_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>RandomId.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/RandomSystem/</path>
-    <filename>RandomId_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/RandomSystem/</path>
+    <filename>RandomId_8cpp.html</filename>
     <includes id="RandomId_8hpp" name="RandomId.hpp" local="yes" imported="no">RandomId.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>RandomId.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/RandomSystem/</path>
-    <filename>RandomId_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/RandomSystem/</path>
+    <filename>RandomId_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::RandomId</class>
     <class kind="struct">std::hash&lt; iv::RandomId &gt;</class>
@@ -3821,15 +3821,15 @@
   </compound>
   <compound kind="file">
     <name>RandomSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/RandomSystem/</path>
-    <filename>RandomSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/RandomSystem/</path>
+    <filename>RandomSystem_8cpp.html</filename>
     <includes id="RandomSystem_8hpp" name="RandomSystem.hpp" local="yes" imported="no">RandomSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>RandomSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/RandomSystem/</path>
-    <filename>RandomSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/RandomSystem/</path>
+    <filename>RandomSystem_8hpp.html</filename>
     <includes id="RandomId_8hpp" name="RandomId.hpp" local="yes" imported="no">RandomId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::RandomSystem</class>
@@ -3837,15 +3837,15 @@
   </compound>
   <compound kind="file">
     <name>DataStream.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>DataStream_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>DataStream_8cpp.html</filename>
     <includes id="DataStream_8hpp" name="DataStream.hpp" local="yes" imported="no">DataStream.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DataStream.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>DataStream_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>DataStream_8hpp.html</filename>
     <includes id="StreamResourceProvider_8hpp" name="StreamResourceProvider.hpp" local="yes" imported="no">StreamResource/StreamResourceProvider.hpp</includes>
     <includes id="StreamResourceSubprovider_8hpp" name="StreamResourceSubprovider.hpp" local="yes" imported="no">StreamResource/StreamResourceSubprovider.hpp</includes>
     <includes id="SingularResource_8hpp" name="SingularResource.hpp" local="yes" imported="no">SingularResource.hpp</includes>
@@ -3856,8 +3856,8 @@
   </compound>
   <compound kind="file">
     <name>FSResourceProvider.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/Providers/</path>
-    <filename>FSResourceProvider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/Providers/</path>
+    <filename>FSResourceProvider_8cpp.html</filename>
     <includes id="FSResourceProvider_8hpp" name="FSResourceProvider.hpp" local="yes" imported="no">FSResourceProvider.hpp</includes>
     <includes id="ResourcePath_8hpp" name="ResourcePath.hpp" local="yes" imported="no">../ResourcePath.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -3865,8 +3865,8 @@
   </compound>
   <compound kind="file">
     <name>FSResourceProvider.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/Providers/</path>
-    <filename>FSResourceProvider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/Providers/</path>
+    <filename>FSResourceProvider_8hpp.html</filename>
     <includes id="StreamResourceProvider_8hpp" name="StreamResourceProvider.hpp" local="yes" imported="no">../StreamResource/StreamResourceProvider.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::FSResourceProvider</class>
@@ -3874,15 +3874,15 @@
   </compound>
   <compound kind="file">
     <name>ResourceAccess.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceAccess_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceAccess_8cpp.html</filename>
     <includes id="ResourceAccess_8hpp" name="ResourceAccess.hpp" local="yes" imported="no">ResourceAccess.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ResourceAccess.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceAccess_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceAccess_8hpp.html</filename>
     <includes id="ResourceManagementSystem_8hpp" name="ResourceManagementSystem.hpp" local="yes" imported="no">ResourceManagementSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="ResourceAccess_8inl" name="ResourceAccess.inl" local="yes" imported="no">ResourceAccess.inl</includes>
@@ -3891,14 +3891,14 @@
   </compound>
   <compound kind="file">
     <name>ResourceAccess.inl</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceAccess_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceAccess_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ResourceManagementSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceManagementSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceManagementSystem_8cpp.html</filename>
     <includes id="ResourceManagementSystem_8hpp" name="ResourceManagementSystem.hpp" local="yes" imported="no">ResourceManagementSystem.hpp</includes>
     <includes id="ResourceProvider_8hpp" name="ResourceProvider.hpp" local="yes" imported="no">ResourceProvider.hpp</includes>
     <includes id="VirtualResourceProvider_8hpp" name="VirtualResourceProvider.hpp" local="yes" imported="no">VirtualResource/VirtualResourceProvider.hpp</includes>
@@ -3906,8 +3906,8 @@
   </compound>
   <compound kind="file">
     <name>ResourceManagementSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceManagementSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceManagementSystem_8hpp.html</filename>
     <includes id="ResourceProvider_8hpp" name="ResourceProvider.hpp" local="yes" imported="no">ResourceProvider.hpp</includes>
     <includes id="ResourcePath_8hpp" name="ResourcePath.hpp" local="yes" imported="no">ResourcePath.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -3918,22 +3918,22 @@
   </compound>
   <compound kind="file">
     <name>ResourceManagementSystem.inl</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceManagementSystem_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceManagementSystem_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ResourcePath.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourcePath_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourcePath_8cpp.html</filename>
     <includes id="ResourcePath_8hpp" name="ResourcePath.hpp" local="yes" imported="no">ResourcePath.hpp</includes>
     <includes id="fs_8hpp" name="fs.hpp" local="yes" imported="no">../fs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ResourcePath.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourcePath_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourcePath_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::ResourcePath</class>
     <class kind="class">iv::Resource_LogTrace</class>
@@ -3950,24 +3950,24 @@
   </compound>
   <compound kind="file">
     <name>ResourceProvider.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceProvider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceProvider_8cpp.html</filename>
     <includes id="ResourceProvider_8hpp" name="ResourceProvider.hpp" local="yes" imported="no">ResourceProvider.hpp</includes>
     <includes id="ResourceManagementSystem_8hpp" name="ResourceManagementSystem.hpp" local="yes" imported="no">ResourceManagementSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ResourceProvider.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>ResourceProvider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>ResourceProvider_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::ResourceProvider</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SingularResource.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>SingularResource_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>SingularResource_8hpp.html</filename>
     <includes id="ResourceAccess_8hpp" name="ResourceAccess.hpp" local="yes" imported="no">ResourceAccess.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <includes id="SingularResource_8inl" name="SingularResource.inl" local="yes" imported="no">SingularResource.inl</includes>
@@ -3976,22 +3976,22 @@
   </compound>
   <compound kind="file">
     <name>SingularResource.inl</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/</path>
-    <filename>SingularResource_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/</path>
+    <filename>SingularResource_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>StreamResourceProvider.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
-    <filename>StreamResourceProvider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
+    <filename>StreamResourceProvider_8cpp.html</filename>
     <includes id="StreamResourceProvider_8hpp" name="StreamResourceProvider.hpp" local="yes" imported="no">StreamResourceProvider.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../../Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>StreamResourceProvider.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
-    <filename>StreamResourceProvider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
+    <filename>StreamResourceProvider_8hpp.html</filename>
     <includes id="ResourceProvider_8hpp" name="ResourceProvider.hpp" local="yes" imported="no">../ResourceProvider.hpp</includes>
     <includes id="ResourceManagementSystem_8hpp" name="ResourceManagementSystem.hpp" local="yes" imported="no">../ResourceManagementSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -4002,22 +4002,22 @@
   </compound>
   <compound kind="file">
     <name>StreamResourceProvider.inl</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
-    <filename>StreamResourceProvider_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
+    <filename>StreamResourceProvider_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>StreamResourceSubprovider.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
-    <filename>StreamResourceSubprovider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
+    <filename>StreamResourceSubprovider_8cpp.html</filename>
     <includes id="StreamResourceSubprovider_8hpp" name="StreamResourceSubprovider.hpp" local="yes" imported="no">StreamResourceSubprovider.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>StreamResourceSubprovider.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
-    <filename>StreamResourceSubprovider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/StreamResource/</path>
+    <filename>StreamResourceSubprovider_8hpp.html</filename>
     <includes id="StreamResourceProvider_8hpp" name="StreamResourceProvider.hpp" local="yes" imported="no">StreamResourceProvider.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::StreamResourceSubprovider</class>
@@ -4026,15 +4026,15 @@
   </compound>
   <compound kind="file">
     <name>VirtualResourceProvider.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/VirtualResource/</path>
-    <filename>VirtualResourceProvider_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/VirtualResource/</path>
+    <filename>VirtualResourceProvider_8cpp.html</filename>
     <includes id="VirtualResourceProvider_8hpp" name="VirtualResourceProvider.hpp" local="yes" imported="no">VirtualResourceProvider.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>VirtualResourceProvider.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/VirtualResource/</path>
-    <filename>VirtualResourceProvider_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/VirtualResource/</path>
+    <filename>VirtualResourceProvider_8hpp.html</filename>
     <includes id="ResourceProvider_8hpp" name="ResourceProvider.hpp" local="yes" imported="no">../ResourceProvider.hpp</includes>
     <includes id="ResourceManagementSystem_8hpp" name="ResourceManagementSystem.hpp" local="yes" imported="no">../ResourceManagementSystem.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -4044,14 +4044,14 @@
   </compound>
   <compound kind="file">
     <name>VirtualResourceProvider.inl</name>
-    <path>/github/workspace/src/ivorium_systems/ResourceManagementSystem/VirtualResource/</path>
-    <filename>VirtualResourceProvider_8inl</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/ResourceManagementSystem/VirtualResource/</path>
+    <filename>VirtualResourceProvider_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>FixedUpdateClient.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>FixedUpdateClient_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>FixedUpdateClient_8cpp.html</filename>
     <includes id="FixedUpdateClient_8hpp" name="FixedUpdateClient.hpp" local="yes" imported="no">FixedUpdateClient.hpp</includes>
     <includes id="TimeSystem_8hpp" name="TimeSystem.hpp" local="yes" imported="no">TimeSystem.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
@@ -4059,8 +4059,8 @@
   </compound>
   <compound kind="file">
     <name>FixedUpdateClient.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>FixedUpdateClient_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>FixedUpdateClient_8hpp.html</filename>
     <includes id="TimeId_8hpp" name="TimeId.hpp" local="yes" imported="no">TimeId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::FixedUpdateClient</class>
@@ -4068,8 +4068,8 @@
   </compound>
   <compound kind="file">
     <name>FrameUpdateClient.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>FrameUpdateClient_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>FrameUpdateClient_8cpp.html</filename>
     <includes id="FrameUpdateClient_8hpp" name="FrameUpdateClient.hpp" local="yes" imported="no">FrameUpdateClient.hpp</includes>
     <includes id="TimeSystem_8hpp" name="TimeSystem.hpp" local="yes" imported="no">TimeSystem.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
@@ -4077,47 +4077,47 @@
   </compound>
   <compound kind="file">
     <name>FrameUpdateClient.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>FrameUpdateClient_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>FrameUpdateClient_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::FrameUpdateClient</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TimeId.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>TimeId_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>TimeId_8cpp.html</filename>
     <includes id="TimeId_8hpp" name="TimeId.hpp" local="yes" imported="no">TimeId.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TimeId.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>TimeId_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>TimeId_8hpp.html</filename>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
     <class kind="class">iv::TimeId</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TimeManipulator.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>TimeManipulator_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>TimeManipulator_8cpp.html</filename>
     <includes id="TimeManipulator_8hpp" name="TimeManipulator.hpp" local="yes" imported="no">TimeManipulator.hpp</includes>
     <includes id="TimeSystem_8hpp" name="TimeSystem.hpp" local="yes" imported="no">TimeSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TimeManipulator.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>TimeManipulator_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>TimeManipulator_8hpp.html</filename>
     <includes id="TimeId_8hpp" name="TimeId.hpp" local="yes" imported="no">TimeId.hpp</includes>
     <class kind="class">iv::TimeManipulator</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>TimeSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>TimeSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>TimeSystem_8cpp.html</filename>
     <includes id="TimeSystem_8hpp" name="TimeSystem.hpp" local="yes" imported="no">TimeSystem.hpp</includes>
     <includes id="Watch_8hpp" name="Watch.hpp" local="yes" imported="no">Watch.hpp</includes>
     <includes id="FixedUpdateClient_8hpp" name="FixedUpdateClient.hpp" local="yes" imported="no">FixedUpdateClient.hpp</includes>
@@ -4125,8 +4125,8 @@
   </compound>
   <compound kind="file">
     <name>TimeSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>TimeSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>TimeSystem_8hpp.html</filename>
     <includes id="FrameUpdateClient_8hpp" name="FrameUpdateClient.hpp" local="yes" imported="no">FrameUpdateClient.hpp</includes>
     <includes id="TimeId_8hpp" name="TimeId.hpp" local="yes" imported="no">TimeId.hpp</includes>
     <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
@@ -4136,16 +4136,16 @@
   </compound>
   <compound kind="file">
     <name>Watch.cpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>Watch_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>Watch_8cpp.html</filename>
     <includes id="Watch_8hpp" name="Watch.hpp" local="yes" imported="no">Watch.hpp</includes>
     <includes id="TimeSystem_8hpp" name="TimeSystem.hpp" local="yes" imported="no">TimeSystem.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Watch.hpp</name>
-    <path>/github/workspace/src/ivorium_systems/TimeSystem/</path>
-    <filename>Watch_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_systems/TimeSystem/</path>
+    <filename>Watch_8hpp.html</filename>
     <includes id="TimeId_8hpp" name="TimeId.hpp" local="yes" imported="no">TimeId.hpp</includes>
     <includes id="TimeSystem_8hpp" name="TimeSystem.hpp" local="yes" imported="no">TimeSystem.hpp</includes>
     <includes id="ivorium__systems_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
@@ -4155,23 +4155,23 @@
   </compound>
   <compound kind="file">
     <name>DefaultLumaStyles.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>DefaultLumaStyles_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>DefaultLumaStyles_8cpp.html</filename>
     <includes id="DefaultLumaStyles_8hpp" name="DefaultLumaStyles.hpp" local="yes" imported="no">DefaultLumaStyles.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>DefaultLumaStyles.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>DefaultLumaStyles_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>DefaultLumaStyles_8hpp.html</filename>
     <includes id="LumaSystem_8hpp" name="LumaSystem.hpp" local="yes" imported="no">LumaSystem.hpp</includes>
     <class kind="class">iv::DefaultLumaStyles</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>ivorium_UI.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>ivorium__UI_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>ivorium__UI_8hpp.html</filename>
     <includes id="SimpleSplash_8hpp" name="SimpleSplash.hpp" local="yes" imported="no">SimpleSplash.hpp</includes>
     <includes id="LumaText_8hpp" name="LumaText.hpp" local="yes" imported="no">LumaText.hpp</includes>
     <includes id="LumaButton_8hpp" name="LumaButton.hpp" local="yes" imported="no">LumaButton.hpp</includes>
@@ -4184,8 +4184,8 @@
   </compound>
   <compound kind="file">
     <name>LumaButton.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaButton_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaButton_8cpp.html</filename>
     <includes id="LumaButton_8hpp" name="LumaButton.hpp" local="yes" imported="no">LumaButton.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <includes id="ivorium__UI_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
@@ -4193,8 +4193,8 @@
   </compound>
   <compound kind="file">
     <name>LumaButton.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaButton_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaButton_8hpp.html</filename>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <includes id="LumaSystem_8hpp" name="LumaSystem.hpp" local="yes" imported="no">LumaSystem.hpp</includes>
     <class kind="class">iv::LumaButton</class>
@@ -4202,15 +4202,15 @@
   </compound>
   <compound kind="file">
     <name>LumaFrame.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaFrame_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaFrame_8cpp.html</filename>
     <includes id="LumaFrame_8hpp" name="LumaFrame.hpp" local="yes" imported="no">LumaFrame.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>LumaFrame.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaFrame_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaFrame_8hpp.html</filename>
     <includes id="LumaScroller_8hpp" name="LumaScroller.hpp" local="yes" imported="no">LumaScroller.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="class">iv::LumaFrame</class>
@@ -4218,8 +4218,8 @@
   </compound>
   <compound kind="file">
     <name>LumaScroller.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaScroller_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaScroller_8cpp.html</filename>
     <includes id="LumaScroller_8hpp" name="LumaScroller.hpp" local="yes" imported="no">LumaScroller.hpp</includes>
     <includes id="ivorium__UI_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
@@ -4227,24 +4227,24 @@
   </compound>
   <compound kind="file">
     <name>LumaScroller.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaScroller_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaScroller_8hpp.html</filename>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="class">iv::LumaScroller</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>LumaSystem.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaSystem_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaSystem_8cpp.html</filename>
     <includes id="LumaSystem_8hpp" name="LumaSystem.hpp" local="yes" imported="no">LumaSystem.hpp</includes>
     <includes id="ivorium__UI_2Defs_8hpp" name="Defs.hpp" local="yes" imported="no">Defs.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>LumaSystem.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaSystem_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaSystem_8hpp.html</filename>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="class">iv::LumaStyleId</class>
     <class kind="struct">std::hash&lt; iv::LumaStyleId &gt;</class>
@@ -4256,15 +4256,15 @@
   </compound>
   <compound kind="file">
     <name>LumaText.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaText_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaText_8cpp.html</filename>
     <includes id="LumaText_8hpp" name="LumaText.hpp" local="yes" imported="no">LumaText.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>LumaText.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>LumaText_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>LumaText_8hpp.html</filename>
     <includes id="LumaSystem_8hpp" name="LumaSystem.hpp" local="yes" imported="no">LumaSystem.hpp</includes>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="class">iv::LumaText</class>
@@ -4272,31 +4272,31 @@
   </compound>
   <compound kind="file">
     <name>Rectangle_LumaButton.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>Rectangle__LumaButton_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>Rectangle__LumaButton_8cpp.html</filename>
     <includes id="Rectangle__LumaButton_8hpp" name="Rectangle_LumaButton.hpp" local="yes" imported="no">Rectangle_LumaButton.hpp</includes>
     <includes id="LumaText_8hpp" name="LumaText.hpp" local="yes" imported="no">LumaText.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>Rectangle_LumaButton.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>Rectangle__LumaButton_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>Rectangle__LumaButton_8hpp.html</filename>
     <includes id="LumaButton_8hpp" name="LumaButton.hpp" local="yes" imported="no">LumaButton.hpp</includes>
     <class kind="class">iv::Rectangle_LumaButton</class>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SimpleSplash.cpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>SimpleSplash_8cpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>SimpleSplash_8cpp.html</filename>
     <includes id="SimpleSplash_8hpp" name="SimpleSplash.hpp" local="yes" imported="no">SimpleSplash.hpp</includes>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>SimpleSplash.hpp</name>
-    <path>/github/workspace/src/ivorium_UI/</path>
-    <filename>SimpleSplash_8hpp</filename>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_UI/</path>
+    <filename>SimpleSplash_8hpp.html</filename>
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="class">iv::SimpleSplash</class>
     <namespace>iv</namespace>
@@ -4447,6 +4447,13 @@
       <anchorfile>classiv_1_1Align.html</anchorfile>
       <anchor>a0d088d4d3ecab0c8b4979a56c38dc115</anchor>
       <arglist>(float3)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Align.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -4677,10 +4684,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_set&lt; AnimNodeI *&gt; const  &amp;</type>
+      <type>const std::unordered_set&lt; AnimNodeI * &gt; &amp;</type>
       <name>Debug_Nodes</name>
       <anchorfile>classiv_1_1AnimHeap.html</anchorfile>
-      <anchor>a8eb2f622a0ce9b68017d0e1ac81a382a</anchor>
+      <anchor>aaf7c40c3a4f2097b6d6f094ecce9a0ff</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -4750,8 +4757,7 @@
   <compound kind="class">
     <name>iv::AnimNode</name>
     <filename>classiv_1_1AnimNode.html</filename>
-    <templarg>T</templarg>
-    <base>iv::AnimNodeI</base>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>AnimNode</name>
@@ -4774,10 +4780,10 @@
       <arglist>(std::string const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>std::string const  &amp;</type>
+      <type>const std::string &amp;</type>
       <name>label</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a7594e1a68c9bf2ed65f1e613ff9d44c4</anchor>
+      <anchor>a364674ea5741497e4611bf0a41e36c6a</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -4823,17 +4829,17 @@
       <arglist>(T const &amp;target)</arglist>
     </member>
     <member kind="function">
-      <type>T const  &amp;</type>
+      <type>const T &amp;</type>
       <name>Target</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a90fb1fb523254697312ef7cf12354fc8</anchor>
+      <anchor>a9e436b36e6bce9391118f9305f16d08a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>T const  &amp;</type>
+      <type>const T &amp;</type>
       <name>LastTarget</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a57ae5e1fc4cd7df01e000191b2650ec8</anchor>
+      <anchor>a90d110fce86efd6a19a1e54d66c76caf</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -4861,7 +4867,6 @@
   <compound kind="class">
     <name>AnimNode&lt; bool &gt;</name>
     <filename>classiv_1_1AnimNode.html</filename>
-    <base>iv::AnimNodeI</base>
     <member kind="function">
       <type></type>
       <name>AnimNode</name>
@@ -4884,10 +4889,10 @@
       <arglist>(std::string const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>std::string const &amp;</type>
+      <type>const std::string &amp;</type>
       <name>label</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a7594e1a68c9bf2ed65f1e613ff9d44c4</anchor>
+      <anchor>a364674ea5741497e4611bf0a41e36c6a</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -4933,17 +4938,17 @@
       <arglist>(bool const &amp;target)</arglist>
     </member>
     <member kind="function">
-      <type>bool const &amp;</type>
+      <type>const bool &amp;</type>
       <name>Target</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a90fb1fb523254697312ef7cf12354fc8</anchor>
+      <anchor>a9e436b36e6bce9391118f9305f16d08a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>bool const &amp;</type>
+      <type>const bool &amp;</type>
       <name>LastTarget</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a57ae5e1fc4cd7df01e000191b2650ec8</anchor>
+      <anchor>a90d110fce86efd6a19a1e54d66c76caf</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -4971,7 +4976,6 @@
   <compound kind="class">
     <name>AnimNode&lt; iv::Activator &gt;</name>
     <filename>classiv_1_1AnimNode.html</filename>
-    <base>iv::AnimNodeI</base>
     <member kind="function">
       <type></type>
       <name>AnimNode</name>
@@ -4994,10 +4998,10 @@
       <arglist>(std::string const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>std::string const &amp;</type>
+      <type>const std::string &amp;</type>
       <name>label</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a7594e1a68c9bf2ed65f1e613ff9d44c4</anchor>
+      <anchor>a364674ea5741497e4611bf0a41e36c6a</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -5043,17 +5047,17 @@
       <arglist>(iv::Activator const &amp;target)</arglist>
     </member>
     <member kind="function">
-      <type>iv::Activator const &amp;</type>
+      <type>const iv::Activator &amp;</type>
       <name>Target</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a90fb1fb523254697312ef7cf12354fc8</anchor>
+      <anchor>a9e436b36e6bce9391118f9305f16d08a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>iv::Activator const &amp;</type>
+      <type>const iv::Activator &amp;</type>
       <name>LastTarget</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a57ae5e1fc4cd7df01e000191b2650ec8</anchor>
+      <anchor>a90d110fce86efd6a19a1e54d66c76caf</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -5081,7 +5085,6 @@
   <compound kind="class">
     <name>AnimNode&lt; TChild &gt;</name>
     <filename>classiv_1_1AnimNode.html</filename>
-    <base>iv::AnimNodeI</base>
     <member kind="function">
       <type></type>
       <name>AnimNode</name>
@@ -5104,10 +5107,10 @@
       <arglist>(std::string const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>std::string const &amp;</type>
+      <type>const std::string &amp;</type>
       <name>label</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a7594e1a68c9bf2ed65f1e613ff9d44c4</anchor>
+      <anchor>a364674ea5741497e4611bf0a41e36c6a</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -5153,17 +5156,17 @@
       <arglist>(TChild const &amp;target)</arglist>
     </member>
     <member kind="function">
-      <type>TChild const &amp;</type>
+      <type>const TChild &amp;</type>
       <name>Target</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a90fb1fb523254697312ef7cf12354fc8</anchor>
+      <anchor>a9e436b36e6bce9391118f9305f16d08a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>TChild const &amp;</type>
+      <type>const TChild &amp;</type>
       <name>LastTarget</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a57ae5e1fc4cd7df01e000191b2650ec8</anchor>
+      <anchor>a90d110fce86efd6a19a1e54d66c76caf</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -5191,7 +5194,6 @@
   <compound kind="class">
     <name>AnimNode&lt; TParent &gt;</name>
     <filename>classiv_1_1AnimNode.html</filename>
-    <base>iv::AnimNodeI</base>
     <member kind="function">
       <type></type>
       <name>AnimNode</name>
@@ -5214,10 +5216,10 @@
       <arglist>(std::string const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>std::string const &amp;</type>
+      <type>const std::string &amp;</type>
       <name>label</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a7594e1a68c9bf2ed65f1e613ff9d44c4</anchor>
+      <anchor>a364674ea5741497e4611bf0a41e36c6a</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -5263,17 +5265,17 @@
       <arglist>(TParent const &amp;target)</arglist>
     </member>
     <member kind="function">
-      <type>TParent const &amp;</type>
+      <type>const TParent &amp;</type>
       <name>Target</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a90fb1fb523254697312ef7cf12354fc8</anchor>
+      <anchor>a9e436b36e6bce9391118f9305f16d08a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>TParent const &amp;</type>
+      <type>const TParent &amp;</type>
       <name>LastTarget</name>
       <anchorfile>classiv_1_1AnimNode.html</anchorfile>
-      <anchor>a57ae5e1fc4cd7df01e000191b2650ec8</anchor>
+      <anchor>a90d110fce86efd6a19a1e54d66c76caf</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -5337,10 +5339,10 @@
       <arglist>(std::string const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>std::string const  &amp;</type>
+      <type>const std::string &amp;</type>
       <name>label</name>
       <anchorfile>classiv_1_1AnimNodeI.html</anchorfile>
-      <anchor>a2d3425c2828d781fc5f4218a7591f54a</anchor>
+      <anchor>a35392509843a30ca15cb172bd023bf09</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
@@ -5554,7 +5556,7 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>std::unordered_set&lt; AnimConnector *&gt;</type>
+      <type>std::unordered_set&lt; AnimConnector * &gt;</type>
       <name>_children</name>
       <anchorfile>classiv_1_1AnimNodeI.html</anchorfile>
       <anchor>a1614bf412048a94a2110981b9d3a5b4e</anchor>
@@ -5688,7 +5690,7 @@
   <compound kind="class">
     <name>iv::Attr</name>
     <filename>classiv_1_1Attr.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base>iv::Attribute</base>
     <member kind="function">
       <type></type>
@@ -6207,46 +6209,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>Attr&lt; iv::Activator &gt;</name>
-    <filename>classiv_1_1Attr.html</filename>
-    <base>iv::Attribute</base>
-    <member kind="function">
-      <type></type>
-      <name>Attr</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>a19833339ce0389929b40f8f810e36559</anchor>
-      <arglist>(ClientMarker *, AttributeEventProcessor *, bool allow_ModifyMode)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Activator</type>
-      <name>Get</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>abc71c8d460a69bc0edf663392004ea45</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Modify</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>aa8a8337c8d2d5c5ef4819a87ab77ab05</anchor>
-      <arglist>(ClientMarker *modifier, iv::Activator const &amp;)</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>GetSourceValue</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>a95e6bbe30d84a241d252a5f0c5328413</anchor>
-      <arglist>(iv::Activator &amp;out) const=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>ModifySource</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>aafd49741d288a51cc410544e402989a8</anchor>
-      <arglist>(iv::Activator const &amp;)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>Attr&lt; iv::FontMesh::Location &gt;</name>
     <filename>classiv_1_1Attr.html</filename>
     <base>iv::Attribute</base>
@@ -6364,86 +6326,6 @@
       <anchorfile>classiv_1_1Attr.html</anchorfile>
       <anchor>aafd49741d288a51cc410544e402989a8</anchor>
       <arglist>(iv::ShaderScissor const &amp;)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>Attr&lt; iv::SlotChild * &gt;</name>
-    <filename>classiv_1_1Attr.html</filename>
-    <base>iv::Attribute</base>
-    <member kind="function">
-      <type></type>
-      <name>Attr</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>a19833339ce0389929b40f8f810e36559</anchor>
-      <arglist>(ClientMarker *, AttributeEventProcessor *, bool allow_ModifyMode)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::SlotChild *</type>
-      <name>Get</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>abc71c8d460a69bc0edf663392004ea45</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Modify</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>aa8a8337c8d2d5c5ef4819a87ab77ab05</anchor>
-      <arglist>(ClientMarker *modifier, iv::SlotChild * const &amp;)</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>GetSourceValue</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>a95e6bbe30d84a241d252a5f0c5328413</anchor>
-      <arglist>(iv::SlotChild * &amp;out) const=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>ModifySource</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>aafd49741d288a51cc410544e402989a8</anchor>
-      <arglist>(iv::SlotChild * const &amp;)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>Attr&lt; iv::SumAgg&lt; int &gt; &gt;</name>
-    <filename>classiv_1_1Attr.html</filename>
-    <base>iv::Attribute</base>
-    <member kind="function">
-      <type></type>
-      <name>Attr</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>a19833339ce0389929b40f8f810e36559</anchor>
-      <arglist>(ClientMarker *, AttributeEventProcessor *, bool allow_ModifyMode)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::SumAgg&lt; int &gt;</type>
-      <name>Get</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>abc71c8d460a69bc0edf663392004ea45</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Modify</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>aa8a8337c8d2d5c5ef4819a87ab77ab05</anchor>
-      <arglist>(ClientMarker *modifier, iv::SumAgg&lt; int &gt; const &amp;)</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>GetSourceValue</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>a95e6bbe30d84a241d252a5f0c5328413</anchor>
-      <arglist>(iv::SumAgg&lt; int &gt; &amp;out) const=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>ModifySource</name>
-      <anchorfile>classiv_1_1Attr.html</anchorfile>
-      <anchor>aafd49741d288a51cc410544e402989a8</anchor>
-      <arglist>(iv::SumAgg&lt; int &gt; const &amp;)=0</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -6890,24 +6772,24 @@
     <filename>structiv_1_1Pratt_1_1Binary.html</filename>
     <base>iv::Pratt::Expression</base>
     <member kind="function" virtualness="virtual">
-      <type>virtual Binary const  *</type>
+      <type>virtual const Binary *</type>
       <name>ToBinary</name>
       <anchorfile>structiv_1_1Pratt_1_1Binary.html</anchorfile>
-      <anchor>a13e02504216509bc2f52e3ba4877fab3</anchor>
+      <anchor>aecc46fb4d355882fda3cd621927602e3</anchor>
       <arglist>() const override</arglist>
     </member>
     <member kind="variable">
-      <type>Expression const  *</type>
+      <type>const Expression *</type>
       <name>left</name>
       <anchorfile>structiv_1_1Pratt_1_1Binary.html</anchorfile>
-      <anchor>a22a23c7e0bab39aae2d3f4871bbf7cc7</anchor>
+      <anchor>a0bfc49114d91e27a7a7e87a75484c91d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>Expression const  *</type>
+      <type>const Expression *</type>
       <name>right</name>
       <anchorfile>structiv_1_1Pratt_1_1Binary.html</anchorfile>
-      <anchor>ae8ee43e3e184bf72b6ce52f525d03701</anchor>
+      <anchor>a571feb848c83a1aee8e5059f89059ca0</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7054,6 +6936,13 @@
       <anchor>aa5bf7f83c53fe61f36781b86dba4f112</anchor>
       <arglist>(std::optional&lt; float &gt; front, std::optional&lt; float &gt; back)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Border.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -7125,7 +7014,7 @@
   <compound kind="class">
     <name>iv::callback_client_ptr</name>
     <filename>classiv_1_1callback__client__ptr.html</filename>
-    <templarg>TypedClient</templarg>
+    <templarg></templarg>
     <base>iv::client_ptr</base>
     <member kind="function">
       <type>callback_client_ptr&lt; TypedClient &gt; &amp;</type>
@@ -7180,6 +7069,20 @@
       <anchorfile>classiv_1_1callback__instance__ptr.html</anchorfile>
       <anchor>ae766e7187359ab7975c0b38044ddaddd</anchor>
       <arglist>(std::function&lt; void() &gt; const &amp;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>instance_ptr</name>
+      <anchorfile>classiv_1_1callback__instance__ptr.html</anchorfile>
+      <anchor>a60aa6fa50010aa21ef0ac1aa411b7d37</anchor>
+      <arglist>(Instance *inst=nullptr)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>instance_ptr</name>
+      <anchorfile>classiv_1_1callback__instance__ptr.html</anchorfile>
+      <anchor>a23aee51d10d686f1881278c93d7c9cae</anchor>
+      <arglist>(instance_ptr const &amp;other)</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="virtual">
       <type>virtual void</type>
@@ -7322,6 +7225,13 @@
       <anchor>a8644f9f47d2e3deeea71cb46f6ccaa88</anchor>
       <arglist>(CharListener *)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Char__InputNode.html</anchorfile>
+      <anchor>a599f4f38a2c3d929f95e848d4450d379</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -7400,7 +7310,7 @@
   <compound kind="class">
     <name>iv::client_ptr</name>
     <filename>classiv_1_1client__ptr.html</filename>
-    <templarg>TypedClient</templarg>
+    <templarg></templarg>
     <base>iv::instance_ptr_interface</base>
     <member kind="function">
       <type></type>
@@ -7598,10 +7508,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>std::string const  &amp;</type>
+      <type>const std::string &amp;</type>
       <name>name</name>
       <anchorfile>classiv_1_1ClientMarker.html</anchorfile>
-      <anchor>a96bf6024c894ce16493b3c4c907da2d6</anchor>
+      <anchor>acfaa57294639f9e49f1ff21245ee8d81</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -7668,45 +7578,45 @@
       <arglist>(TreeDebugView *view, TreeDebugView::BoxStyle=TreeDebugView::BoxStyle::Solid) const</arglist>
     </member>
     <member kind="function">
-      <type>ClientMarker const  *</type>
+      <type>const ClientMarker *</type>
       <name>inheritance_root</name>
       <anchorfile>classiv_1_1ClientMarker.html</anchorfile>
-      <anchor>a533e344c24c0970594919c7f8c98fdca</anchor>
+      <anchor>ac45a5c07f04738e518697051a5ae8f16</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>ClientMarker const  *</type>
+      <type>const ClientMarker *</type>
       <name>inheritance_child</name>
       <anchorfile>classiv_1_1ClientMarker.html</anchorfile>
-      <anchor>a3dde3d5075a944cd01e44f14708ee662</anchor>
+      <anchor>a7b4e9785d9ea40c221dde918ec84f4c8</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_set&lt; ClientMarker const *&gt;</type>
+      <type>std::unordered_set&lt; ClientMarker const * &gt;</type>
       <name>inheritance_parents</name>
       <anchorfile>classiv_1_1ClientMarker.html</anchorfile>
-      <anchor>a76b413bd0154a3d73db72fce314a64fc</anchor>
+      <anchor>a81c4cb68bbbe82a65833d5305ad938d3</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>ClientMarker const  *</type>
+      <type>const ClientMarker *</type>
       <name>relation_root</name>
       <anchorfile>classiv_1_1ClientMarker.html</anchorfile>
-      <anchor>a46c8c44c5ac7e9593ccf6743a2e318f0</anchor>
+      <anchor>acab1cdae24432d3eb3b9a7c5d4c36bdc</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>ClientMarker const  *</type>
+      <type>const ClientMarker *</type>
       <name>ownership_parent</name>
       <anchorfile>classiv_1_1ClientMarker.html</anchorfile>
-      <anchor>a56372a3ebfac81433e7e38fbf4744fac</anchor>
+      <anchor>a7c661a5773099cc737cf9e37258c6a33</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_set&lt; ClientMarker const *&gt;</type>
+      <type>std::unordered_set&lt; ClientMarker const * &gt;</type>
       <name>ownership_children</name>
       <anchorfile>classiv_1_1ClientMarker.html</anchorfile>
-      <anchor>affb357ed9e8fd0457ac9392357da59f5</anchor>
+      <anchor>a3920f87989602ea50806d330eae0377e</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="virtual">
@@ -8123,7 +8033,7 @@
   <compound kind="class">
     <name>iv::Cooldown_Connector</name>
     <filename>classiv_1_1Cooldown__Connector.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base>Transform_ConnectorI&lt; T, T &gt;</base>
     <member kind="function">
       <type></type>
@@ -8206,6 +8116,13 @@
       <anchorfile>classiv_1_1DataStream.html</anchorfile>
       <anchor>ac50b7d99f8ca1ab2fba38ced28f7c36f</anchor>
       <arglist>(std::function&lt; void(std::istream &amp;) &gt; const &amp;) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1DataStream.html</anchorfile>
+      <anchor>a0e1a0d41dda216a6e0d03419bc49d043</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -8503,10 +8420,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>DelayedLoadStatus const  &amp;</type>
+      <type>const DelayedLoadStatus &amp;</type>
       <name>LoadingStatus</name>
       <anchorfile>classiv_1_1DelayedLoader.html</anchorfile>
-      <anchor>acdcc1bb9c9259695048b42bcddffafca</anchor>
+      <anchor>a77daec7ca3e1ce5d9057a0f3354cf0b2</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -8652,10 +8569,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>DelayedLoadStatus const  &amp;</type>
+      <type>const DelayedLoadStatus &amp;</type>
       <name>Status</name>
       <anchorfile>classiv_1_1DelayedLoadSystem.html</anchorfile>
-      <anchor>a1d447701676ec26f7c8a548476b055f0</anchor>
+      <anchor>aa1067d2f203f392dafc8fed01cb13bf1</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -8696,8 +8613,8 @@
   <compound kind="class">
     <name>iv::Destination_ConnectorGI</name>
     <filename>classiv_1_1Destination__ConnectorGI.html</filename>
-    <templarg>T</templarg>
-    <templarg>Interp</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
     <base>iv::AnimConnector</base>
     <member kind="function">
       <type></type>
@@ -8754,6 +8671,13 @@
       <anchorfile>classiv_1_1Destination__ConnectorGI.html</anchorfile>
       <anchor>a2b7aa97c4ab749aeab39f3ef35048968</anchor>
       <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Destination__ConnectorGI.html</anchorfile>
+      <anchor>a3347f0693f158febd408efb3b1041cdd</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -8822,6 +8746,13 @@
       <anchorfile>classiv_1_1Destination__ConnectorGI.html</anchorfile>
       <anchor>a2b7aa97c4ab749aeab39f3ef35048968</anchor>
       <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Destination__ConnectorGI.html</anchorfile>
+      <anchor>a3347f0693f158febd408efb3b1041cdd</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -8894,7 +8825,7 @@
   <compound kind="class">
     <name>iv::DirtyAttr</name>
     <filename>classiv_1_1DirtyAttr.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base protection="private">iv::Local_AEP</base>
     <base>iv::DirtyAttr_I</base>
     <member kind="function">
@@ -9295,7 +9226,7 @@
   <compound kind="class">
     <name>iv::DirtyAttr_I</name>
     <filename>classiv_1_1DirtyAttr__I.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base>iv::Attr</base>
     <member kind="function">
       <type></type>
@@ -10126,6 +10057,13 @@
       <anchor>a0b2fe0fe58f4761957119dd7b9e71440</anchor>
       <arglist>(AxisOrder)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Divider.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -10341,7 +10279,7 @@
   <compound kind="class">
     <name>iv::DVarIdT</name>
     <filename>classiv_1_1DVarIdT.html</filename>
-    <templarg>Type</templarg>
+    <templarg></templarg>
     <base>iv::DVarId</base>
     <member kind="function">
       <type></type>
@@ -11005,24 +10943,24 @@
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual Unary const  *</type>
+      <type>virtual const Unary *</type>
       <name>ToUnary</name>
       <anchorfile>structiv_1_1Pratt_1_1Expression.html</anchorfile>
-      <anchor>a25ef796e3baeeb97800c022ca1c01ce3</anchor>
+      <anchor>a20ced808d5d38e1572571ce22885cdb6</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual Binary const  *</type>
+      <type>virtual const Binary *</type>
       <name>ToBinary</name>
       <anchorfile>structiv_1_1Pratt_1_1Expression.html</anchorfile>
-      <anchor>a3b6f32e9e657efad11cd7910b1ed065c</anchor>
+      <anchor>a839a015d5716c0d0ae86fe5239d6597e</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual Value const  *</type>
+      <type>virtual const Value *</type>
       <name>ToValue</name>
       <anchorfile>structiv_1_1Pratt_1_1Expression.html</anchorfile>
-      <anchor>a60524646c414dcb1be853830a3998f43</anchor>
+      <anchor>aa89fe13bf769bc75eff700ab6372abae</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -11050,7 +10988,7 @@
   <compound kind="class">
     <name>iv::Field</name>
     <filename>classiv_1_1Field.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base>iv::FieldI</base>
     <base protection="private">iv::AttributeListener</base>
     <member kind="function">
@@ -11264,228 +11202,6 @@
     </member>
     <member kind="variable" protection="protected">
       <type>Attr&lt; Activator &gt; *</type>
-      <name>source_rw</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a480612aef2f64cc55286a2cc4c3d350b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>Field&lt; iv::Activator &gt;</name>
-    <filename>classiv_1_1Field.html</filename>
-    <base>iv::FieldI</base>
-    <base protection="private">iv::AttributeListener</base>
-    <member kind="function">
-      <type></type>
-      <name>Field</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ac97dd9bf6eff431e1685a8938de63cdb</anchor>
-      <arglist>(Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~Field</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a6c5d7df7cf0d22234d136473aa851872</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>Instance *</type>
-      <name>instance</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a870091bd0cfc2f0094caf29111227075</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Release_Attribute</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ac32821824b0abf7deafd2bd8226ab895</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Assign_Attribute_R</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ad748ccf026859cebc38eef00de3964ce</anchor>
-      <arglist>(Attr&lt; iv::Activator &gt; *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Assign_Attribute_RW</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a5cf527a90d6f9e15056b1286445316e5</anchor>
-      <arglist>(Attr&lt; iv::Activator &gt; *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Assign_Constant</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a876768c7a4158c62b2a2753e1feebed4</anchor>
-      <arglist>(iv::Activator const &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Activator</type>
-      <name>Get</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a4194f0fd56a14780879017a1aab9bacd</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Modify</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>aa52c0f124b5b194b3a8c8d2e94505215</anchor>
-      <arglist>(iv::Activator const &amp;)</arglist>
-    </member>
-    <member kind="variable">
-      <type>ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a8db71af2ddd144d6919653570c435e3c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>OnChanged</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a5e109dafdbaec0b2a35ffda51e536940</anchor>
-      <arglist>(bool real)=0</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>Instance *</type>
-      <name>inst</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ade4194681d9134fd9d0c3ecd7fc48446</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>std::optional&lt; iv::Activator &gt;</type>
-      <name>constant</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>aeae4a87198f71bba5af4ae8e19a213a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>Attr&lt; iv::Activator &gt; *</type>
-      <name>source_r</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>acf978ef4a8773279e4bf818a1fc5b60a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>Attr&lt; iv::Activator &gt; *</type>
-      <name>source_rw</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a480612aef2f64cc55286a2cc4c3d350b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>Field&lt; iv::SumAgg&lt; int &gt; &gt;</name>
-    <filename>classiv_1_1Field.html</filename>
-    <base>iv::FieldI</base>
-    <base protection="private">iv::AttributeListener</base>
-    <member kind="function">
-      <type></type>
-      <name>Field</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ac97dd9bf6eff431e1685a8938de63cdb</anchor>
-      <arglist>(Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~Field</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a6c5d7df7cf0d22234d136473aa851872</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>Instance *</type>
-      <name>instance</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a870091bd0cfc2f0094caf29111227075</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Release_Attribute</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ac32821824b0abf7deafd2bd8226ab895</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Assign_Attribute_R</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ad748ccf026859cebc38eef00de3964ce</anchor>
-      <arglist>(Attr&lt; iv::SumAgg&lt; int &gt; &gt; *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Assign_Attribute_RW</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a5cf527a90d6f9e15056b1286445316e5</anchor>
-      <arglist>(Attr&lt; iv::SumAgg&lt; int &gt; &gt; *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Assign_Constant</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a876768c7a4158c62b2a2753e1feebed4</anchor>
-      <arglist>(iv::SumAgg&lt; int &gt; const &amp;)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::SumAgg&lt; int &gt;</type>
-      <name>Get</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a4194f0fd56a14780879017a1aab9bacd</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Modify</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>aa52c0f124b5b194b3a8c8d2e94505215</anchor>
-      <arglist>(iv::SumAgg&lt; int &gt; const &amp;)</arglist>
-    </member>
-    <member kind="variable">
-      <type>ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a8db71af2ddd144d6919653570c435e3c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>OnChanged</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>a5e109dafdbaec0b2a35ffda51e536940</anchor>
-      <arglist>(bool real)=0</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>Instance *</type>
-      <name>inst</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>ade4194681d9134fd9d0c3ecd7fc48446</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>std::optional&lt; iv::SumAgg&lt; int &gt; &gt;</type>
-      <name>constant</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>aeae4a87198f71bba5af4ae8e19a213a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>Attr&lt; iv::SumAgg&lt; int &gt; &gt; *</type>
-      <name>source_r</name>
-      <anchorfile>classiv_1_1Field.html</anchorfile>
-      <anchor>acf978ef4a8773279e4bf818a1fc5b60a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>Attr&lt; iv::SumAgg&lt; int &gt; &gt; *</type>
       <name>source_rw</name>
       <anchorfile>classiv_1_1Field.html</anchorfile>
       <anchor>a480612aef2f64cc55286a2cc4c3d350b</anchor>
@@ -11841,6 +11557,13 @@
       <anchor>a20679a1e9136bd9e01e5717f95cc1573</anchor>
       <arglist>(ClientMarker const &amp;log_target, CameraState const &amp;camera, std::optional&lt; float &gt; depth_override, float4x4 const &amp;model, ShaderScissor const &amp;scissor, float4 preblend, bool translucent, GlMesh const *mesh, float3 mesh_resize, float2 mesh_texcoord_density, GlTexture const *texture, float texture_density_rel, float texture_msdf_pixelRange, Params const &amp;params) const</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1FlatShader.html</anchorfile>
+      <anchor>aba042a08c1f394406d523bab1add02a6</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -11937,24 +11660,24 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Info const  &amp;</type>
+      <type>const Info &amp;</type>
       <name>GetInfo</name>
       <anchorfile>classiv_1_1Font.html</anchorfile>
-      <anchor>adb86634052a51026ed32fecc631fbad4</anchor>
+      <anchor>ac7347c12d519faf9b8e69d74f113e503</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Variant const  &amp;</type>
+      <type>const Variant &amp;</type>
       <name>SelectVariant</name>
       <anchorfile>classiv_1_1Font.html</anchorfile>
-      <anchor>a51b309ad9dd438ac312eda999a4aa864</anchor>
+      <anchor>a425c556da68dc38e753b3ad00fce96a5</anchor>
       <arglist>(unsigned font_size) const</arglist>
     </member>
     <member kind="function">
-      <type>Variant const  &amp;</type>
+      <type>const Variant &amp;</type>
       <name>SelectVariantMsdf</name>
       <anchorfile>classiv_1_1Font.html</anchorfile>
-      <anchor>a43be6a56edcc224691cf21bdd6f22c13</anchor>
+      <anchor>a200ad57d7a363efe47055d18b2687674</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -12507,6 +12230,27 @@
     <name>iv::GlfmRenderTarget</name>
     <filename>classiv_1_1GlfmRenderTarget.html</filename>
     <base>iv::RenderTarget</base>
+    <member kind="function">
+      <type>void</type>
+      <name>set_geometry</name>
+      <anchorfile>classiv_1_1GlfmRenderTarget.html</anchorfile>
+      <anchor>a9f4cb6b407f81fea9f046c706c33f66c</anchor>
+      <arglist>(Geometry geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>frame_setup</name>
+      <anchorfile>classiv_1_1GlfmRenderTarget.html</anchorfile>
+      <anchor>a899cd729c949f9b5bf6f1fac4503f843</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>frame_close</name>
+      <anchorfile>classiv_1_1GlfmRenderTarget.html</anchorfile>
+      <anchor>a35f024960703cb2c3dd2e91bf8cf98d6</anchor>
+      <arglist>()</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>iv::GlfmWindow</name>
@@ -12580,6 +12324,27 @@
     <name>iv::GlfwRenderTarget</name>
     <filename>classiv_1_1GlfwRenderTarget.html</filename>
     <base>iv::RenderTarget</base>
+    <member kind="function">
+      <type>void</type>
+      <name>set_geometry</name>
+      <anchorfile>classiv_1_1GlfwRenderTarget.html</anchorfile>
+      <anchor>a9f4cb6b407f81fea9f046c706c33f66c</anchor>
+      <arglist>(Geometry geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>frame_setup</name>
+      <anchorfile>classiv_1_1GlfwRenderTarget.html</anchorfile>
+      <anchor>a899cd729c949f9b5bf6f1fac4503f843</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>frame_close</name>
+      <anchorfile>classiv_1_1GlfwRenderTarget.html</anchorfile>
+      <anchor>a35f024960703cb2c3dd2e91bf8cf98d6</anchor>
+      <arglist>()</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>iv::GlfwWindow</name>
@@ -13334,8 +13099,8 @@
   <compound kind="struct">
     <name>iv::hash</name>
     <filename>structiv_1_1hash.html</filename>
-    <templarg>Type</templarg>
-    <templarg>Enabled</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
     <member kind="typedef">
       <type>size_t</type>
       <name>result_type</name>
@@ -13382,11 +13147,6 @@
       <arglist>(iv::client_ptr&lt; TypedClient &gt; &amp;ptr)</arglist>
     </member>
   </compound>
-  <compound kind="struct">
-    <name>std::hash&lt; iv::DVarId &gt;</name>
-    <filename>structstd_1_1hash_3_01iv_1_1DVarId_01_4.html</filename>
-    <base>hash&lt; iv::DVarId &gt;</base>
-  </compound>
   <compound kind="class">
     <name>hash&lt; iv::DVarId &gt;</name>
     <filename>structiv_1_1hash.html</filename>
@@ -13411,6 +13171,11 @@
       <anchor>a18509adb9a3a6a8d5c9b9328088e3345</anchor>
       <arglist>(iv::DVarId const &amp;value) const</arglist>
     </member>
+  </compound>
+  <compound kind="struct">
+    <name>std::hash&lt; iv::DVarId &gt;</name>
+    <filename>structstd_1_1hash_3_01iv_1_1DVarId_01_4.html</filename>
+    <base>hash&lt; iv::DVarId &gt;</base>
   </compound>
   <compound kind="class">
     <name>hash&lt; iv::InputId &gt;</name>
@@ -13475,6 +13240,11 @@
       <arglist>(iv::int3 const &amp;val) const</arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>std::hash&lt; iv::LogId &gt;</name>
+    <filename>structstd_1_1hash_3_01iv_1_1LogId_01_4.html</filename>
+    <base>hash&lt; iv::LogId &gt;</base>
+  </compound>
   <compound kind="class">
     <name>hash&lt; iv::LogId &gt;</name>
     <filename>structiv_1_1hash.html</filename>
@@ -13501,9 +13271,9 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>std::hash&lt; iv::LogId &gt;</name>
-    <filename>structstd_1_1hash_3_01iv_1_1LogId_01_4.html</filename>
-    <base>hash&lt; iv::LogId &gt;</base>
+    <name>std::hash&lt; iv::LumaStyleId &gt;</name>
+    <filename>structstd_1_1hash_3_01iv_1_1LumaStyleId_01_4.html</filename>
+    <base>iv::hash</base>
   </compound>
   <compound kind="class">
     <name>hash&lt; iv::LumaStyleId &gt;</name>
@@ -13531,9 +13301,9 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>std::hash&lt; iv::LumaStyleId &gt;</name>
-    <filename>structstd_1_1hash_3_01iv_1_1LumaStyleId_01_4.html</filename>
-    <base>hash&lt; iv::LumaStyleId &gt;</base>
+    <name>std::hash&lt; iv::RandomId &gt;</name>
+    <filename>structstd_1_1hash_3_01iv_1_1RandomId_01_4.html</filename>
+    <base>hash&lt; iv::RandomId &gt;</base>
   </compound>
   <compound kind="class">
     <name>hash&lt; iv::RandomId &gt;</name>
@@ -13559,11 +13329,6 @@
       <anchor>a18509adb9a3a6a8d5c9b9328088e3345</anchor>
       <arglist>(iv::RandomId const &amp;value) const</arglist>
     </member>
-  </compound>
-  <compound kind="struct">
-    <name>std::hash&lt; iv::RandomId &gt;</name>
-    <filename>structstd_1_1hash_3_01iv_1_1RandomId_01_4.html</filename>
-    <base>hash&lt; iv::RandomId &gt;</base>
   </compound>
   <compound kind="struct">
     <name>std::hash&lt; iv::ResourcePath &gt;</name>
@@ -13763,7 +13528,7 @@
   <compound kind="class">
     <name>iv::I</name>
     <filename>classiv_1_1I.html</filename>
-    <templarg>ClientType</templarg>
+    <templarg></templarg>
     <base>iv::Instance</base>
     <member kind="function">
       <type></type>
@@ -13932,6 +13697,13 @@
       <anchorfile>classiv_1_1Image.html</anchorfile>
       <anchor>aa8d6f8edf7da5c979fb61f145702e31d</anchor>
       <arglist>(float4x4 const &amp;v)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Image.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -14987,10 +14759,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>SystemContainer const  *</type>
+      <type>const SystemContainer *</type>
       <name>getSystemContainer</name>
       <anchorfile>classiv_1_1Instance.html</anchorfile>
-      <anchor>a4ab42f77a1a14e3a94c3af021ec613e0</anchor>
+      <anchor>ad2e292ada0d23c19e2bbfd63889ee9cb</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -15015,10 +14787,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>std::string const  &amp;</type>
+      <type>const std::string &amp;</type>
       <name>instance_name</name>
       <anchorfile>classiv_1_1Instance.html</anchorfile>
-      <anchor>a57a822923789a25f1f938d611a773b1c</anchor>
+      <anchor>a96bcda1148e8011445031d7432ad25e0</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -15078,24 +14850,24 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_set&lt; Instance *&gt; const  &amp;</type>
+      <type>const std::unordered_set&lt; Instance * &gt; &amp;</type>
       <name>Debug_Children</name>
       <anchorfile>classiv_1_1Instance.html</anchorfile>
-      <anchor>aa0db9bc4dd4fccf2a4e6849eb39b662f</anchor>
+      <anchor>a6c216a4b667da4d953ab48cf41a7bd5e</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>ClientMarker const  *</type>
+      <type>const ClientMarker *</type>
       <name>Debug_RootClient</name>
       <anchorfile>classiv_1_1Instance.html</anchorfile>
-      <anchor>ad733fc79a802e0adc1f5350b36d36a24</anchor>
+      <anchor>ac5eede0bb5160999c0cb2d0deba85975</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_set&lt; ClientMarker const *&gt; const  &amp;</type>
+      <type>const std::unordered_set&lt; ClientMarker const * &gt; &amp;</type>
       <name>Debug_Clients</name>
       <anchorfile>classiv_1_1Instance.html</anchorfile>
-      <anchor>a544a70ef7d8cdaca448deeaab851a2bb</anchor>
+      <anchor>aef1d24795123dddfb23e84b12ebebce9</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -15337,10 +15109,10 @@
       <arglist>(Instance *)</arglist>
     </member>
     <member kind="function">
-      <type>volatile_set&lt; DebugInstanceListener *&gt; &amp;</type>
+      <type>volatile_set&lt; DebugInstanceListener * &gt; &amp;</type>
       <name>debug_listeners</name>
       <anchorfile>classiv_1_1InstanceSystem.html</anchorfile>
-      <anchor>aff5ca282beeba335b59b28a210138b77</anchor>
+      <anchor>a4c48a1d538a6c98028d8618d91fd6f57</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -15358,10 +15130,10 @@
       <arglist>(DebugInstanceListener *listener)</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_set&lt; Instance *&gt; const  &amp;</type>
+      <type>const std::unordered_set&lt; Instance * &gt; &amp;</type>
       <name>Debug_Instances</name>
       <anchorfile>classiv_1_1InstanceSystem.html</anchorfile>
-      <anchor>a5c4033289d517d007d919eac0e744ecb</anchor>
+      <anchor>a1562b6975ca7cb70546dfeba1e8442e8</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -15675,10 +15447,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Lex const  &amp;</type>
+      <type>const Lex &amp;</type>
       <name>lex</name>
       <anchorfile>classiv_1_1JsonLex.html</anchorfile>
-      <anchor>a60827cb2f762e56ce0f0b676353de756</anchor>
+      <anchor>a65817548b737f58fdcf862362fcccca0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -15827,6 +15599,13 @@
       <anchor>ac24e42217f1708ee050fb666e6f007d7</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Key__InputNode.html</anchorfile>
+      <anchor>a59025c6308ccbeb5dc6cb3495791474b</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -15936,6 +15715,13 @@
       <anchorfile>classiv_1_1Lambda__Connector.html</anchorfile>
       <anchor>a86a49f995bb74a4458dae9c0a532fbfd</anchor>
       <arglist>(bool warping=false)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Lambda__Connector.html</anchorfile>
+      <anchor>a3347f0693f158febd408efb3b1041cdd</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -16819,7 +16605,7 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>iv::PrivValAttr&lt; iv::SlotChild *&gt;</type>
+      <type>iv::PrivValAttr&lt; iv::SlotChild * &gt;</type>
       <name>child</name>
       <anchorfile>classiv_1_1LumaFrame.html</anchorfile>
       <anchor>a47dc756ba19338f40464f7c2aac434ae</anchor>
@@ -16872,10 +16658,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>LumaStyle const  &amp;</type>
+      <type>const LumaStyle &amp;</type>
       <name>style</name>
       <anchorfile>classiv_1_1LumaListener.html</anchorfile>
-      <anchor>a3ba774866f5775d30ea5194f99c463c7</anchor>
+      <anchor>ad22b3b44d111b8fa72094cad69ea962a</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -16912,6 +16698,13 @@
       <anchor>a6bfe0d14de3dbfbb0d5b647190be80a9</anchor>
       <arglist>(CArgs const &amp;... cargs)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1LumaScroller.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -16920,7 +16713,7 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>PrivValAttr&lt; SlotChild *&gt;</type>
+      <type>PrivValAttr&lt; SlotChild * &gt;</type>
       <name>child</name>
       <anchorfile>classiv_1_1LumaScroller.html</anchorfile>
       <anchor>aee29e3144d8c97061c1d8726db7b13d0</anchor>
@@ -17066,10 +16859,10 @@
       <arglist>(LumaStyleId, LumaStyle const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>LumaStyle const  &amp;</type>
+      <type>const LumaStyle &amp;</type>
       <name>style</name>
       <anchorfile>classiv_1_1LumaStyler.html</anchorfile>
-      <anchor>a89040c2527ac11752ca39e06932c05b0</anchor>
+      <anchor>a54e535770589081b59be53db3a562dfa</anchor>
       <arglist>(LumaStyleId) const</arglist>
     </member>
     <member kind="variable">
@@ -17120,10 +16913,10 @@
       <arglist>(LumaStyleId, LumaStyle const &amp;)</arglist>
     </member>
     <member kind="function">
-      <type>LumaStyle const  &amp;</type>
+      <type>const LumaStyle &amp;</type>
       <name>style</name>
       <anchorfile>classiv_1_1LumaSystem.html</anchorfile>
-      <anchor>a50f88e39b9b6c3f01f00f20e83f4e6fb</anchor>
+      <anchor>a55d34396ea91310f85a2038f8adc7fda</anchor>
       <arglist>(LumaStyleId) const</arglist>
     </member>
     <member kind="function">
@@ -17186,17 +16979,17 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>GlMesh const  *</type>
+      <type>const GlMesh *</type>
       <name>gl_mesh</name>
       <anchorfile>classiv_1_1Mesh.html</anchorfile>
-      <anchor>a2049f454a61b2fbd94b6f924e67de6da</anchor>
+      <anchor>a638571976b773e646669d777977d9a96</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>GlMesh *</type>
       <name>gl_mesh</name>
       <anchorfile>classiv_1_1Mesh.html</anchorfile>
-      <anchor>a00a131e9a929eadfc14e44652924d108</anchor>
+      <anchor>a3a4dc7e47097aa2d2a100670937cb2ae</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -17289,7 +17082,7 @@
   <compound kind="class">
     <name>iv::MulAgg</name>
     <filename>classiv_1_1MulAgg.html</filename>
-    <templarg>Float</templarg>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>MulAgg</name>
@@ -17414,7 +17207,7 @@
   <compound kind="class">
     <name>iv::OneChildElem</name>
     <filename>classiv_1_1OneChildElem.html</filename>
-    <templarg>ChildT</templarg>
+    <templarg></templarg>
     <base>iv::Elem</base>
     <member kind="function">
       <type></type>
@@ -17494,7 +17287,7 @@
       <arglist>(InputNode *child) override</arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>DirtyAttr&lt; ChildT *&gt;</type>
+      <type>DirtyAttr&lt; ChildT * &gt;</type>
       <name>child</name>
       <anchorfile>classiv_1_1OneChildElem.html</anchorfile>
       <anchor>a51d7d7e1ea0205501f677b16f6468247</anchor>
@@ -17718,14 +17511,14 @@
       <type>Elem *</type>
       <name>elem</name>
       <anchorfile>classiv_1_1Pickable.html</anchorfile>
-      <anchor>ab04fa76f72e956f34fd1787f9b864aea</anchor>
+      <anchor>ad3aa6a304fcde15fba1e73b8d1389047</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>Elem const  *</type>
+      <type>const Elem *</type>
       <name>elem</name>
       <anchorfile>classiv_1_1Pickable.html</anchorfile>
-      <anchor>a18de3200764ea007e4acce1675ec75e3</anchor>
+      <anchor>a753014c356fb40ba1618c10d4deddc21</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -17926,6 +17719,13 @@
       <anchor>a98f672450fc4785497a5eab111f473a6</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Position__InputNode.html</anchorfile>
+      <anchor>a599f4f38a2c3d929f95e848d4450d379</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -18012,10 +17812,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>Expression const  *</type>
+      <type>const Expression *</type>
       <name>root</name>
       <anchorfile>classiv_1_1Pratt.html</anchorfile>
-      <anchor>aea6254c35da966894c18afe8022f7103</anchor>
+      <anchor>a51b6af413239e9d331a91de1748c917f</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
@@ -18079,6 +17879,13 @@
       <anchorfile>classiv_1_1Prefsize.html</anchorfile>
       <anchor>a6f925277b373bb0913b43d290e915b1b</anchor>
       <arglist>(float3)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Prefsize.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -18154,8 +17961,7 @@
   <compound kind="class">
     <name>iv::PrivAttr_I</name>
     <filename>classiv_1_1PrivAttr__I.html</filename>
-    <templarg>T</templarg>
-    <base>iv::Attr</base>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>PrivAttr_I</name>
@@ -18188,7 +17994,7 @@
   <compound kind="class">
     <name>iv::PrivAttr_Owner</name>
     <filename>classiv_1_1PrivAttr__Owner.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>PrivAttr_Get</name>
@@ -18221,8 +18027,7 @@
   <compound kind="class">
     <name>iv::PrivField</name>
     <filename>classiv_1_1PrivField.html</filename>
-    <templarg>T</templarg>
-    <base>iv::Field</base>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>PrivField</name>
@@ -18255,7 +18060,6 @@
   <compound kind="class">
     <name>PrivField&lt; iv::Activator &gt;</name>
     <filename>classiv_1_1PrivField.html</filename>
-    <base>Field&lt; iv::Activator &gt;</base>
     <member kind="function">
       <type></type>
       <name>PrivField</name>
@@ -18288,7 +18092,6 @@
   <compound kind="class">
     <name>PrivField&lt; iv::SumAgg&lt; int &gt; &gt;</name>
     <filename>classiv_1_1PrivField.html</filename>
-    <base>Field&lt; iv::SumAgg&lt; int &gt; &gt;</base>
     <member kind="function">
       <type></type>
       <name>PrivField</name>
@@ -18321,7 +18124,7 @@
   <compound kind="class">
     <name>iv::PrivField_Owner</name>
     <filename>classiv_1_1PrivField__Owner.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
       <name>Field_OnChanged</name>
@@ -18412,7 +18215,7 @@
   <compound kind="class">
     <name>iv::PrivValAttr</name>
     <filename>classiv_1_1PrivValAttr.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base protection="private">iv::Local_AEP</base>
     <base>iv::PrivValAttr_I</base>
     <member kind="function">
@@ -18513,8 +18316,7 @@
   <compound kind="class">
     <name>iv::PrivValAttr_I</name>
     <filename>classiv_1_1PrivValAttr__I.html</filename>
-    <templarg>T</templarg>
-    <base>iv::Attr</base>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>PrivValAttr_I</name>
@@ -18554,7 +18356,6 @@
   <compound kind="class">
     <name>PrivValAttr_I&lt; bool &gt;</name>
     <filename>classiv_1_1PrivValAttr__I.html</filename>
-    <base>Attr&lt; bool &gt;</base>
     <member kind="function">
       <type></type>
       <name>PrivValAttr_I</name>
@@ -18594,7 +18395,6 @@
   <compound kind="class">
     <name>PrivValAttr_I&lt; float &gt;</name>
     <filename>classiv_1_1PrivValAttr__I.html</filename>
-    <base>Attr&lt; float &gt;</base>
     <member kind="function">
       <type></type>
       <name>PrivValAttr_I</name>
@@ -18634,7 +18434,6 @@
   <compound kind="class">
     <name>PrivValAttr_I&lt; iv::Activator &gt;</name>
     <filename>classiv_1_1PrivValAttr__I.html</filename>
-    <base>Attr&lt; iv::Activator &gt;</base>
     <member kind="function">
       <type></type>
       <name>PrivValAttr_I</name>
@@ -18674,7 +18473,6 @@
   <compound kind="class">
     <name>PrivValAttr_I&lt; iv::SlotChild * &gt;</name>
     <filename>classiv_1_1PrivValAttr__I.html</filename>
-    <base>Attr&lt; iv::SlotChild * &gt;</base>
     <member kind="function">
       <type></type>
       <name>PrivValAttr_I</name>
@@ -18747,6 +18545,13 @@
       <anchorfile>classiv_1_1ProtectedSlot.html</anchorfile>
       <anchor>aea5e8b090ddea5f0e6a6f18f7ce94021</anchor>
       <arglist>(Instance *inst)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1ProtectedSlot.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -19091,10 +18896,10 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>TResource const  *</type>
+      <type>const TResource *</type>
       <name>get</name>
       <anchorfile>classiv_1_1ResourceAccess.html</anchorfile>
-      <anchor>adbbd9684561fd1f15bc9d5fc2f2a521e</anchor>
+      <anchor>aea9140a0d99e2a7712f0481c36b7b26d</anchor>
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
@@ -19152,10 +18957,10 @@
       <arglist>(ResourcePath path)</arglist>
     </member>
     <member kind="function">
-      <type>TResource const  *</type>
+      <type>const TResource *</type>
       <name>get</name>
       <anchorfile>classiv_1_1ResourceManagementSystem.html</anchorfile>
-      <anchor>af36ca552b778577c5dd68d1fbbcec531</anchor>
+      <anchor>ae95e4cb6a7d2d938669ddffdc9de2d0c</anchor>
       <arglist>(ResourcePath path)</arglist>
     </member>
     <member kind="function">
@@ -19247,10 +19052,10 @@
       <arglist>(std::string const &amp;join)</arglist>
     </member>
     <member kind="function">
-      <type>std::string const  &amp;</type>
+      <type>const std::string &amp;</type>
       <name>string</name>
       <anchorfile>classiv_1_1ResourcePath.html</anchorfile>
-      <anchor>aa5d052d2cf4922a9b01d4b975f5080ff</anchor>
+      <anchor>a1db2860cfaea513270bb7189b669bb12</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -19342,7 +19147,7 @@
       <arglist>(ResourcePath const &amp;path, std::type_index type)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
-      <type>virtual std::pair&lt; void *, Instance *&gt;</type>
+      <type>virtual std::pair&lt; void *, Instance * &gt;</type>
       <name>create_resource</name>
       <anchorfile>classiv_1_1ResourceProvider.html</anchorfile>
       <anchor>a44fb23514cdace70f4fab0b276112319</anchor>
@@ -19474,7 +19279,7 @@
   <compound kind="class">
     <name>iv::RuntimeId</name>
     <filename>classiv_1_1RuntimeId.html</filename>
-    <templarg>Me</templarg>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>RuntimeId</name>
@@ -20342,6 +20147,13 @@
       <anchor>a7ae3eaf696bae687145145a63d4df516</anchor>
       <arglist>(bool)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Scroller.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -20501,10 +20313,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>GlProgram const  *</type>
+      <type>const GlProgram *</type>
       <name>gl_program</name>
       <anchorfile>classiv_1_1Shader.html</anchorfile>
-      <anchor>a3c304d423fcbdb4e21f899b9c3db88d7</anchor>
+      <anchor>a276f268f9f6a577d4d0ed95e9349990c</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -20540,10 +20352,10 @@
       <arglist>(ShaderScissor const &amp;right)</arglist>
     </member>
     <member kind="function">
-      <type>ShaderScissor const  &amp;</type>
+      <type>const ShaderScissor &amp;</type>
       <name>operator*</name>
       <anchorfile>structiv_1_1ShaderScissor.html</anchorfile>
-      <anchor>a496325630b707beecf6d0e68ffceb1ae</anchor>
+      <anchor>aa9a39d2c6a714521e200f89e13549d2e</anchor>
       <arglist>(ShaderScissor const &amp;right) const</arglist>
     </member>
     <member kind="function">
@@ -20585,7 +20397,7 @@
   <compound kind="class">
     <name>iv::SharedAttr</name>
     <filename>classiv_1_1SharedAttr.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base protection="private">iv::Local_AEP</base>
     <base>iv::SharedAttr_I</base>
     <member kind="function">
@@ -20664,6 +20476,13 @@
       <anchorfile>classiv_1_1SimpleDiagnostics.html</anchorfile>
       <anchor>aff2436c0479cdb1f721680816fa997f5</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1SimpleDiagnostics.html</anchorfile>
+      <anchor>a599f4f38a2c3d929f95e848d4450d379</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -20783,7 +20602,7 @@
   <compound kind="class">
     <name>iv::SingularResource</name>
     <filename>classiv_1_1SingularResource.html</filename>
-    <templarg>RT</templarg>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>SingularResource</name>
@@ -20806,24 +20625,24 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>RT const  *</type>
+      <type>const RT *</type>
       <name>get</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a9359b165dbc576ae5c203b19638cd742</anchor>
+      <anchor>a9c13e5fa1ebfafc75034c7f2854d14a0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>RT const  &amp;</type>
+      <type>const RT &amp;</type>
       <name>operator*</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>aa36f464476f79bab9fc9466e44de7984</anchor>
+      <anchor>a17eec502ddcf363a2fda97d1d0f9f6fe</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>RT const  *</type>
+      <type>const RT *</type>
       <name>operator-&gt;</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a48fd6ac18e2ac3a6c41cb07b502610e2</anchor>
+      <anchor>a8b7f311dcf0ed22e636fb2fbb47ff6ab</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -20859,24 +20678,24 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>DataStream const *</type>
+      <type>const DataStream *</type>
       <name>get</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a9359b165dbc576ae5c203b19638cd742</anchor>
+      <anchor>a9c13e5fa1ebfafc75034c7f2854d14a0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>DataStream const &amp;</type>
+      <type>const DataStream &amp;</type>
       <name>operator*</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>aa36f464476f79bab9fc9466e44de7984</anchor>
+      <anchor>a17eec502ddcf363a2fda97d1d0f9f6fe</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>DataStream const *</type>
+      <type>const DataStream *</type>
       <name>operator-&gt;</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a48fd6ac18e2ac3a6c41cb07b502610e2</anchor>
+      <anchor>a8b7f311dcf0ed22e636fb2fbb47ff6ab</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -20912,24 +20731,24 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>FlatShader const *</type>
+      <type>const FlatShader *</type>
       <name>get</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a9359b165dbc576ae5c203b19638cd742</anchor>
+      <anchor>a9c13e5fa1ebfafc75034c7f2854d14a0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>FlatShader const &amp;</type>
+      <type>const FlatShader &amp;</type>
       <name>operator*</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>aa36f464476f79bab9fc9466e44de7984</anchor>
+      <anchor>a17eec502ddcf363a2fda97d1d0f9f6fe</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>FlatShader const *</type>
+      <type>const FlatShader *</type>
       <name>operator-&gt;</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a48fd6ac18e2ac3a6c41cb07b502610e2</anchor>
+      <anchor>a8b7f311dcf0ed22e636fb2fbb47ff6ab</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -20965,24 +20784,24 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>Font const *</type>
+      <type>const Font *</type>
       <name>get</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a9359b165dbc576ae5c203b19638cd742</anchor>
+      <anchor>a9c13e5fa1ebfafc75034c7f2854d14a0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Font const &amp;</type>
+      <type>const Font &amp;</type>
       <name>operator*</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>aa36f464476f79bab9fc9466e44de7984</anchor>
+      <anchor>a17eec502ddcf363a2fda97d1d0f9f6fe</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Font const *</type>
+      <type>const Font *</type>
       <name>operator-&gt;</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a48fd6ac18e2ac3a6c41cb07b502610e2</anchor>
+      <anchor>a8b7f311dcf0ed22e636fb2fbb47ff6ab</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -21018,24 +20837,24 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>Mesh const *</type>
+      <type>const Mesh *</type>
       <name>get</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a9359b165dbc576ae5c203b19638cd742</anchor>
+      <anchor>a9c13e5fa1ebfafc75034c7f2854d14a0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Mesh const &amp;</type>
+      <type>const Mesh &amp;</type>
       <name>operator*</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>aa36f464476f79bab9fc9466e44de7984</anchor>
+      <anchor>a17eec502ddcf363a2fda97d1d0f9f6fe</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Mesh const *</type>
+      <type>const Mesh *</type>
       <name>operator-&gt;</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a48fd6ac18e2ac3a6c41cb07b502610e2</anchor>
+      <anchor>a8b7f311dcf0ed22e636fb2fbb47ff6ab</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -21071,24 +20890,24 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>Texture const *</type>
+      <type>const Texture *</type>
       <name>get</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a9359b165dbc576ae5c203b19638cd742</anchor>
+      <anchor>a9c13e5fa1ebfafc75034c7f2854d14a0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Texture const &amp;</type>
+      <type>const Texture &amp;</type>
       <name>operator*</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>aa36f464476f79bab9fc9466e44de7984</anchor>
+      <anchor>a17eec502ddcf363a2fda97d1d0f9f6fe</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Texture const *</type>
+      <type>const Texture *</type>
       <name>operator-&gt;</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a48fd6ac18e2ac3a6c41cb07b502610e2</anchor>
+      <anchor>a8b7f311dcf0ed22e636fb2fbb47ff6ab</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -21124,24 +20943,24 @@
       <arglist>(ResourcePath const &amp;path)</arglist>
     </member>
     <member kind="function">
-      <type>XcfInfo const *</type>
+      <type>const XcfInfo *</type>
       <name>get</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a9359b165dbc576ae5c203b19638cd742</anchor>
+      <anchor>a9c13e5fa1ebfafc75034c7f2854d14a0</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>XcfInfo const &amp;</type>
+      <type>const XcfInfo &amp;</type>
       <name>operator*</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>aa36f464476f79bab9fc9466e44de7984</anchor>
+      <anchor>a17eec502ddcf363a2fda97d1d0f9f6fe</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>XcfInfo const *</type>
+      <type>const XcfInfo *</type>
       <name>operator-&gt;</name>
       <anchorfile>classiv_1_1SingularResource.html</anchorfile>
-      <anchor>a48fd6ac18e2ac3a6c41cb07b502610e2</anchor>
+      <anchor>a8b7f311dcf0ed22e636fb2fbb47ff6ab</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
@@ -21170,6 +20989,13 @@
       <anchorfile>classiv_1_1Slot.html</anchorfile>
       <anchor>ad823842726638d785c49da4c7ca66df5</anchor>
       <arglist>(iv::TableDebugView *view)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Slot.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -21429,6 +21255,13 @@
       <anchor>a8b69fa04447def975d7ef59e6bb4bbb8</anchor>
       <arglist>(InputNode *) override</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1SourceInputNode.html</anchorfile>
+      <anchor>a599f4f38a2c3d929f95e848d4450d379</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -21455,6 +21288,13 @@
       <anchorfile>classiv_1_1SquareMesh.html</anchorfile>
       <anchor>a152304e12c4feb1df1a79938174b4a3a</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1SquareMesh.html</anchorfile>
+      <anchor>a74fd9bc92efa9d5eb5d326d35a74c928</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
@@ -21602,17 +21442,17 @@
       <arglist>(str) const</arglist>
     </member>
     <member kind="function">
-      <type>char const  *</type>
+      <type>const char *</type>
       <name>operator&lt;&lt;</name>
       <anchorfile>classiv_1_1SS.html</anchorfile>
-      <anchor>aac1737ab5cd9b055c476d59624a1ee9c</anchor>
+      <anchor>a0e87850f3a8099f8c8932fcd02c4468c</anchor>
       <arglist>(c_str)</arglist>
     </member>
     <member kind="function">
-      <type>char const  *</type>
+      <type>const char *</type>
       <name>operator&lt;&lt;</name>
       <anchorfile>classiv_1_1SS.html</anchorfile>
-      <anchor>a1e4f0cd207d788675832a9cba7f32ae7</anchor>
+      <anchor>acdf98c2d28da3bf61418ab7e94bfc857</anchor>
       <arglist>(c_str) const</arglist>
     </member>
     <member kind="function">
@@ -21663,6 +21503,13 @@
       <anchorfile>classiv_1_1StreamFont.html</anchorfile>
       <anchor>a72689f8c9600b07c3ec28cd75b9dce66</anchor>
       <arglist>(Instance *inst, StreamResourceProvider const *provider, StreamFont_Subprovider const *, ResourcePath const &amp;path)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1StreamFont.html</anchorfile>
+      <anchor>a0e1a0d41dda216a6e0d03419bc49d043</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -21762,6 +21609,13 @@
       <anchor>ad5b96c3fbb98118b26b75bb3fca9e16b</anchor>
       <arglist>(ResourcePath const &amp;path, std::function&lt; void(std::istream &amp;) &gt; const &amp;) const =0</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1StreamResourceProvider.html</anchorfile>
+      <anchor>a1cb8383882b63517bf71f1a3272a242e</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>RegisterType</name>
@@ -21851,6 +21705,13 @@
       <anchor>a482a2e65eb94202ef1db1b8b394425ca</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1StreamTexture.html</anchorfile>
+      <anchor>a345901b9fbfa0eafeec15ea31d7520a8</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -21927,11 +21788,18 @@
       <arglist>(ResourcePath const &amp;) const</arglist>
     </member>
     <member kind="function">
-      <type>Texture::Metadata const  &amp;</type>
+      <type>const Texture::Metadata &amp;</type>
       <name>get</name>
       <anchorfile>classiv_1_1StreamTexture__Subprovider.html</anchorfile>
-      <anchor>afcedc7a6817620581b12ec56baedc0e7</anchor>
+      <anchor>a0c4a9bb85052a9a6476aaaa7386fc03d</anchor>
       <arglist>(ResourcePath const &amp;path) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1StreamTexture__Subprovider.html</anchorfile>
+      <anchor>a65ab9ed6b1d635448d72241d28726761</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -21944,8 +21812,8 @@
   <compound kind="struct">
     <name>iv::StringIO</name>
     <filename>structiv_1_1StringIO.html</filename>
-    <templarg>Type</templarg>
-    <templarg>Enabled</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
     <member kind="function">
       <type>Type</type>
       <name>Read</name>
@@ -22081,20 +21949,20 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>iv::StringIO&lt; ClientMarker const *&gt;</name>
-    <filename>structiv_1_1StringIO_3_01ClientMarker_01const_01_5_4.html</filename>
+    <name>iv::StringIO&lt; ClientMarker const * &gt;</name>
+    <filename>structiv_1_1StringIO_3_01ClientMarker_01const_01_5_01_4.html</filename>
     <member kind="function">
-      <type>ClientMarker const  *</type>
+      <type>const ClientMarker *</type>
       <name>Read</name>
-      <anchorfile>structiv_1_1StringIO_3_01ClientMarker_01const_01_5_4.html</anchorfile>
-      <anchor>a23e1151fa816af59ad79ee87a97a074a</anchor>
+      <anchorfile>structiv_1_1StringIO_3_01ClientMarker_01const_01_5_01_4.html</anchorfile>
+      <anchor>ad3d585570dd528a415c5a09365aa70b2</anchor>
       <arglist>(const char *source, Context const *context) const</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>Write</name>
-      <anchorfile>structiv_1_1StringIO_3_01ClientMarker_01const_01_5_4.html</anchorfile>
-      <anchor>ac100c485f629b5fbe4228c02d877397c</anchor>
+      <anchorfile>structiv_1_1StringIO_3_01ClientMarker_01const_01_5_01_4.html</anchorfile>
+      <anchor>a47e4abcfd7739142107869f8a2db3749</anchor>
       <arglist>(ClientMarker const *const &amp;cm, Context const *context) const</arglist>
     </member>
   </compound>
@@ -22111,13 +21979,13 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>iv::StringIO&lt; const char *&gt;</name>
-    <filename>structiv_1_1StringIO_3_01const_01char_01_5_4.html</filename>
+    <name>iv::StringIO&lt; const char * &gt;</name>
+    <filename>structiv_1_1StringIO_3_01const_01char_01_5_01_4.html</filename>
     <member kind="function">
       <type>std::string</type>
       <name>Write</name>
-      <anchorfile>structiv_1_1StringIO_3_01const_01char_01_5_4.html</anchorfile>
-      <anchor>ac6f7676c111cd34f1fdcebcf26598e79</anchor>
+      <anchorfile>structiv_1_1StringIO_3_01const_01char_01_5_01_4.html</anchorfile>
+      <anchor>ae59a8a68f62d8b302505772b13b9d0e6</anchor>
       <arglist>(const char *const &amp;value, Context const *context) const</arglist>
     </member>
   </compound>
@@ -22529,21 +22397,21 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>iv::StringIO&lt; T *&gt;</name>
-    <filename>structiv_1_1StringIO_3_01T_01_5_4.html</filename>
+    <name>iv::StringIO&lt; T * &gt;</name>
+    <filename>structiv_1_1StringIO_3_01T_01_5_01_4.html</filename>
     <templarg></templarg>
     <member kind="function">
       <type>T *</type>
       <name>Read</name>
-      <anchorfile>structiv_1_1StringIO_3_01T_01_5_4.html</anchorfile>
-      <anchor>abba5250702d6f8f84e23bce96c4972ec</anchor>
+      <anchorfile>structiv_1_1StringIO_3_01T_01_5_01_4.html</anchorfile>
+      <anchor>ab8d533e52d925ab5c0bc9d516c8e7a2c</anchor>
       <arglist>(const char *source, Context const *context) const</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>Write</name>
-      <anchorfile>structiv_1_1StringIO_3_01T_01_5_4.html</anchorfile>
-      <anchor>a8313bc9a2abc4717fed1f08ea8268c61</anchor>
+      <anchorfile>structiv_1_1StringIO_3_01T_01_5_01_4.html</anchorfile>
+      <anchor>a086f5f110e9afb558fd435860232d699</anchor>
       <arglist>(T *const &amp;value, Context const *context) const</arglist>
     </member>
   </compound>
@@ -22581,9 +22449,9 @@
   <compound kind="struct">
     <name>iv::StringIO_Table</name>
     <filename>structiv_1_1StringIO__Table.html</filename>
-    <templarg>Enum</templarg>
+    <templarg></templarg>
     <member kind="typedef">
-      <type>std::initializer_list&lt; std::pair&lt; Enum, const char *&gt; &gt;</type>
+      <type>std::initializer_list&lt; std::pair&lt; Enum, const char * &gt; &gt;</type>
       <name>ValuesType</name>
       <anchorfile>structiv_1_1StringIO__Table.html</anchorfile>
       <anchor>a8e25253dd75a397112b2ff66d52c92a2</anchor>
@@ -23032,7 +22900,7 @@
   <compound kind="class">
     <name>iv::SumAgg</name>
     <filename>classiv_1_1SumAgg.html</filename>
-    <templarg>Int</templarg>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>SumAgg</name>
@@ -23183,10 +23051,10 @@
       <arglist>(TextDebugView *view) const</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_map&lt; std::type_index, System *&gt; const  &amp;</type>
+      <type>const std::unordered_map&lt; std::type_index, System * &gt; &amp;</type>
       <name>debug_GetSystems</name>
       <anchorfile>classiv_1_1SystemContainer.html</anchorfile>
-      <anchor>ae4bf379976f917fe808463accd125bcc</anchor>
+      <anchor>ab8eb5dffe4ec45f35d0a538d4163b3eb</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -23297,17 +23165,17 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>std::unordered_map&lt; TableId, TableData &gt; const  &amp;</type>
+      <type>const std::unordered_map&lt; TableId, TableData &gt; &amp;</type>
       <name>Tables</name>
       <anchorfile>classiv_1_1TableDebugView.html</anchorfile>
-      <anchor>acd70af35d16df81247d69880b4b4de5e</anchor>
+      <anchor>a94c0b210a6a41e98fc092c05c09e400a</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>std::unordered_map&lt; TableId, TableData &gt; &amp;</type>
       <name>Tables</name>
       <anchorfile>classiv_1_1TableDebugView.html</anchorfile>
-      <anchor>ab5d0ae45c85e95371876178ca8abfca1</anchor>
+      <anchor>a54ba7e951cc6fe081fd9f1eca31fcc7d</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -23454,6 +23322,13 @@
       <anchor>a4794782fdb0923bcda62ff2d7e2b0bd8</anchor>
       <arglist>(DVarIdT&lt; ResourcePath &gt; id)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Text.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -23598,6 +23473,13 @@
       <anchor>afcebe43b5ba6a34fce4e5848f2a20d58</anchor>
       <arglist>(float)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1TextLayout.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -23684,14 +23566,14 @@
       <type>Elem *</type>
       <name>elem</name>
       <anchorfile>classiv_1_1TextSegment.html</anchorfile>
-      <anchor>a57bc255ce4bed9039d66f30819870ff4</anchor>
+      <anchor>adcde139e5d6c9a6684ac2a288e0a2423</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>Elem const  *</type>
+      <type>const Elem *</type>
       <name>elem</name>
       <anchorfile>classiv_1_1TextSegment.html</anchorfile>
-      <anchor>a3544d44d38a38ba42af20d244557d8d7</anchor>
+      <anchor>a04be7a8100971e6f6f4a041b094d2a57</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -23753,17 +23635,17 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Metadata const  &amp;</type>
+      <type>const Metadata &amp;</type>
       <name>metadata</name>
       <anchorfile>classiv_1_1Texture.html</anchorfile>
-      <anchor>a39bd3282898f6a2c5f4a03a6ae0e8b41</anchor>
+      <anchor>a18cd28fa17aadad1e85c554d1890ddb8</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>GlTexture const  *</type>
+      <type>const GlTexture *</type>
       <name>gl_texture</name>
       <anchorfile>classiv_1_1Texture.html</anchorfile>
-      <anchor>a480a9ed70204d99def2ea1c47d11598a</anchor>
+      <anchor>a834e0c67f271b9e36c3a89b12427761f</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -24046,7 +23928,7 @@
   <compound kind="class">
     <name>iv::TimeTransform_Connector</name>
     <filename>classiv_1_1TimeTransform__Connector.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <base>Transform_ConnectorI&lt; T, T &gt;</base>
     <member kind="function">
       <type></type>
@@ -24197,6 +24079,13 @@
       <anchor>ab85cf3cb7919154500999821b4e65830</anchor>
       <arglist>(bool)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Transform.html</anchorfile>
+      <anchor>a9e5d6a8c6489aa953a55977b0e10c586</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -24271,8 +24160,8 @@
   <compound kind="class">
     <name>iv::Transform_ConnectorI</name>
     <filename>classiv_1_1Transform__ConnectorI.html</filename>
-    <templarg>TParent</templarg>
-    <templarg>TChild</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
     <base protection="protected">iv::AnimConnector</base>
     <member kind="function">
       <type></type>
@@ -24329,6 +24218,13 @@
       <anchorfile>classiv_1_1Transform__ConnectorI.html</anchorfile>
       <anchor>ae58ccad6a42e6ff94b7cf78f37ff84a7</anchor>
       <arglist>(AnimNode&lt; TChild &gt; *node)</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Transform__ConnectorI.html</anchorfile>
+      <anchor>a3347f0693f158febd408efb3b1041cdd</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -24426,6 +24322,13 @@
       <anchor>ae58ccad6a42e6ff94b7cf78f37ff84a7</anchor>
       <arglist>(AnimNode&lt; T &gt; *node)</arglist>
     </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1Transform__ConnectorI.html</anchorfile>
+      <anchor>a3347f0693f158febd408efb3b1041cdd</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="variable">
       <type>ClientMarker</type>
       <name>cm</name>
@@ -24483,14 +24386,14 @@
       <type>Elem *</type>
       <name>elem</name>
       <anchorfile>classiv_1_1TranslucentElem.html</anchorfile>
-      <anchor>afd1849a9e92aa711d50d29c9c49b8bce</anchor>
+      <anchor>ad048bf6cf8a01230c1e2307f32df1fa1</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>Elem const  *</type>
+      <type>const Elem *</type>
       <name>elem</name>
       <anchorfile>classiv_1_1TranslucentElem.html</anchorfile>
-      <anchor>ad7d1bc186b1a5f7a2df2ec895528d9bf</anchor>
+      <anchor>a2cf001ea582dc02a1a6b9cf428f38ef2</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -24607,17 +24510,17 @@
     <filename>structiv_1_1Pratt_1_1Unary.html</filename>
     <base>iv::Pratt::Expression</base>
     <member kind="function" virtualness="virtual">
-      <type>virtual Unary const  *</type>
+      <type>virtual const Unary *</type>
       <name>ToUnary</name>
       <anchorfile>structiv_1_1Pratt_1_1Unary.html</anchorfile>
-      <anchor>a0763d6061a7eb8c2459cdcb638bc1ca2</anchor>
+      <anchor>afd4751a06675ef27d1a7840744b217f0</anchor>
       <arglist>() const override</arglist>
     </member>
     <member kind="variable">
-      <type>Expression const  *</type>
+      <type>const Expression *</type>
       <name>child</name>
       <anchorfile>structiv_1_1Pratt_1_1Unary.html</anchorfile>
-      <anchor>ab8e46faca121b18371594c4ede12e0c8</anchor>
+      <anchor>a55b76b283f122571a96793a318c0074e</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -24651,10 +24554,10 @@
     <filename>structiv_1_1Pratt_1_1Value.html</filename>
     <base>iv::Pratt::Expression</base>
     <member kind="function" virtualness="virtual">
-      <type>virtual Value const  *</type>
+      <type>virtual const Value *</type>
       <name>ToValue</name>
       <anchorfile>structiv_1_1Pratt_1_1Value.html</anchorfile>
-      <anchor>a4a0b63a0a8a18ff68f0f33cb64e58508</anchor>
+      <anchor>aab962408df441a87d7e6121d182d7b00</anchor>
       <arglist>() const override</arglist>
     </member>
     <member kind="variable">
@@ -24683,10 +24586,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="variable">
-      <type>Texture const  *</type>
+      <type>const Texture *</type>
       <name>texture</name>
       <anchorfile>structiv_1_1Font_1_1Variant.html</anchorfile>
-      <anchor>a3f052d7f2f609a72c5484075516e5e56</anchor>
+      <anchor>a43efb241ef5ae8aaa4893fd875f1d148</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -24714,7 +24617,7 @@
   <compound kind="class">
     <name>iv::VectorChildrenElem</name>
     <filename>classiv_1_1VectorChildrenElem.html</filename>
-    <templarg>ChildT</templarg>
+    <templarg></templarg>
     <base>iv::Elem</base>
     <member kind="function">
       <type></type>
@@ -24794,7 +24697,7 @@
       <arglist>(InputNode *child) override</arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>std::vector&lt; ChildT *&gt;</type>
+      <type>std::vector&lt; ChildT * &gt;</type>
       <name>children</name>
       <anchorfile>classiv_1_1VectorChildrenElem.html</anchorfile>
       <anchor>a3aab92170fa942790e0de1cdcfd2955e</anchor>
@@ -25129,11 +25032,18 @@
       <arglist>(std::type_index type, std::function&lt; void(ResourcePath const &amp;) &gt; const &amp;) override</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual std::pair&lt; void *, Instance *&gt;</type>
+      <type>virtual std::pair&lt; void *, Instance * &gt;</type>
       <name>create_resource</name>
       <anchorfile>classiv_1_1VirtualResourceProvider.html</anchorfile>
-      <anchor>ad5b8f08fe0b1684215f404b3e12cd272</anchor>
+      <anchor>ab475b9358333d3593f08c4a8c0bae709</anchor>
       <arglist>(ResourcePath const &amp;path, std::type_index type, ResourcesRoot *parent) override</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1VirtualResourceProvider.html</anchorfile>
+      <anchor>a1cb8383882b63517bf71f1a3272a242e</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
@@ -25160,9 +25070,9 @@
   <compound kind="class">
     <name>iv::volatile_set</name>
     <filename>classiv_1_1volatile__set.html</filename>
-    <templarg>Key</templarg>
-    <templarg>Hash</templarg>
-    <templarg>Pred</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
+    <templarg></templarg>
     <member kind="typedef">
       <type>typename std::unordered_set&lt; Key, Hash, Pred &gt;::iterator</type>
       <name>iterator</name>
@@ -25245,7 +25155,7 @@
     <name>volatile_set&lt; iv::AttributeListener * &gt;</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <member kind="typedef">
-      <type>typename std::unordered_set&lt; iv::AttributeListener *, std::hash&lt; iv::AttributeListener *&gt;, std::equal_to&lt; iv::AttributeListener *&gt; &gt;::iterator</type>
+      <type>typename std::unordered_set&lt; iv::AttributeListener *, std::hash&lt; iv::AttributeListener * &gt;, std::equal_to&lt; iv::AttributeListener * &gt; &gt;::iterator</type>
       <name>iterator</name>
       <anchorfile>classiv_1_1volatile__set.html</anchorfile>
       <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
@@ -25326,7 +25236,7 @@
     <name>volatile_set&lt; iv::CharListener * &gt;</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <member kind="typedef">
-      <type>typename std::unordered_set&lt; iv::CharListener *, std::hash&lt; iv::CharListener *&gt;, std::equal_to&lt; iv::CharListener *&gt; &gt;::iterator</type>
+      <type>typename std::unordered_set&lt; iv::CharListener *, std::hash&lt; iv::CharListener * &gt;, std::equal_to&lt; iv::CharListener * &gt; &gt;::iterator</type>
       <name>iterator</name>
       <anchorfile>classiv_1_1volatile__set.html</anchorfile>
       <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
@@ -25407,7 +25317,7 @@
     <name>volatile_set&lt; iv::DebugInstanceListener * &gt;</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <member kind="typedef">
-      <type>typename std::unordered_set&lt; iv::DebugInstanceListener *, std::hash&lt; iv::DebugInstanceListener *&gt;, std::equal_to&lt; iv::DebugInstanceListener *&gt; &gt;::iterator</type>
+      <type>typename std::unordered_set&lt; iv::DebugInstanceListener *, std::hash&lt; iv::DebugInstanceListener * &gt;, std::equal_to&lt; iv::DebugInstanceListener * &gt; &gt;::iterator</type>
       <name>iterator</name>
       <anchorfile>classiv_1_1volatile__set.html</anchorfile>
       <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
@@ -25488,7 +25398,7 @@
     <name>volatile_set&lt; iv::DelayedLoader * &gt;</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <member kind="typedef">
-      <type>typename std::unordered_set&lt; iv::DelayedLoader *, std::hash&lt; iv::DelayedLoader *&gt;, std::equal_to&lt; iv::DelayedLoader *&gt; &gt;::iterator</type>
+      <type>typename std::unordered_set&lt; iv::DelayedLoader *, std::hash&lt; iv::DelayedLoader * &gt;, std::equal_to&lt; iv::DelayedLoader * &gt; &gt;::iterator</type>
       <name>iterator</name>
       <anchorfile>classiv_1_1volatile__set.html</anchorfile>
       <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
@@ -25569,7 +25479,7 @@
     <name>volatile_set&lt; iv::DVarListenerI * &gt;</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <member kind="typedef">
-      <type>typename std::unordered_set&lt; iv::DVarListenerI *, std::hash&lt; iv::DVarListenerI *&gt;, std::equal_to&lt; iv::DVarListenerI *&gt; &gt;::iterator</type>
+      <type>typename std::unordered_set&lt; iv::DVarListenerI *, std::hash&lt; iv::DVarListenerI * &gt;, std::equal_to&lt; iv::DVarListenerI * &gt; &gt;::iterator</type>
       <name>iterator</name>
       <anchorfile>classiv_1_1volatile__set.html</anchorfile>
       <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
@@ -25650,7 +25560,7 @@
     <name>volatile_set&lt; iv::InputBindingListener * &gt;</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <member kind="typedef">
-      <type>typename std::unordered_set&lt; iv::InputBindingListener *, std::hash&lt; iv::InputBindingListener *&gt;, std::equal_to&lt; iv::InputBindingListener *&gt; &gt;::iterator</type>
+      <type>typename std::unordered_set&lt; iv::InputBindingListener *, std::hash&lt; iv::InputBindingListener * &gt;, std::equal_to&lt; iv::InputBindingListener * &gt; &gt;::iterator</type>
       <name>iterator</name>
       <anchorfile>classiv_1_1volatile__set.html</anchorfile>
       <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
@@ -25731,7 +25641,7 @@
     <name>volatile_set&lt; iv::LumaListener * &gt;</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <member kind="typedef">
-      <type>typename std::unordered_set&lt; iv::LumaListener *, std::hash&lt; iv::LumaListener *&gt;, std::equal_to&lt; iv::LumaListener *&gt; &gt;::iterator</type>
+      <type>typename std::unordered_set&lt; iv::LumaListener *, std::hash&lt; iv::LumaListener * &gt;, std::equal_to&lt; iv::LumaListener * &gt; &gt;::iterator</type>
       <name>iterator</name>
       <anchorfile>classiv_1_1volatile__set.html</anchorfile>
       <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
@@ -26016,11 +25926,18 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Layer const  &amp;</type>
+      <type>const Layer &amp;</type>
       <name>layer</name>
       <anchorfile>classiv_1_1XcfInfo.html</anchorfile>
-      <anchor>ab5366bbc0c503229bc2b7d2cc76c08a9</anchor>
+      <anchor>ab35f20015e20c000fdbb08745f442d58</anchor>
       <arglist>(char const *name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1XcfInfo.html</anchorfile>
+      <anchor>a0e1a0d41dda216a6e0d03419bc49d043</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>ClientMarker</type>
@@ -26300,9 +26217,9 @@
     <class kind="struct">iv::StringIO&lt; AxisOrder &gt;</class>
     <class kind="struct">iv::StringIO&lt; bool &gt;</class>
     <class kind="struct">iv::StringIO&lt; ClientMarker &gt;</class>
-    <class kind="struct">iv::StringIO&lt; ClientMarker const *&gt;</class>
+    <class kind="struct">iv::StringIO&lt; ClientMarker const * &gt;</class>
     <class kind="struct">iv::StringIO&lt; ColorSpace &gt;</class>
-    <class kind="struct">iv::StringIO&lt; const char *&gt;</class>
+    <class kind="struct">iv::StringIO&lt; const char * &gt;</class>
     <class kind="struct">iv::StringIO&lt; DirtyAttr_I&lt; T &gt; &gt;</class>
     <class kind="struct">iv::StringIO&lt; Field&lt; T &gt; &gt;</class>
     <class kind="struct">iv::StringIO&lt; FieldI::Assignment &gt;</class>
@@ -26328,7 +26245,7 @@
     <class kind="struct">iv::StringIO&lt; std::pair&lt; T, U &gt; &gt;</class>
     <class kind="struct">iv::StringIO&lt; std::string &gt;</class>
     <class kind="struct">iv::StringIO&lt; SumAgg&lt; Int &gt; &gt;</class>
-    <class kind="struct">iv::StringIO&lt; T *&gt;</class>
+    <class kind="struct">iv::StringIO&lt; T * &gt;</class>
     <class kind="struct">iv::StringIO&lt; Texture::Filtering &gt;</class>
     <class kind="struct">iv::StringIO&lt; TypedRuntimeId, std::enable_if_t&lt; std::is_base_of&lt; RuntimeId&lt; TypedRuntimeId &gt;, TypedRuntimeId &gt;::value &gt; &gt;</class>
     <class kind="struct">iv::StringIO_Table</class>
@@ -26674,8 +26591,8 @@
       <type>size_t</type>
       <name>utf8_size</name>
       <anchorfile>namespaceiv.html</anchorfile>
-      <anchor>ae45500e93e3e1c4cbefcf378cdd311a9</anchor>
-      <arglist>(const char *val)</arglist>
+      <anchor>a8d6c09f59d2a557cead50f5635c0276e</anchor>
+      <arglist>(const char *)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -26720,10 +26637,10 @@
       <arglist>(float3 &amp;vec, Axis axis)</arglist>
     </member>
     <member kind="function">
-      <type>float const  &amp;</type>
+      <type>const float &amp;</type>
       <name>float3_Axis</name>
       <anchorfile>namespaceiv.html</anchorfile>
-      <anchor>a7fd6f50e766f8a2d73393f82ca40c187</anchor>
+      <anchor>aeff418b6ac2fa43b74b619b097e38402</anchor>
       <arglist>(float3 const &amp;vec, Axis axis)</arglist>
     </member>
     <member kind="function">
