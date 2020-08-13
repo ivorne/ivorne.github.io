@@ -141,7 +141,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    this-&gt;border = outer_slot-&gt;<a class="code" href="classiv_1_1OneChildElem.html#a84b44fe94dcf567e18caa023a0d75e7f">createChild</a>&lt; <a class="code" href="classiv_1_1Border.html">iv::Border</a> &gt;();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    this-&gt;scroller = border-&gt;<a class="code" href="classiv_1_1OneChildElem.html#a84b44fe94dcf567e18caa023a0d75e7f">createChild</a>&lt; <a class="code" href="classiv_1_1LumaScroller.html">iv::LumaScroller</a> &gt;();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    this-&gt;scroller = border-&gt;<a class="code" href="classiv_1_1OneChildElem.html#a84b44fe94dcf567e18caa023a0d75e7f">createChild</a>&lt; <a class="code" href="classiv_1_1LumaScroller.html" title="Vertical scroller with simple graphics.">iv::LumaScroller</a> &gt;();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    this-&gt;img_frame = outer_slot-&gt;createChild&lt; <a class="code" href="classiv_1_1Prefsize.html">iv::Prefsize</a> &gt;()</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        -&gt;prefsize( <a class="code" href="namespaceiv.html#a1ca131f798b89f132314abe84baae4db">iv::float3</a>( 0, 0, 0 ) )</div>
@@ -154,7 +154,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    constexpr <span class="keywordtype">float</span> OpenCloseTime_s = 0.3f;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// source</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="classiv_1_1AnimNode.html">iv::AnimNode&lt; bool &gt;</a> * in_open = this-&gt;anim.<a class="code" href="classiv_1_1AnimHeap.html#a8dc2ee566a96b1c27f78dd07547c3e57">Attribute_SourceNode</a>( &amp;this-&gt;<a class="code" href="classiv_1_1LumaFrame.html#a96d7abc0268d082f03c1535d7df8af6e" title="When set to true, frame shrinks using short animation.">attr_open</a>, <span class="keyword">true</span> )</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="classiv_1_1AnimNode.html">iv::AnimNode&lt; bool &gt;</a> * in_open = this-&gt;anim.<a class="code" href="classiv_1_1AnimHeap.html#a8dc2ee566a96b1c27f78dd07547c3e57">Attribute_SourceNode</a>( &amp;this-&gt;<a class="code" href="classiv_1_1LumaFrame.html#a96d7abc0268d082f03c1535d7df8af6e" title="If frame should be visible (open). There is a short transition between open and closed state.">attr_open</a>, <span class="keyword">true</span> )</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        -&gt;label( <span class="stringliteral">&quot;in_open&quot;</span> );</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// internal</span></div>
@@ -215,21 +215,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    this-&gt;<a class="code" href="classiv_1_1ProtectedSlot.html#a291e437c92a28b2bbfff2efab58274af">ProtectedSlot::first_pass_impl</a>( er );</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classiv_1_1LumaFrame.html#a9a041583438dbd8e44637325c603f0cc">  115</a></span>&#160;<a class="code" href="classiv_1_1LumaFrame.html">LumaFrame</a> * <a class="code" href="classiv_1_1LumaFrame.html#a9a041583438dbd8e44637325c603f0cc">LumaFrame::frame</a>( <a class="code" href="classiv_1_1ResourcePath.html">iv::ResourcePath</a> val )</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classiv_1_1LumaFrame.html#a9a041583438dbd8e44637325c603f0cc">  115</a></span>&#160;<a class="code" href="classiv_1_1LumaFrame.html" title="A window-like frame that needs to be supplied a texture path.">LumaFrame</a> * <a class="code" href="classiv_1_1LumaFrame.html#a9a041583438dbd8e44637325c603f0cc">LumaFrame::frame</a>( <a class="code" href="classiv_1_1ResourcePath.html">iv::ResourcePath</a> val )</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    this-&gt;<a class="code" href="classiv_1_1LumaFrame.html#a1844efff37fe6dd5b29142042bd9f8a5">attr_frame</a>.<a class="code" href="classiv_1_1DirtyAttr__I.html#a853b14e2e6ce8f06db4a35bfd51595f3">Set</a>( val );</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
-<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="classiv_1_1LumaFrame.html#a57b292a92f9fc69644194f5dff4fc93a">  121</a></span>&#160;<a class="code" href="classiv_1_1LumaFrame.html">LumaFrame</a> * <a class="code" href="classiv_1_1LumaFrame.html#a57b292a92f9fc69644194f5dff4fc93a">LumaFrame::frameWidth</a>( <span class="keywordtype">float</span> val )</div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="classiv_1_1LumaFrame.html#a57b292a92f9fc69644194f5dff4fc93a">  121</a></span>&#160;<a class="code" href="classiv_1_1LumaFrame.html" title="A window-like frame that needs to be supplied a texture path.">LumaFrame</a> * <a class="code" href="classiv_1_1LumaFrame.html#a57b292a92f9fc69644194f5dff4fc93a">LumaFrame::frameWidth</a>( <span class="keywordtype">float</span> val )</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    this-&gt;<a class="code" href="classiv_1_1LumaFrame.html#a464fc74f43bd34a4f5112c4a8b3ec63c">attr_frameWidth</a>.<a class="code" href="classiv_1_1DirtyAttr__I.html#a853b14e2e6ce8f06db4a35bfd51595f3">Set</a>( val );</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="classiv_1_1LumaFrame.html#a98b2c01ca85f94e35f2279e1f92fde73">  127</a></span>&#160;<a class="code" href="classiv_1_1LumaFrame.html">LumaFrame</a> * <a class="code" href="classiv_1_1LumaFrame.html#a98b2c01ca85f94e35f2279e1f92fde73">LumaFrame::open</a>( <span class="keywordtype">bool</span> val )</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="classiv_1_1LumaFrame.html#a98b2c01ca85f94e35f2279e1f92fde73">  127</a></span>&#160;<a class="code" href="classiv_1_1LumaFrame.html" title="A window-like frame that needs to be supplied a texture path.">LumaFrame</a> * <a class="code" href="classiv_1_1LumaFrame.html#a98b2c01ca85f94e35f2279e1f92fde73">LumaFrame::open</a>( <span class="keywordtype">bool</span> val )</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    this-&gt;<a class="code" href="classiv_1_1LumaFrame.html#a96d7abc0268d082f03c1535d7df8af6e" title="When set to true, frame shrinks using short animation.">attr_open</a>.<a class="code" href="classiv_1_1DirtyAttr__I.html#a853b14e2e6ce8f06db4a35bfd51595f3">Set</a>( val );</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    this-&gt;<a class="code" href="classiv_1_1LumaFrame.html#a96d7abc0268d082f03c1535d7df8af6e" title="If frame should be visible (open). There is a short transition between open and closed state.">attr_open</a>.<a class="code" href="classiv_1_1DirtyAttr__I.html#a853b14e2e6ce8f06db4a35bfd51595f3">Set</a>( val );</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
@@ -244,7 +244,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 13:25:46 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Thu Aug 13 2020 16:31:43 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

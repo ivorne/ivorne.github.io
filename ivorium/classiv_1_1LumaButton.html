@@ -107,9 +107,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classiv_1_1LumaButton-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">iv::LumaButton Class Reference</div>  </div>
+<div class="title">iv::LumaButton Class Reference<div class="ingroups"><a class="el" href="group__Elements.html">Elements</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Flexible base for variously styled buttons. Needs some configuration to work.  
+ <a href="classiv_1_1LumaButton.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -387,9 +390,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0ce6aa8a578ffec55b4a8ffd5d564f6b inherit pro_attribs_classiv_1_1VectorChildrenElem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>If enabled, uses <a class="el" href="structiv_1_1LumaStyle.html#aea0dd45e4cd6fae0d47fb3c2eb028755" title="Surface of activatable or highlighted elements. Or text on surface that should be highlighted.">LumaStyle::highlight</a> and <a class="el" href="structiv_1_1LumaStyle.html#a0e7a053f0ab802771159130266565c1e" title="Text and symbols on sufraces with highlight color.">LumaStyle::on_highlight</a> colors. If disabled, uses <a class="el" href="structiv_1_1LumaStyle.html#a8d0027c843ac0ef907493bee9663680f" title="Surface of elements. Base neutral background color.">LumaStyle::surface</a> and <a class="el" href="structiv_1_1LumaStyle.html#a804e8fbb55d6edcbb21eb99d81df1f50" title="Text and symbols on a normal sufrace.">LumaStyle::on_surface</a> colors. </p>
+<div class="textblock"><p>Flexible base for variously styled buttons. Needs some configuration to work. </p>
+<p>At least LumaButton::sufrace should be set. <a class="el" href="classiv_1_1LumaButton.html#a4f9decc1e01257eef85995e3d4e5d118">LumaButton::hot</a> is nice addition for visual responsiveness and <a class="el" href="classiv_1_1LumaButton.html#aa24c25277126443565c4a45cfcdc659b">LumaButton::overlay</a> should contain foreground graphics - symbols, glyphs or an icon. </p>
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00013">13</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00017">17</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a649963318f52bd87d484d7a2cf754d64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a649963318f52bd87d484d7a2cf754d64">&#9670;&nbsp;</a></span>LumaButton()</h2>
@@ -645,11 +649,11 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Useful when inheriting <a class="el" href="classiv_1_1LumaButton.html">LumaButton</a>, adding specifically animated graphics on top of it. This tells us about the color shheme currently in use by <a class="el" href="classiv_1_1LumaButton.html">LumaButton</a>, so that the extra graphics can sync with that. </p>
+<p>Useful when inheriting <a class="el" href="classiv_1_1LumaButton.html" title="Flexible base for variously styled buttons. Needs some configuration to work.">LumaButton</a>, adding specifically animated graphics on top of it. This tells us about the color shheme currently in use by <a class="el" href="classiv_1_1LumaButton.html" title="Flexible base for variously styled buttons. Needs some configuration to work.">LumaButton</a>, so that the extra graphics can sync with that. </p>
 
 <p>Reimplemented in <a class="el" href="classiv_1_1Rectangle__LumaButton.html#ae6c273fc77e7e624afd372c6a22225eb">iv::Rectangle_LumaButton</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00074">74</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00078">78</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -723,7 +727,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00016">16</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00020">20</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -747,7 +751,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00019">19</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00023">23</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -763,7 +767,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00036">36</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00040">40</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -779,7 +783,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00040">40</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00044">44</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -796,7 +800,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Resize stage option used for all textures. </p>
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00045">45</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00049">49</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -813,7 +817,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Color are rotated from NeutralColor to surface or highlight color. Base graphics for the button. </p>
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00051">51</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00055">55</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -830,7 +834,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Displayed on top of everything. Colors are rotated from NeutralColor to on_surface or on_highlight color. </p>
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00057">57</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00061">61</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -847,7 +851,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Displayed on top of surface during hover and duration. Colors are rotated from NeutralColor to surface or highlight color. </p>
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00063">63</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00067">67</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -871,7 +875,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00077">77</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LumaButton_8hpp_source.html#l00081">81</a> of file <a class="el" href="LumaButton_8hpp_source.html">LumaButton.hpp</a>.</p>
 
 </div>
 </div>
@@ -889,7 +893,7 @@ Protected Attributes</h2></td></tr>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 13:25:47 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Thu Aug 13 2020 16:31:44 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

@@ -27039,5 +27039,11 @@
     <class kind="class">iv::Transform</class>
     <class kind="class">iv::Text</class>
     <class kind="class">iv::TextLayout</class>
+    <class kind="class">iv::LumaButton</class>
+    <class kind="class">iv::LumaFrame</class>
+    <class kind="class">iv::LumaScroller</class>
+    <class kind="class">iv::LumaText</class>
+    <class kind="class">iv::Rectangle_LumaButton</class>
+    <class kind="class">iv::SimpleSplash</class>
   </compound>
 </tagfile>
