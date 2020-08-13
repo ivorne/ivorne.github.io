@@ -109,8 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceiv.html">iv</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>Divider;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classiv_1_1DividerSlot.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classiv_1_1DividerSlot.html">DividerSlot</a> : <span class="keyword">public</span> <a class="code" href="classiv_1_1Slot.html">Slot</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classiv_1_1DividerSlot.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classiv_1_1DividerSlot.html" title="A Slot that can be placed inside a Divider.">DividerSlot</a> : <span class="keyword">public</span> <a class="code" href="classiv_1_1Slot.html" title="Container that can put multiple SlotChild objects in one place.">Slot</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classiv_1_1DividerSlot.html#a9718e5f547321fc4ab021bab797f60c6">   16</a></span>&#160;<a class="code" href="classiv_1_1ClientMarker.html">ClientMarker</a> <a class="code" href="classiv_1_1DividerSlot.html#a9718e5f547321fc4ab021bab797f60c6">cm</a>;</div>
@@ -124,54 +123,53 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classiv_1_1DividerSlot.html#ac6d195bedd0e4dda8e09454de5282dd2">   33</a></span>&#160;    <a class="code" href="classiv_1_1DirtyAttr.html">DirtyAttr&lt; unsigned &gt;</a>   <a class="code" href="classiv_1_1DividerSlot.html#ac6d195bedd0e4dda8e09454de5282dd2">attr_higherOrder</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">// utility methods</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classiv_1_1DividerSlot.html">DividerSlot</a> *           <a class="code" href="classiv_1_1DividerSlot.html#add42c8b66647c3d503e9defebbd761b0">lowerOrder</a>( <span class="keywordtype">unsigned</span> );</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classiv_1_1DividerSlot.html">DividerSlot</a> *           <a class="code" href="classiv_1_1DividerSlot.html#a80b727099db2e611acb1ce1044acf1e9">higherOrder</a>( <span class="keywordtype">unsigned</span> );</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classiv_1_1DividerSlot.html" title="A Slot that can be placed inside a Divider.">DividerSlot</a> *           <a class="code" href="classiv_1_1DividerSlot.html#add42c8b66647c3d503e9defebbd761b0">lowerOrder</a>( <span class="keywordtype">unsigned</span> );</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classiv_1_1DividerSlot.html" title="A Slot that can be placed inside a Divider.">DividerSlot</a> *           <a class="code" href="classiv_1_1DividerSlot.html#a80b727099db2e611acb1ce1044acf1e9">higherOrder</a>( <span class="keywordtype">unsigned</span> );</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="classiv_1_1Divider.html">Divider</a> : <span class="keyword">public</span> <a class="code" href="classiv_1_1VectorChildrenElem.html">VectorChildrenElem</a>&lt; DividerSlot &gt;, <span class="keyword">public</span> <a class="code" href="classiv_1_1SlotChild.html">SlotChild</a></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">using</span> <a class="code" href="classiv_1_1Elem.html#a9e5d6a8c6489aa953a55977b0e10c586">Elem::instance</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html#a56aa9b90490d7809df423b523357b2ee">   45</a></span>&#160;<a class="code" href="classiv_1_1ClientMarker.html">ClientMarker</a> <a class="code" href="classiv_1_1Divider.html#a56aa9b90490d7809df423b523357b2ee">cm</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                    <a class="code" href="classiv_1_1Divider.html#a58c59894a361c5028308f513a999dbb6">Divider</a>( <a class="code" href="classiv_1_1Instance.html">Instance</a> * inst );</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span>                            <a class="code" href="classiv_1_1Divider.html#a98529c8514bfe821710b11fcbf1f4af7">status</a>( <a class="code" href="classiv_1_1TableDebugView.html">iv::TableDebugView</a> * view );</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">// initialization parameters</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html#a3c84153a753492d7e994afcf89b6e3bc">   52</a></span>&#160;    <a class="code" href="classiv_1_1DirtyAttr.html">DirtyAttr&lt; Axis &gt;</a>               <a class="code" href="classiv_1_1Divider.html#a3c84153a753492d7e994afcf89b6e3bc">attr_axis</a>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html#a50c6945680715fbbb39e0e3c939655b5">   53</a></span>&#160;    <a class="code" href="classiv_1_1DirtyAttr.html">DirtyAttr&lt; AxisOrder &gt;</a>          <a class="code" href="classiv_1_1Divider.html#a50c6945680715fbbb39e0e3c939655b5">attr_axisOrder</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">// utility methods</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="classiv_1_1Divider.html">Divider</a> *                       <a class="code" href="classiv_1_1Divider.html#a89299a56db4227e1da02f0c0410949db">axis</a>( <a class="code" href="namespaceiv.html#abc890bafbc0a53479164660895d1a1a0">Axis</a> );</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classiv_1_1Divider.html">Divider</a> *                       <a class="code" href="classiv_1_1Divider.html#a0b2fe0fe58f4761957119dd7b9e71440">axisOrder</a>( <a class="code" href="namespaceiv.html#a646579b205a4a0966e3eb3034067a7fd">AxisOrder</a> );</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// Elem</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1Divider.html#aa30ad439833166a3e038194ff065fd33">first_pass_impl</a>( <a class="code" href="classiv_1_1ElementRenderer.html">ElementRenderer</a> * ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1Divider.html#ac69620273b1534951d30a15534fbc343">second_pass_impl</a>( <a class="code" href="classiv_1_1ElementRenderer.html">ElementRenderer</a> * ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">struct </span>Phase</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">// primary (filled when constructing phases)</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordtype">size_t</span>  segment;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordtype">bool</span>    first;      </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordtype">bool</span>    higher;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">// secondary (filled when updating sizes and weights)</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordtype">float</span>   weight;     </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">float</span>   <a class="code" href="classiv_1_1SlotChild.html#a1180286bc1c7edd85815e3feb9ac45b3">size</a>;       </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    };</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    std::multimap&lt; unsigned, Phase &gt; phases;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html">   71</a></span>&#160;<span class="keyword">class </span><a class="code" href="classiv_1_1Divider.html" title="Container that divides its space between children according to their priorities.">Divider</a> : <span class="keyword">public</span> <a class="code" href="classiv_1_1VectorChildrenElem.html">VectorChildrenElem</a>&lt; DividerSlot &gt;, <span class="keyword">public</span> <a class="code" href="classiv_1_1SlotChild.html">SlotChild</a></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">using</span> <a class="code" href="classiv_1_1Elem.html#a9e5d6a8c6489aa953a55977b0e10c586">Elem::instance</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html#a56aa9b90490d7809df423b523357b2ee">   75</a></span>&#160;<a class="code" href="classiv_1_1ClientMarker.html">ClientMarker</a> <a class="code" href="classiv_1_1Divider.html#a56aa9b90490d7809df423b523357b2ee">cm</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                    <a class="code" href="classiv_1_1Divider.html#a58c59894a361c5028308f513a999dbb6">Divider</a>( <a class="code" href="classiv_1_1Instance.html">Instance</a> * inst );</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">bool</span> offsets_dirty;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;};</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span>                            <a class="code" href="classiv_1_1Divider.html#a98529c8514bfe821710b11fcbf1f4af7">status</a>( <a class="code" href="classiv_1_1TableDebugView.html">iv::TableDebugView</a> * view );</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">// initialization parameters</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html#a3c84153a753492d7e994afcf89b6e3bc">   82</a></span>&#160;    <a class="code" href="classiv_1_1DirtyAttr.html">DirtyAttr&lt; Axis &gt;</a>               <a class="code" href="classiv_1_1Divider.html#a3c84153a753492d7e994afcf89b6e3bc">attr_axis</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="classiv_1_1Divider.html#a50c6945680715fbbb39e0e3c939655b5">   83</a></span>&#160;    <a class="code" href="classiv_1_1DirtyAttr.html">DirtyAttr&lt; AxisOrder &gt;</a>          <a class="code" href="classiv_1_1Divider.html#a50c6945680715fbbb39e0e3c939655b5">attr_axisOrder</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">// utility methods</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="classiv_1_1Divider.html" title="Container that divides its space between children according to their priorities.">Divider</a> *                       <a class="code" href="classiv_1_1Divider.html#a89299a56db4227e1da02f0c0410949db">axis</a>( <a class="code" href="namespaceiv.html#abc890bafbc0a53479164660895d1a1a0">Axis</a> );</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="classiv_1_1Divider.html" title="Container that divides its space between children according to their priorities.">Divider</a> *                       <a class="code" href="classiv_1_1Divider.html#a0b2fe0fe58f4761957119dd7b9e71440">axisOrder</a>( <a class="code" href="namespaceiv.html#a646579b205a4a0966e3eb3034067a7fd">AxisOrder</a> );</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="comment">// Elem</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1Divider.html#aa30ad439833166a3e038194ff065fd33">first_pass_impl</a>( <a class="code" href="classiv_1_1ElementRenderer.html">ElementRenderer</a> * ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1Divider.html#ac69620273b1534951d30a15534fbc343">second_pass_impl</a>( <a class="code" href="classiv_1_1ElementRenderer.html">ElementRenderer</a> * ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keyword">struct </span>Phase</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="comment">// primary (filled when constructing phases)</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">size_t</span>  segment;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">bool</span>    first;      </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">bool</span>    higher;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="comment">// secondary (filled when updating sizes and weights)</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordtype">float</span>   weight;     </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordtype">float</span>   <a class="code" href="classiv_1_1SlotChild.html#a1180286bc1c7edd85815e3feb9ac45b3">size</a>;       </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    };</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    std::multimap&lt; unsigned, Phase &gt; phases;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">bool</span> offsets_dirty;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;};</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -182,7 +180,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 16:31:43 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Thu Aug 13 2020 17:39:09 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

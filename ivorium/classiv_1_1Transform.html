@@ -309,9 +309,14 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a51d7d7e1ea0205501f677b16f6468247 inherit pro_attribs_classiv_1_1OneChildElem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Passes prefsize and size through. Changes global transform. </p>
+<div class="textblock"><p>Container that allows us to directly modify model matrix of its child. Usable both in UI compositing and in world views.</p>
+<p>Works in two modes, depending on value of Transform::propagateSize:</p>
+<ol type="1">
+<li>When <a class="el" href="classiv_1_1Transform.html#ab85cf3cb7919154500999821b4e65830">Transform::propagateSize</a> is set to true, then <a class="el" href="classiv_1_1Transform.html">Transform</a> behaves basically like <a class="el" href="classiv_1_1Slot.html">Slot</a> that can have only one child and it can apply transform to child without either parent or the child really knowing about it. <a class="el" href="classiv_1_1Transform.html">Transform</a> does not step into <a class="el" href="classiv_1_1SlotChild.html#a1180286bc1c7edd85815e3feb9ac45b3">SlotChild::size</a> negotiation between parent and child node. This mode is useful for UI composition.</li>
+<li>When <a class="el" href="classiv_1_1Transform.html#ab85cf3cb7919154500999821b4e65830">Transform::propagateSize</a> is set to false, then <a class="el" href="classiv_1_1Transform.html">Transform</a> does not even try to fit child into parent container. <a class="el" href="classiv_1_1SlotChild.html#a1167cd88b599e8b1362ba382d5c4c1eb">SlotChild::preferredSize</a> 0 is requested from parent and child gets its requested <a class="el" href="classiv_1_1SlotChild.html#a1167cd88b599e8b1362ba382d5c4c1eb">SlotChild::preferredSize</a>. This mode is useful in world views, when child node does not necessarily need to fit inside parent node. </li>
+</ol>
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00015">15</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00019">19</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab3d078b9c570558e081c988bbf11909f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3d078b9c570558e081c988bbf11909f">&#9670;&nbsp;</a></span>Transform()</h2>
@@ -583,7 +588,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00018">18</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00022">22</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -599,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00026">26</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00030">30</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +620,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00027">27</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00031">31</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -631,7 +636,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00028">28</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00032">32</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -647,7 +652,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00029">29</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00033">33</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -663,7 +668,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00031">31</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00035">35</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -679,7 +684,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00032">32</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00036">36</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -696,7 +701,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Default is false, which means that transform prefsize is 0 and child will get its preferred size. <a class="el" href="classiv_1_1Transform.html">Transform</a> may still have size higher than 0, therefore outer_anchor still has a meaning. True means that transform will have prefsize the same as its child prefsize and child will get size of transform. </p>
 
-<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00039">39</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Transform_8hpp_source.html#l00043">43</a> of file <a class="el" href="Transform_8hpp_source.html">Transform.hpp</a>.</p>
 
 </div>
 </div>
@@ -714,7 +719,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 16:31:44 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Thu Aug 13 2020 17:39:10 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

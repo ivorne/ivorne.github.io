@@ -109,6 +109,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Container that can override preferred size of its child.  
+ <a href="classiv_1_1Prefsize.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -126,6 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fadf80719f8e79a54363daf9693bb01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classiv_1_1Prefsize.html">Prefsize</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1Prefsize.html#a9fadf80719f8e79a54363daf9693bb01">prefsizeZ</a> (std::optional&lt; float &gt;)</td></tr>
 <tr class="separator:a9fadf80719f8e79a54363daf9693bb01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f925277b373bb0913b43d290e915b1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classiv_1_1Prefsize.html">Prefsize</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1Prefsize.html#a6f925277b373bb0913b43d290e915b1b">prefsizeScale</a> (<a class="el" href="namespaceiv.html#a1ca131f798b89f132314abe84baae4db">float3</a>)</td></tr>
+<tr class="memdesc:a6f925277b373bb0913b43d290e915b1b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Multiplies</b> prefsize by this value before assigning it.  <a href="classiv_1_1Prefsize.html#a6f925277b373bb0913b43d290e915b1b">More...</a><br /></td></tr>
 <tr class="separator:a6f925277b373bb0913b43d290e915b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e5d6a8c6489aa953a55977b0e10c586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classiv_1_1Instance.html">Instance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1Prefsize.html#a9e5d6a8c6489aa953a55977b0e10c586">instance</a> () const</td></tr>
 <tr class="separator:a9e5d6a8c6489aa953a55977b0e10c586"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,7 +246,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a90a4da5df12acd8c70ee0b0609a719b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classiv_1_1DirtyAttr.html">DirtyAttr</a>&lt; std::optional&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1Prefsize.html#a90a4da5df12acd8c70ee0b0609a719b0">attr_prefsizeZ</a></td></tr>
 <tr class="separator:a90a4da5df12acd8c70ee0b0609a719b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01be650aff1886e5dc4bc9f6821da21d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classiv_1_1DirtyAttr.html">DirtyAttr</a>&lt; <a class="el" href="namespaceiv.html#a1ca131f798b89f132314abe84baae4db">float3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1Prefsize.html#a01be650aff1886e5dc4bc9f6821da21d">attr_prefsizeScale</a></td></tr>
-<tr class="memdesc:a01be650aff1886e5dc4bc9f6821da21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies scale on prefsize of all axes. Does not matter if the prefsize is overriden or synthesized.  <a href="classiv_1_1Prefsize.html#a01be650aff1886e5dc4bc9f6821da21d">More...</a><br /></td></tr>
 <tr class="separator:a01be650aff1886e5dc4bc9f6821da21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classiv_1_1OneChildElem"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classiv_1_1OneChildElem')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classiv_1_1OneChildElem.html">iv::OneChildElem&lt; SlotChild &gt;</a></td></tr>
 <tr class="memitem:abe44919d427a9de51eea1cf8e4dc2ac8 inherit pub_attribs_classiv_1_1OneChildElem"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classiv_1_1ClientMarker.html">ClientMarker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1OneChildElem.html#abe44919d427a9de51eea1cf8e4dc2ac8">cm</a></td></tr>
@@ -300,9 +303,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a51d7d7e1ea0205501f677b16f6468247 inherit pro_attribs_classiv_1_1OneChildElem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>If a dimension has nullopt prefsize value, then that <a class="el" href="classiv_1_1Prefsize.html">Prefsize</a> will use childs prefsize for that dimension. </p>
+<div class="textblock"><p>Container that can override preferred size of its child. </p>
+<p>If a dimension has nullopt prefsize value, then that <a class="el" href="classiv_1_1Prefsize.html" title="Container that can override preferred size of its child.">Prefsize</a> will use childs prefsize for that dimension. </p>
 
-<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00014">14</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00016">16</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae35a1d5c21d2dcf7fa6ddd58b59f657d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae35a1d5c21d2dcf7fa6ddd58b59f657d">&#9670;&nbsp;</a></span>Prefsize()</h2>
@@ -441,6 +445,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p><b>Multiplies</b> prefsize by this value before assigning it. </p>
+
 <p class="definition">Definition at line <a class="el" href="Prefsize_8cpp_source.html#l00101">101</a> of file <a class="el" href="Prefsize_8cpp_source.html">Prefsize.cpp</a>.</p>
 
 </div>
@@ -534,7 +540,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00017">17</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00019">19</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
 
 </div>
 </div>
@@ -550,7 +556,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00022">22</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00024">24</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
 
 </div>
 </div>
@@ -566,7 +572,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00023">23</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00025">25</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
 
 </div>
 </div>
@@ -582,7 +588,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00024">24</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00026">26</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
 
 </div>
 </div>
@@ -598,9 +604,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Applies scale on prefsize of all axes. Does not matter if the prefsize is overriden or synthesized. </p>
-
-<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00026">26</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Prefsize_8hpp_source.html#l00028">28</a> of file <a class="el" href="Prefsize_8hpp_source.html">Prefsize.hpp</a>.</p>
 
 </div>
 </div>
@@ -618,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 16:31:44 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Thu Aug 13 2020 17:39:10 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

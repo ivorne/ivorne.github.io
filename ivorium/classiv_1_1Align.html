@@ -109,6 +109,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Container providing special behaviors related to relative alignment of its child.  
+ <a href="classiv_1_1Align.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="Align_8hpp_source.html">Align.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -299,9 +302,16 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a51d7d7e1ea0205501f677b16f6468247 inherit pro_attribs_classiv_1_1OneChildElem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Does nothing by default. Usually is used to give child item its desired size (and usually aspect) and anchor it somewhere in parent container. Or can be used to resize child item to whatever size but to keep aspect. </p>
+<div class="textblock"><p>Container providing special behaviors related to relative alignment of its child. </p>
+<p>Use of Align::Border is encouraged for simple positioning tasks over <a class="el" href="classiv_1_1Align.html" title="Container providing special behaviors related to relative alignment of its child.">Align</a> (not because performance, but because it covers more usual use cases).</p>
+<p>Typical core use cases:</p><ol type="1">
+<li>Simple alignment - <a class="el" href="classiv_1_1Align.html#a95dff4636e1c42f1ef22298c429be071">Align::dontExpand</a> is set to true - Child retains its preferred size if possible and is positioned relatively inside according to <a class="el" href="classiv_1_1Align.html#a0d088d4d3ecab0c8b4979a56c38dc115">Align::innerAnchor</a> size.</li>
+<li>Keep aspect ratio - <a class="el" href="classiv_1_1Align.html#ab9a1126d493b5275c7838f6c9c5ceb9d">Align::keepAspect</a> is set to true - Child can be shrinked or expanded according to size of its parent, but it will always retain its aspect ration by reducing its size along some axes. <a class="el" href="classiv_1_1Align.html#a0d088d4d3ecab0c8b4979a56c38dc115">Align::innerAnchor</a> determines relative positioning along those reduced axes.</li>
+<li>Simple alignment and keep aspect ratio - Both <a class="el" href="classiv_1_1Align.html#a95dff4636e1c42f1ef22298c429be071">Align::dontExpand</a> and <a class="el" href="classiv_1_1Align.html#ab9a1126d493b5275c7838f6c9c5ceb9d">Align::keepAspect</a> are set to true - Child does not expand above its preferred size and when it shrinks due to small parent container, it retains its preferred size.</li>
+<li>Scale child instead of resizing - <a class="el" href="classiv_1_1Align.html#ae705aebeb52bf730b51088dde01f81bb">Align::resizeScales</a> is set to true - Child always gets its preferred size (on the inside), but is then scaled in order to fit into available space. This can be combined with the above use cases but it can also be used on its own. </li>
+</ol>
 
-<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00016">16</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00022">22</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a016a085fa82d55aed13175a319ec47c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a016a085fa82d55aed13175a319ec47c1">&#9670;&nbsp;</a></span>Align()</h2>
@@ -533,7 +543,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00019">19</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00025">25</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
 
 </div>
 </div>
@@ -549,7 +559,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00026">26</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00032">32</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
 
 </div>
 </div>
@@ -565,7 +575,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00027">27</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00033">33</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
 
 </div>
 </div>
@@ -581,7 +591,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00028">28</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00034">34</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
 
 </div>
 </div>
@@ -597,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00029">29</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Align_8hpp_source.html#l00035">35</a> of file <a class="el" href="Align_8hpp_source.html">Align.hpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +625,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 16:31:43 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Thu Aug 13 2020 17:39:09 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

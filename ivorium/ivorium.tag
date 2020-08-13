@@ -27032,10 +27032,11 @@
     <class kind="class">iv::Align</class>
     <class kind="class">iv::Border</class>
     <class kind="class">iv::DividerSlot</class>
+    <class kind="class">iv::Divider</class>
     <class kind="class">iv::FixedOrder_Camera</class>
     <class kind="class">iv::Image</class>
     <class kind="class">iv::Prefsize</class>
-    <class kind="class">iv::SlotChild</class>
+    <class kind="class">iv::Slot</class>
     <class kind="class">iv::Transform</class>
     <class kind="class">iv::Text</class>
     <class kind="class">iv::TextLayout</class>

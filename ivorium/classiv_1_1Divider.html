@@ -106,9 +106,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classiv_1_1Divider-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">iv::Divider Class Reference</div>  </div>
+<div class="title">iv::Divider Class Reference<div class="ingroups"><a class="el" href="group__Elements.html">Elements</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Container that divides its space between children according to their priorities.  
+ <a href="classiv_1_1Divider.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -292,8 +295,29 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a0ce6aa8a578ffec55b4a8ffd5d564f6b inherit pro_attribs_classiv_1_1VectorChildrenElem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00041">41</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
+<div class="textblock"><p>Container that divides its space between children according to their priorities. </p>
+<p>Axis along which the space will be divided must be set. Children with higher priority (lower order) will get required space before children with lower priority (higher order). Each child has two orders - <a class="el" href="classiv_1_1DividerSlot.html#add42c8b66647c3d503e9defebbd761b0">DividerSlot::lowerOrder</a> is used when the slot is smaller than its preferred size and <a class="el" href="classiv_1_1DividerSlot.html#a80b727099db2e611acb1ce1044acf1e9">DividerSlot::higherOrder</a> is used to allow child to resize above its preferred size.</p>
+<p>Example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> divider = this-&gt;createChild&lt; iv::Divider &gt;()</div>
+<div class="line">    -&gt;axis( <a class="code" href="namespaceiv.html#abc890bafbc0a53479164660895d1a1a0a02129bb861061d1a052c592e2dc6b383">iv::Axis::X</a> )</div>
+<div class="line">    -&gt;axisOrder( <a class="code" href="namespaceiv.html#a646579b205a4a0966e3eb3034067a7fda482be0da5798aaaecbf7416714e6607f">iv::AxisOrder::Incremental</a> );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// green square that will have higher priority before it reaches its preferred size</span></div>
+<div class="line">divider-&gt;createChild&lt; <a class="code" href="classiv_1_1DividerSlot.html" title="A Slot that can be placed inside a Divider.">iv::DividerSlot</a> &gt;()</div>
+<div class="line">    -&gt;lowerOrder( 0 )</div>
+<div class="line">    -&gt;<a class="code" href="classiv_1_1DividerSlot.html#a80b727099db2e611acb1ce1044acf1e9">higherOrder</a>( 2 )</div>
+<div class="line">    -&gt;<a class="code" href="classiv_1_1VectorChildrenElem.html#a2a80bd9135f3828cea53cd4a11661b6e">createChild</a>&lt; <a class="code" href="classiv_1_1Image.html">iv::Image</a> &gt;()</div>
+<div class="line">        -&gt;filename( <span class="stringliteral">&quot;/ivorium_graphics/generic/white.png&quot;</span> )</div>
+<div class="line">        -&gt;<a class="code" href="classiv_1_1Image.html#aa8d6f8edf7da5c979fb61f145702e31d">colorTransform</a>( <a class="code" href="structiv_1_1ColorTransform.html#a5abc2234367508a6bfde67e11ecbaf56" title="Input value is in sRGB, it is transformed to HCL and matrix is scaled by the HCL value.">iv::ColorTransform::Scale</a>( 0, 1, 0, 1 ) );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// blue square with lower priority; but once both squares reach their preferred size, they will both resize with the same speed (because their higherOrder is equal)</span></div>
+<div class="line">divider-&gt;createChild&lt; <a class="code" href="classiv_1_1DividerSlot.html" title="A Slot that can be placed inside a Divider.">iv::DividerSlot</a> &gt;()</div>
+<div class="line">    -&gt;lowerOrder( 1 )</div>
+<div class="line">    -&gt;<a class="code" href="classiv_1_1DividerSlot.html#a80b727099db2e611acb1ce1044acf1e9">higherOrder</a>( 2 )</div>
+<div class="line">    -&gt;<a class="code" href="classiv_1_1VectorChildrenElem.html#a2a80bd9135f3828cea53cd4a11661b6e">createChild</a>&lt; <a class="code" href="classiv_1_1Image.html">iv::Image</a> &gt;()</div>
+<div class="line">        -&gt;filename( <span class="stringliteral">&quot;/ivorium_graphics/generic/white.png&quot;</span> )</div>
+<div class="line">        -&gt;<a class="code" href="classiv_1_1Image.html#aa8d6f8edf7da5c979fb61f145702e31d">colorTransform</a>( <a class="code" href="structiv_1_1ColorTransform.html#a5abc2234367508a6bfde67e11ecbaf56" title="Input value is in sRGB, it is transformed to HCL and matrix is scaled by the HCL value.">iv::ColorTransform::Scale</a>( 0, 0, 1, 1 ) );</div>
+</div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00071">71</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a58c59894a361c5028308f513a999dbb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58c59894a361c5028308f513a999dbb6">&#9670;&nbsp;</a></span>Divider()</h2>
@@ -465,7 +489,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00045">45</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00075">75</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
 
 </div>
 </div>
@@ -481,7 +505,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00052">52</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00082">82</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +521,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00053">53</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Divider_8hpp_source.html#l00083">83</a> of file <a class="el" href="Divider_8hpp_source.html">Divider.hpp</a>.</p>
 
 </div>
 </div>
@@ -515,7 +539,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 16:31:43 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Thu Aug 13 2020 17:39:09 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>
