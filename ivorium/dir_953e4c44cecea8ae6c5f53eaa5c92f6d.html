@@ -22,6 +22,7 @@
         <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="doxy-boot.js"></script>
     </head>
@@ -29,7 +30,25 @@
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="index.html">ivorium 0.0.0</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <!-- Left -->
+                    <ul class="nav navbar-nav adjust-right">
+                        <li class="active"><a href="https://ivorne.github.io/ivorium/"><i class="fa fa-book"> <span style="font-family: Lato;">ivorium</span></i></a></li>
+                        <li><a href="https://ivorne.github.io/iv_components/"><i class="fa fa-book"> <span style="font-family: Lato;">iv_components</span></i></a></li>
+                    </ul>
+                    <!-- Right -->
+                    <ul class="nav navbar-nav navbar-right hidden-sm" style="margin-right: -9px;">
+                        <li><a href="https://github.com/ivorne/iv_example"><i class="fa fa-github"> <span style="font-family: Lato;">Example project</span></i></a></li>
+                        <li><a href="https://github.com/ivorne/ivorium"><i class="fa fa-github"> <span style="font-family: Lato;">GitHub</span></i></a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -50,7 +69,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -132,7 +150,7 @@ Files</h2></td></tr>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 17:49:30 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Sat Aug 15 2020 13:32:03 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

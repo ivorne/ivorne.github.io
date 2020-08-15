@@ -22,6 +22,7 @@
         <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="doxy-boot.js"></script>
     </head>
@@ -29,7 +30,25 @@
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="index.html">ivorium 0.0.0</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <!-- Left -->
+                    <ul class="nav navbar-nav adjust-right">
+                        <li class="active"><a href="https://ivorne.github.io/ivorium/"><i class="fa fa-book"> <span style="font-family: Lato;">ivorium</span></i></a></li>
+                        <li><a href="https://ivorne.github.io/iv_components/"><i class="fa fa-book"> <span style="font-family: Lato;">iv_components</span></i></a></li>
+                    </ul>
+                    <!-- Right -->
+                    <ul class="nav navbar-nav navbar-right hidden-sm" style="margin-right: -9px;">
+                        <li><a href="https://github.com/ivorne/iv_example"><i class="fa fa-github"> <span style="font-family: Lato;">Example project</span></i></a></li>
+                        <li><a href="https://github.com/ivorne/ivorium"><i class="fa fa-github"> <span style="font-family: Lato;">GitHub</span></i></a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -50,7 +69,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -112,7 +130,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container that divides its space between children according to their priorities.  <a href="classiv_1_1Divider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1FixedOrder__Camera.html">iv::FixedOrder_Camera</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A camera that shows renderables in fixed order, no Z sorting.  <a href="classiv_1_1FixedOrder__Camera.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scene root that renders items in fixed order, no Z sorting.  <a href="classiv_1_1FixedOrder__Camera.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classiv_1_1Image.html">iv::Image</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic element that displays a texture. Has many optional configuration parameters.  <a href="classiv_1_1Image.html#details">More...</a><br /></td></tr>
@@ -159,12 +177,12 @@ About</h3>
 <p>Root of scene graph can be any class that inherits <a class="el" href="classiv_1_1Camera.html">iv::Camera</a> - currently only <a class="el" href="classiv_1_1FixedOrder__Camera.html">iv::FixedOrder_Camera</a>. Children are added to scene using <a class="el" href="classiv_1_1OneChildElem.html#a84b44fe94dcf567e18caa023a0d75e7f">iv::OneChildElem::createChild</a> and similar methods. Some Elements act as containers, some are renderable. Most common type of parent / child relationship is <a class="el" href="classiv_1_1Slot.html">iv::Slot</a> / <a class="el" href="classiv_1_1SlotChild.html">iv::SlotChild</a>, but there is also <a class="el" href="classiv_1_1Divider.html">iv::Divider</a> / <a class="el" href="classiv_1_1DividerSlot.html">iv::DividerSlot</a> and <a class="el" href="classiv_1_1TextLayout.html">iv::TextLayout</a> and <a class="el" href="classiv_1_1TextSegment.html">iv::TextSegment</a> and more can be implemented if needed.</p>
 <h3><a class="anchor" id="autotoc_md1"></a>
 Example usage</h3>
-<div class="fragment"><div class="line"><a class="code" href="classiv_1_1FixedOrder__Camera.html" title="A camera that shows renderables in fixed order, no Z sorting.">iv::FixedOrder_Camera</a> * camera;</div>
+<div class="fragment"><div class="line"><a class="code" href="classiv_1_1FixedOrder__Camera.html" title="Scene root that renders items in fixed order, no Z sorting.">iv::FixedOrder_Camera</a> * camera;</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> init( <a class="code" href="classiv_1_1Instance.html">iv::Instance</a> * inst )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// instantiate scene root</span></div>
-<div class="line">    camera = <span class="keyword">new</span> <a class="code" href="classiv_1_1FixedOrder__Camera.html" title="A camera that shows renderables in fixed order, no Z sorting.">iv::FixedOrder_Camera</a>( inst, <a class="code" href="structiv_1_1RenderTarget_1_1Geometry.html">iv::RenderTarget::Geometry</a>( <a class="code" href="namespaceiv.html#ade95aaafb3a54caec767b15aecfd8fc5">iv::float2</a>( 1366, 768 ), 1.0 ) );</div>
+<div class="line">    camera = <span class="keyword">new</span> <a class="code" href="classiv_1_1FixedOrder__Camera.html" title="Scene root that renders items in fixed order, no Z sorting.">iv::FixedOrder_Camera</a>( inst, <a class="code" href="structiv_1_1RenderTarget_1_1Geometry.html">iv::RenderTarget::Geometry</a>( <a class="code" href="namespaceiv.html#ade95aaafb3a54caec767b15aecfd8fc5">iv::float2</a>( 1366, 768 ), 1.0 ) );</div>
 <div class="line">    </div>
 <div class="line">    <span class="comment">// lifetime of subelements created using createChild will be tied to lifetime of camera</span></div>
 <div class="line">    <span class="keyword">auto</span> border = camera-&gt;<a class="code" href="classiv_1_1VectorChildrenElem.html#a2a80bd9135f3828cea53cd4a11661b6e">createChild</a>&lt; <a class="code" href="classiv_1_1Border.html" title="Container that adds margins around child, allowing wide variety of positioning options inside parent.">iv::Border</a> &gt;();   <span class="comment">// iv::Border without changed attributes will position its content to the center without resizing it if not necessary.</span></div>
@@ -216,7 +234,7 @@ About scene tree pre-render refresh</h3>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 17:49:30 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Sat Aug 15 2020 13:32:02 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

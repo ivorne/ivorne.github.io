@@ -2718,6 +2718,11 @@
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
+    <name>Game.dox</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
+    <filename>Game_8dox.html</filename>
+  </compound>
+  <compound kind="file">
     <name>GlfmWindow.cpp</name>
     <path>/home/runner/work/ivorium/ivorium/src/ivorium_graphics/Game/</path>
     <filename>GlfmWindow_8cpp.html</filename>
@@ -4300,6 +4305,11 @@
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="no" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <class kind="class">iv::SimpleSplash</class>
     <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>mainpage.dox</name>
+    <path>/home/runner/work/ivorium/ivorium/src/</path>
+    <filename>mainpage_8dox.html</filename>
   </compound>
   <compound kind="struct">
     <name>iv::Activator</name>
@@ -27046,5 +27056,17 @@
     <class kind="class">iv::LumaText</class>
     <class kind="class">iv::Rectangle_LumaButton</class>
     <class kind="class">iv::SimpleSplash</class>
+  </compound>
+  <compound kind="group">
+    <name>Game</name>
+    <title>Game</title>
+    <filename>group__Game.html</filename>
+    <class kind="class">iv::GlfwWindow</class>
+    <class kind="class">iv::WindowListener</class>
+  </compound>
+  <compound kind="page">
+    <name>index</name>
+    <title>Ivorium</title>
+    <filename>index</filename>
   </compound>
 </tagfile>

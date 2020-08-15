@@ -22,6 +22,7 @@
         <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="doxy-boot.js"></script>
     </head>
@@ -29,7 +30,25 @@
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="index.html">ivorium 0.0.0</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <!-- Left -->
+                    <ul class="nav navbar-nav adjust-right">
+                        <li class="active"><a href="https://ivorne.github.io/ivorium/"><i class="fa fa-book"> <span style="font-family: Lato;">ivorium</span></i></a></li>
+                        <li><a href="https://ivorne.github.io/iv_components/"><i class="fa fa-book"> <span style="font-family: Lato;">iv_components</span></i></a></li>
+                    </ul>
+                    <!-- Right -->
+                    <ul class="nav navbar-nav navbar-right hidden-sm" style="margin-right: -9px;">
+                        <li><a href="https://github.com/ivorne/iv_example"><i class="fa fa-github"> <span style="font-family: Lato;">Example project</span></i></a></li>
+                        <li><a href="https://github.com/ivorne/ivorium"><i class="fa fa-github"> <span style="font-family: Lato;">GitHub</span></i></a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -50,7 +69,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -122,74 +140,74 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">using</span> <a class="code" href="classiv_1_1RenderTarget.html#a35f024960703cb2c3dd2e91bf8cf98d6">RenderTarget::frame_close</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classiv_1_1GlfwWindow.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="classiv_1_1GlfwWindow.html">GlfwWindow</a> : <span class="keyword">public</span> <a class="code" href="classiv_1_1Window.html">Window</a></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                                    <a class="code" href="classiv_1_1GlfwWindow.html#a9a7c29554b9af646f6fcd93385b948ca">GlfwWindow</a>( std::string <span class="keyword">const</span> &amp; window_title );</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                    <a class="code" href="classiv_1_1GlfwWindow.html#ab9c32326e701ca4ded5559a1159aaddf">~GlfwWindow</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                            </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span>                            <a class="code" href="classiv_1_1GlfwWindow.html#a4120eb801bc658e01c4730a0fede0b00">loop</a>();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#af4cc8732dd702526d3152be83b2502fa">set_listener</a>( <a class="code" href="classiv_1_1WindowListener.html">WindowListener</a> * listener ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="structiv_1_1RenderTarget_1_1Geometry.html">RenderTarget::Geometry</a>  <a class="code" href="classiv_1_1GlfwWindow.html#a136df8a52abbdfed67174db25fa29b45">geometry</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classiv_1_1RenderTarget.html">RenderTarget</a> *          <a class="code" href="classiv_1_1GlfwWindow.html#a31de9f27f8f893273dbd6714281d9ae2">render_target</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#ac4053cc08f7d9d025ae1d634297166d9">gpu_enabled</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// InputSource</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>                    <a class="code" href="classiv_1_1GlfwWindow.html#a9e57d4ba79d1f57a2bbef0ed3bd7df71">input_position</a>( <a class="code" href="classiv_1_1Input.html#a3cff41868e855afe8b237db2c1d38a36">Input::Key</a> key, <span class="keywordtype">int</span> device_id ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">float</span>                   <a class="code" href="classiv_1_1GlfwWindow.html#ac450600a0a1bf8cef7acf73d994f355a">input_value</a>( <a class="code" href="classiv_1_1Input.html#a3cff41868e855afe8b237db2c1d38a36">Input::Key</a> key, <span class="keywordtype">int</span> device_id ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">unsigned</span>                <a class="code" href="classiv_1_1GlfwWindow.html#a1db3275fa81a52ef8a5f78955fc247b2">input_character</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// window focus and geometry</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a20be8ef83f68bdbb9ff4020dc0a23e21">S_FocusCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> focused );</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a841de4d90d089ced3e3863d2904cffc3">FocusCallback</a>( <span class="keywordtype">int</span> focused );</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#aac1981ab417cb91070113d609912e688">S_ContentScaleCallback</a>( GLFWwindow * window, <span class="keywordtype">float</span> xscale, <span class="keywordtype">float</span> yscale );</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a97a1199ecd9b0c3ad6df1729674e0bcf">ContentScaleCallback</a>( <span class="keywordtype">float</span> xscale, <span class="keywordtype">float</span> yscale );</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classiv_1_1GlfwWindow.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="classiv_1_1GlfwWindow.html">GlfwWindow</a> : <span class="keyword">public</span> <a class="code" href="classiv_1_1Window.html">Window</a></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                    <a class="code" href="classiv_1_1GlfwWindow.html#a9a7c29554b9af646f6fcd93385b948ca">GlfwWindow</a>( std::string <span class="keyword">const</span> &amp; window_title );</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                    <a class="code" href="classiv_1_1GlfwWindow.html#ab9c32326e701ca4ded5559a1159aaddf">~GlfwWindow</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                            </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span>                            <a class="code" href="classiv_1_1GlfwWindow.html#a4120eb801bc658e01c4730a0fede0b00">loop</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#af4cc8732dd702526d3152be83b2502fa">set_listener</a>( <a class="code" href="classiv_1_1WindowListener.html">WindowListener</a> * listener ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="structiv_1_1RenderTarget_1_1Geometry.html">RenderTarget::Geometry</a>  <a class="code" href="classiv_1_1GlfwWindow.html#a136df8a52abbdfed67174db25fa29b45">geometry</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classiv_1_1RenderTarget.html">RenderTarget</a> *          <a class="code" href="classiv_1_1GlfwWindow.html#a31de9f27f8f893273dbd6714281d9ae2">render_target</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#ac4053cc08f7d9d025ae1d634297166d9">gpu_enabled</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// InputSource</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>                    <a class="code" href="classiv_1_1GlfwWindow.html#a9e57d4ba79d1f57a2bbef0ed3bd7df71">input_position</a>( <a class="code" href="classiv_1_1Input.html#a3cff41868e855afe8b237db2c1d38a36">Input::Key</a> key, <span class="keywordtype">int</span> device_id ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">float</span>                   <a class="code" href="classiv_1_1GlfwWindow.html#ac450600a0a1bf8cef7acf73d994f355a">input_value</a>( <a class="code" href="classiv_1_1Input.html#a3cff41868e855afe8b237db2c1d38a36">Input::Key</a> key, <span class="keywordtype">int</span> device_id ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">unsigned</span>                <a class="code" href="classiv_1_1GlfwWindow.html#a1db3275fa81a52ef8a5f78955fc247b2">input_character</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// window focus and geometry</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a20be8ef83f68bdbb9ff4020dc0a23e21">S_FocusCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> focused );</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a841de4d90d089ced3e3863d2904cffc3">FocusCallback</a>( <span class="keywordtype">int</span> focused );</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#acdaba75d864728cd00604540771ce737">S_SizeCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a5eb323b47e754c28fc8d0c94f38e32d7">SizeCallback</a>( <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#aac1981ab417cb91070113d609912e688">S_ContentScaleCallback</a>( GLFWwindow * window, <span class="keywordtype">float</span> xscale, <span class="keywordtype">float</span> yscale );</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a97a1199ecd9b0c3ad6df1729674e0bcf">ContentScaleCallback</a>( <span class="keywordtype">float</span> xscale, <span class="keywordtype">float</span> yscale );</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#ad36a3b2b68a8ea039181fdbb45f56460">S_FBSizeCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a367167c1853cc56f2bd65727b4bf4297">FBSizeCallback</a>( <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#acdaba75d864728cd00604540771ce737">S_SizeCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a5eb323b47e754c28fc8d0c94f38e32d7">SizeCallback</a>( <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// keyboard</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a88494d35b030c8431b7ac93ee53e1505">S_KeyCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> scancode, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a3bb0e42cade50f15f7d6043fc7d1b1b0">KeyCallback</a>( <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> scancode, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// mouse</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a0accebb9102e27311d6c0cba7eb33ba2">S_MouseButtonCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> button, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a21d0186bd24ecd460440578bc54484f1">MouseButtonCallback</a>( <span class="keywordtype">int</span> button, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#af1a43fe05e783a47ef39de28f78b55bc">S_ScrollCallback</a>( GLFWwindow * window, <span class="keywordtype">double</span> xoffset, <span class="keywordtype">double</span> yoffset );</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a91bc8017904844f7c64944599b457347">ScrollCallback</a>( <span class="keywordtype">double</span> xoffset, <span class="keywordtype">double</span> yoffset );</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#ad36a3b2b68a8ea039181fdbb45f56460">S_FBSizeCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a367167c1853cc56f2bd65727b4bf4297">FBSizeCallback</a>( <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height );</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// keyboard</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a88494d35b030c8431b7ac93ee53e1505">S_KeyCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> scancode, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a3bb0e42cade50f15f7d6043fc7d1b1b0">KeyCallback</a>( <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> scancode, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// mouse</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a0accebb9102e27311d6c0cba7eb33ba2">S_MouseButtonCallback</a>( GLFWwindow * window, <span class="keywordtype">int</span> button, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a21d0186bd24ecd460440578bc54484f1">MouseButtonCallback</a>( <span class="keywordtype">int</span> button, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods );</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a21b632fe4d8186489b4b041a0af8e96e">S_CharCallback</a>( GLFWwindow * window, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> codepoint );</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a6012dc56413e6b4e058237d90a6ceaf5">CharCallback</a>( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> codepoint );</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#af1a43fe05e783a47ef39de28f78b55bc">S_ScrollCallback</a>( GLFWwindow * window, <span class="keywordtype">double</span> xoffset, <span class="keywordtype">double</span> yoffset );</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a91bc8017904844f7c64944599b457347">ScrollCallback</a>( <span class="keywordtype">double</span> xoffset, <span class="keywordtype">double</span> yoffset );</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    std::optional&lt; Input::Key &gt; KeyboardKey_GlfwToIvorium( <span class="keywordtype">int</span> key );</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    std::optional&lt; Input::Key &gt; MouseButton_GlfwToIvorium( <span class="keywordtype">int</span> button );</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span>                    render();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">//--- core members ---</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    GLFWwindow *            window;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="classiv_1_1WindowListener.html">WindowListener</a> *        listener;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="classiv_1_1GlfwRenderTarget.html">GlfwRenderTarget</a>        _render_target;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">//--- partial states ---</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">double</span>                  _time_last;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span>             <a class="code" href="classiv_1_1GlfwWindow.html#a21b632fe4d8186489b4b041a0af8e96e">S_CharCallback</a>( GLFWwindow * window, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> codepoint );</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span>                    <a class="code" href="classiv_1_1GlfwWindow.html#a6012dc56413e6b4e058237d90a6ceaf5">CharCallback</a>( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> codepoint );</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    std::optional&lt; Input::Key &gt; KeyboardKey_GlfwToIvorium( <span class="keywordtype">int</span> key );</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    std::optional&lt; Input::Key &gt; MouseButton_GlfwToIvorium( <span class="keywordtype">int</span> button );</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span>                    render();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">//--- core members ---</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    GLFWwindow *            window;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="classiv_1_1WindowListener.html">WindowListener</a> *        listener;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="classiv_1_1GlfwRenderTarget.html">GlfwRenderTarget</a>        _render_target;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">bool</span>                    _focused;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">unsigned</span>                _current_character;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">//--- partial states ---</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">double</span>                  _time_last;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">double</span>                  _floating_fps;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;};</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">bool</span>                    _focused;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">unsigned</span>                _current_character;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">double</span>                  _floating_fps;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;};</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -200,7 +218,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 17:49:29 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Sat Aug 15 2020 13:32:02 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>

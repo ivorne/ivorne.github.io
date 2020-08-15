@@ -22,6 +22,7 @@
         <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="doxy-boot.js"></script>
     </head>
@@ -29,7 +30,25 @@
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="index.html">ivorium 0.0.0</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <!-- Left -->
+                    <ul class="nav navbar-nav adjust-right">
+                        <li class="active"><a href="https://ivorne.github.io/ivorium/"><i class="fa fa-book"> <span style="font-family: Lato;">ivorium</span></i></a></li>
+                        <li><a href="https://ivorne.github.io/iv_components/"><i class="fa fa-book"> <span style="font-family: Lato;">iv_components</span></i></a></li>
+                    </ul>
+                    <!-- Right -->
+                    <ul class="nav navbar-nav navbar-right hidden-sm" style="margin-right: -9px;">
+                        <li><a href="https://github.com/ivorne/iv_example"><i class="fa fa-github"> <span style="font-family: Lato;">Example project</span></i></a></li>
+                        <li><a href="https://github.com/ivorne/ivorium"><i class="fa fa-github"> <span style="font-family: Lato;">GitHub</span></i></a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -50,7 +69,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -109,7 +127,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>A camera that shows renderables in fixed order, no Z sorting.  
+<p>Scene root that renders items in fixed order, no Z sorting.  
  <a href="classiv_1_1FixedOrder__Camera.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="FixedOrder__Camera_8hpp_source.html">FixedOrder_Camera.hpp</a>&gt;</code></p>
@@ -318,7 +336,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a0ce6aa8a578ffec55b4a8ffd5d564f6b inherit pro_attribs_classiv_1_1VectorChildrenElem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A camera that shows renderables in fixed order, no Z sorting. </p>
+<div class="textblock"><p>Scene root that renders items in fixed order, no Z sorting. </p>
 <p>Renders elements in the order they were added to the <a class="el" href="classiv_1_1ElementRenderer.html">ElementRenderer</a> - order they are placed in the element tree. This uses depth buffer for opaque elements, so they will not really be rendered in given order, but they will appear as if they were. Opaque elements are in fact grouped by shader id and texture id to have less context switches. </p>
 
 <p class="definition">Definition at line <a class="el" href="FixedOrder__Camera_8hpp_source.html#l00021">21</a> of file <a class="el" href="FixedOrder__Camera_8hpp_source.html">FixedOrder_Camera.hpp</a>.</p>
@@ -537,7 +555,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="footer">
     <div class="container">
-        <address class="footer"><small>Generated on Thu Aug 13 2020 17:49:30 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+        <address class="footer"><small>Generated on Sat Aug 15 2020 13:32:02 for ivorium by &#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
     </div>
 </div>
 </body>
