@@ -33,6 +33,7 @@
     <includes id="ivorium__graphics_8hpp" name="ivorium_graphics.hpp" local="yes" imported="no">ivorium_graphics/ivorium_graphics.hpp</includes>
     <includes id="ivorium__systems_8hpp" name="ivorium_systems.hpp" local="yes" imported="no">ivorium_systems/ivorium_systems.hpp</includes>
     <includes id="ivorium__UI_8hpp" name="ivorium_UI.hpp" local="yes" imported="no">ivorium_UI/ivorium_UI.hpp</includes>
+    <includes id="ivorium__model_8hpp" name="ivorium_model.hpp" local="yes" imported="no">ivorium_model/ivorium_model.hpp</includes>
     <namespace>iv</namespace>
     <member kind="function">
       <type>void</type>
@@ -3270,6 +3271,90 @@
     <includes id="Slot_8hpp" name="Slot.hpp" local="yes" imported="no">../Elements/Slot.hpp</includes>
     <class kind="class">iv::TextSegment</class>
     <class kind="class">iv::TextLayout</class>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ivorium_model.hpp</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/</path>
+    <filename>ivorium__model_8hpp.html</filename>
+    <includes id="Link_8hpp" name="Link.hpp" local="yes" imported="no">ModelTools/Link.hpp</includes>
+    <includes id="ComponentAttr_8hpp" name="ComponentAttr.hpp" local="yes" imported="no">ModelTools/ComponentAttr.hpp</includes>
+    <includes id="GenericListener_8hpp" name="GenericListener.hpp" local="yes" imported="no">ModelTools/GenericListener.hpp</includes>
+    <includes id="World_8hpp" name="World.hpp" local="yes" imported="no">ModelTools/World.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>ComponentAttr.hpp</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>ComponentAttr_8hpp.html</filename>
+    <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
+    <includes id="ComponentAttr_8inl" name="ComponentAttr.inl" local="yes" imported="no">ComponentAttr.inl</includes>
+    <class kind="class">iv::ComponentAttr_Index</class>
+    <class kind="class">iv::ComponentAttr</class>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ComponentAttr.inl</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>ComponentAttr_8inl.html</filename>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>GenericListener.hpp</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>GenericListener_8hpp.html</filename>
+    <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
+    <includes id="GenericListener_8inl" name="GenericListener.inl" local="yes" imported="no">GenericListener.inl</includes>
+    <class kind="class">iv::GenericListener_Index</class>
+    <class kind="class">iv::GenericListener</class>
+    <class kind="class">iv::GenericListener_Index</class>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>GenericListener.inl</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>GenericListener_8inl.html</filename>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Link.cpp</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>Link_8cpp.html</filename>
+    <includes id="Link_8hpp" name="Link.hpp" local="yes" imported="no">Link.hpp</includes>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Link.hpp</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>Link_8hpp.html</filename>
+    <includes id="Link_8inl" name="Link.inl" local="yes" imported="no">Link.inl</includes>
+    <class kind="class">iv::Link</class>
+    <class kind="class">iv::VLink</class>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Link.inl</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>Link_8inl.html</filename>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ModelTools.dox</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>ModelTools_8dox.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>World.hpp</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>World_8hpp.html</filename>
+    <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
+    <includes id="World_8inl" name="World.inl" local="yes" imported="no">World.inl</includes>
+    <class kind="class">iv::World</class>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>World.inl</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>World_8inl.html</filename>
     <namespace>iv</namespace>
   </compound>
   <compound kind="file">
@@ -7843,6 +7928,96 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>iv::ComponentAttr</name>
+    <filename>classiv_1_1ComponentAttr.html</filename>
+    <templarg></templarg>
+    <templarg></templarg>
+    <base protection="private">iv::AttributeEventProcessor</base>
+    <base>iv::SharedAttr_I</base>
+    <member kind="function">
+      <type></type>
+      <name>ComponentAttr</name>
+      <anchorfile>classiv_1_1ComponentAttr.html</anchorfile>
+      <anchor>a75363725f4850110d35f061c0229eb4a</anchor>
+      <arglist>(iv::ClientMarker *cm, T const &amp;initial_value=T())</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~ComponentAttr</name>
+      <anchorfile>classiv_1_1ComponentAttr.html</anchorfile>
+      <anchor>a0cd301b3e92a029702c02a9a5f287175</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ComponentAttr</name>
+      <anchorfile>classiv_1_1ComponentAttr.html</anchorfile>
+      <anchor>af07470518632179e88b24f65dd9e5412</anchor>
+      <arglist>(ComponentAttr&lt; Component, T &gt; const &amp;src)</arglist>
+    </member>
+    <member kind="function">
+      <type>ComponentAttr&lt; Component, T &gt; &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classiv_1_1ComponentAttr.html</anchorfile>
+      <anchor>aa1dffc9decaf3ffd21313b30c4dc87cd</anchor>
+      <arglist>(ComponentAttr&lt; Component, T &gt; const &amp;src)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Index</name>
+      <anchorfile>classiv_1_1ComponentAttr.html</anchorfile>
+      <anchor>a49f010bd97c8dddf17e634837077497d</anchor>
+      <arglist>(Component *component, ComponentAttr_Index&lt; Component &gt; *index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Index</name>
+      <anchorfile>classiv_1_1ComponentAttr.html</anchorfile>
+      <anchor>aee819168b4e94edaae86620ab346cd27</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>iv::ComponentAttr_Index</name>
+    <filename>classiv_1_1ComponentAttr__Index.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>ComponentAttr_Index</name>
+      <anchorfile>classiv_1_1ComponentAttr__Index.html</anchorfile>
+      <anchor>a3f035dd4a48a5432386604bfdc64c90f</anchor>
+      <arglist>(iv::Instance *inst)</arglist>
+    </member>
+    <member kind="function">
+      <type>iv::Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1ComponentAttr__Index.html</anchorfile>
+      <anchor>ac4951ef3bcc3c4bf0ac01bf9184c7e0a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttributeEvent</name>
+      <anchorfile>classiv_1_1ComponentAttr__Index.html</anchorfile>
+      <anchor>afb64a37fe5af5df924db27c86e37c1d7</anchor>
+      <arglist>(iv::AttributeEventProcessor::Event event, Component *component, iv::Attribute *attr, iv::AttributeListener *listener)</arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::ClientMarker</type>
+      <name>cm</name>
+      <anchorfile>classiv_1_1ComponentAttr__Index.html</anchorfile>
+      <anchor>a733137572e9b18dd6b348b25502c5177</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>Component_AttrChanged</name>
+      <anchorfile>classiv_1_1ComponentAttr__Index.html</anchorfile>
+      <anchor>ad06e45a2ac28d367540534e40da42b73</anchor>
+      <arglist>(Component *component, iv::Attribute *attr)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>iv::ConfigFileSystem</name>
     <filename>classiv_1_1ConfigFileSystem.html</filename>
     <base>iv::System</base>
@@ -12165,6 +12340,114 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>iv::GenericListener</name>
+    <filename>classiv_1_1GenericListener.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>GenericListener</name>
+      <anchorfile>classiv_1_1GenericListener.html</anchorfile>
+      <anchor>a80b33d578657538dc136f06bf61a09d5</anchor>
+      <arglist>(iv::Instance *inst, GenericListener_Index&lt; Listener &gt; *index)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~GenericListener</name>
+      <anchorfile>classiv_1_1GenericListener.html</anchorfile>
+      <anchor>a579654b8cda218e71964cc02a669b25b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>iv::Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1GenericListener.html</anchorfile>
+      <anchor>ae752d6d347fa5d066ccc968100a21408</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Initialize</name>
+      <anchorfile>classiv_1_1GenericListener.html</anchorfile>
+      <anchor>ac5f1dc7852f8384572c3548c75952fae</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>VerifyInitialization</name>
+      <anchorfile>classiv_1_1GenericListener.html</anchorfile>
+      <anchor>a69286f7f9745881ab29f593e2bb40f71</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::ClientMarker</type>
+      <name>cm</name>
+      <anchorfile>classiv_1_1GenericListener.html</anchorfile>
+      <anchor>a6559e26dfdd8330c35205854392b954c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>iv::GenericListener_Index</name>
+    <filename>classiv_1_1GenericListener__Index.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>GenericListener_Index</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>aa532ed8228f527b9864c8aefbf7b394a</anchor>
+      <arglist>(iv::Instance *inst)</arglist>
+    </member>
+    <member kind="function">
+      <type>iv::Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>a7b4a5cbdbde1d0e42fc770baccc940b7</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddListener</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>a5a4dcaf763cc72f4f50ea990bddbd49e</anchor>
+      <arglist>(Listener *)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>RemoveListener</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>a7c610b0edd1bf2f7e6e082fff60ce5ff</anchor>
+      <arglist>(Listener *)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>InitializeListener</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>a7b7f5fe0b29cccc7cf7189d567d2cc99</anchor>
+      <arglist>(Listener *)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>InvokeListeners</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>abfa651521eb6a483a66a60306ed74c2a</anchor>
+      <arglist>(void(Listener::*member)(Params ...), Params ... params)</arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::ClientMarker</type>
+      <name>cm</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>ac5a0840c2c804652a38479c8118db7b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>Listener_Initialize</name>
+      <anchorfile>classiv_1_1GenericListener__Index.html</anchorfile>
+      <anchor>a08780f05ddff5b588bf04ec0e036338f</anchor>
+      <arglist>(Listener *)=0</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>iv::RenderTarget::Geometry</name>
     <filename>structiv_1_1RenderTarget_1_1Geometry.html</filename>
@@ -13187,6 +13470,11 @@
     <filename>structstd_1_1hash_3_01iv_1_1DVarId_01_4.html</filename>
     <base>hash&lt; iv::DVarId &gt;</base>
   </compound>
+  <compound kind="struct">
+    <name>std::hash&lt; iv::InputId &gt;</name>
+    <filename>structstd_1_1hash_3_01iv_1_1InputId_01_4.html</filename>
+    <base>hash&lt; iv::InputId &gt;</base>
+  </compound>
   <compound kind="class">
     <name>hash&lt; iv::InputId &gt;</name>
     <filename>structiv_1_1hash.html</filename>
@@ -13211,11 +13499,6 @@
       <anchor>a18509adb9a3a6a8d5c9b9328088e3345</anchor>
       <arglist>(iv::InputId const &amp;value) const</arglist>
     </member>
-  </compound>
-  <compound kind="struct">
-    <name>std::hash&lt; iv::InputId &gt;</name>
-    <filename>structstd_1_1hash_3_01iv_1_1InputId_01_4.html</filename>
-    <base>hash&lt; iv::InputId &gt;</base>
   </compound>
   <compound kind="struct">
     <name>std::hash&lt; iv::instance_ptr &gt;</name>
@@ -16239,6 +16522,53 @@
       <anchorfile>structiv_1_1FontMesh_1_1LineState.html</anchorfile>
       <anchor>a6fb4bb4c15220907be30e3df6912aab3</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>iv::Link</name>
+    <filename>classiv_1_1Link.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>Link</name>
+      <anchorfile>classiv_1_1Link.html</anchorfile>
+      <anchor>a64269637bcf19c873048be527abb7740</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Link</name>
+      <anchorfile>classiv_1_1Link.html</anchorfile>
+      <anchor>ae9f1ce82faf7c36f9f898233da5e5e2d</anchor>
+      <arglist>(Target *)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set</name>
+      <anchorfile>classiv_1_1Link.html</anchorfile>
+      <anchor>a83716eb79a776f6d093fef87c2ccf215</anchor>
+      <arglist>(Target *)</arglist>
+    </member>
+    <member kind="function">
+      <type>Target *</type>
+      <name>get</name>
+      <anchorfile>classiv_1_1Link.html</anchorfile>
+      <anchor>ab5c61f9a978c61cad9adc0fb4f18acf7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Target *</type>
+      <name>operator-&gt;</name>
+      <anchorfile>classiv_1_1Link.html</anchorfile>
+      <anchor>a8dc54ca64cbbbae3027600c8f40efbfe</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Target *</type>
+      <name>operator*</name>
+      <anchorfile>classiv_1_1Link.html</anchorfile>
+      <anchor>a059a3a3f7d3a935ce29d2cdb6234588b</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -25078,6 +25408,45 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>iv::VLink</name>
+    <filename>classiv_1_1VLink.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>VLink</name>
+      <anchorfile>classiv_1_1VLink.html</anchorfile>
+      <anchor>ab4540f2b673b9778a7081474119ed93a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>VLink</name>
+      <anchorfile>classiv_1_1VLink.html</anchorfile>
+      <anchor>a8c9a99c41c8db9b59bd31a6774870dc8</anchor>
+      <arglist>(Target *)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set</name>
+      <anchorfile>classiv_1_1VLink.html</anchorfile>
+      <anchor>a7b1cf3d45b887e7df519a36dacb1ff63</anchor>
+      <arglist>(Target *)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::type_index</type>
+      <name>type</name>
+      <anchorfile>classiv_1_1VLink.html</anchorfile>
+      <anchor>a96b1acb175117c86af7f68586d413173</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Target *</type>
+      <name>get</name>
+      <anchorfile>classiv_1_1VLink.html</anchorfile>
+      <anchor>aa2c6a0dd23a4b0c646a11092bd590633</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>iv::volatile_set</name>
     <filename>classiv_1_1volatile__set.html</filename>
     <templarg></templarg>
@@ -25729,6 +26098,87 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>volatile_set&lt; Listener * &gt;</name>
+    <filename>classiv_1_1volatile__set.html</filename>
+    <member kind="typedef">
+      <type>typename std::unordered_set&lt; Listener *, std::hash&lt; Listener * &gt;, std::equal_to&lt; Listener * &gt; &gt;::iterator</type>
+      <name>iterator</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>ab8571ec4f3e08e20fdd79719e0d314eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>insert</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>a6c312dd578d09e0af94d5a2ebb7c521a</anchor>
+      <arglist>(Listener * const &amp;val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>erase</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>af879512b5712eed132bd106446b81ab8</anchor>
+      <arglist>(Listener * const &amp;val)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>count</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>aa8165e9c5c5be07684661c55cd763f20</anchor>
+      <arglist>(Listener * const &amp;val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>foreach</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>a6931ae1500163edbaeba47b623f26fd5</anchor>
+      <arglist>(std::function&lt; void(Listener * const &amp;) &gt; const &amp;fun)</arglist>
+    </member>
+    <member kind="function">
+      <type>iterator &amp;</type>
+      <name>lock_begin</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>ac74ae87a52c87ebf4cfa9f5575dfa37c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>iterator &amp;</type>
+      <name>lock_find</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>afe50af43f145474bd4eb2c0a29f677ae</anchor>
+      <arglist>(Listener * const &amp;val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>unlock</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>a7290f6c49b9d41a56d934880f8982438</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>iterator</type>
+      <name>end</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>a346e2b049c8c918fa9cba171016efef7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>size</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>a6869a879702472edfa7bbe01101f34f3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>empty</name>
+      <anchorfile>classiv_1_1volatile__set.html</anchorfile>
+      <anchor>ad6adaba1f263d7446903c72aa585e3d8</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>iv::Watch</name>
     <filename>classiv_1_1Watch.html</filename>
     <member kind="function">
@@ -25917,6 +26367,67 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>iv::World</name>
+    <filename>classiv_1_1World.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>World</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>afd6897d035c49a954ec1692c67f76335</anchor>
+      <arglist>(iv::Instance *inst)</arglist>
+    </member>
+    <member kind="function">
+      <type>iv::Instance *</type>
+      <name>instance</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>ae62844d90eb9aedbfd75b8f665f3f7f0</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Register</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>aea24d1e09330d126266ea31bfb4099c6</anchor>
+      <arglist>(Component *)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Unregister</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>a64521f27a0ca19cd98a6283061590869</anchor>
+      <arglist>(Component *)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_set&lt; Component * &gt; &amp;</type>
+      <name>components</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>a896b5aadeb2129e7a0b67d6748b815dd</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::ClientMarker</type>
+      <name>cm</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>a9560c96fa6e56eda246c38dccbedad60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>Component_Registered</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>a079a0029a8f47680c5a6afdf3b76837b</anchor>
+      <arglist>(Component *component)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>Component_Unregistered</name>
+      <anchorfile>classiv_1_1World.html</anchorfile>
+      <anchor>aab15442ab60902720ded577ce9107c87</anchor>
+      <arglist>(Component *component)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>iv::XcfInfo</name>
     <filename>classiv_1_1XcfInfo.html</filename>
     <base protection="private">iv::StreamResource</base>
@@ -26028,6 +26539,8 @@
     <class kind="class">iv::ClientMarker</class>
     <class kind="class">iv::ClientMarkerIds</class>
     <class kind="struct">iv::ColorTransform</class>
+    <class kind="class">iv::ComponentAttr</class>
+    <class kind="class">iv::ComponentAttr_Index</class>
     <class kind="class">iv::ConfigFileSystem</class>
     <class kind="class">iv::ConfigStream</class>
     <class kind="class">iv::Context</class>
@@ -26081,6 +26594,8 @@
     <class kind="class">iv::FunctorField</class>
     <class kind="class">iv::Game</class>
     <class kind="struct">iv::GameIdentity</class>
+    <class kind="class">iv::GenericListener</class>
+    <class kind="class">iv::GenericListener_Index</class>
     <class kind="class">iv::GlfmRenderTarget</class>
     <class kind="class">iv::GlfmWindow</class>
     <class kind="class">iv::GlfwRenderTarget</class>
@@ -26137,6 +26652,7 @@
     <class kind="class">iv::Lex</class>
     <class kind="class">iv::Lex_LogTrace</class>
     <class kind="struct">iv::LinearTransform</class>
+    <class kind="class">iv::Link</class>
     <class kind="class">iv::Local_AEP</class>
     <class kind="class">iv::LogId</class>
     <class kind="class">iv::LogTrace</class>
@@ -26286,10 +26802,12 @@
     <class kind="class">iv::TreeDebugView</class>
     <class kind="class">iv::VectorChildrenElem</class>
     <class kind="class">iv::VirtualResourceProvider</class>
+    <class kind="class">iv::VLink</class>
     <class kind="class">iv::volatile_set</class>
     <class kind="class">iv::Watch</class>
     <class kind="class">iv::Window</class>
     <class kind="class">iv::WindowListener</class>
+    <class kind="class">iv::World</class>
     <class kind="class">iv::XcfInfo</class>
     <class kind="class">iv::XcfInfo_Resource</class>
     <class kind="class">iv::XcfInfo_Subprovider</class>
@@ -27063,6 +27581,18 @@
     <filename>group__Game.html</filename>
     <class kind="class">iv::GlfwWindow</class>
     <class kind="class">iv::WindowListener</class>
+  </compound>
+  <compound kind="group">
+    <name>ModelTools</name>
+    <title>ModelTools</title>
+    <filename>group__ModelTools.html</filename>
+    <class kind="class">iv::ComponentAttr_Index</class>
+    <class kind="class">iv::ComponentAttr</class>
+    <class kind="class">iv::GenericListener</class>
+    <class kind="class">iv::GenericListener_Index</class>
+    <class kind="class">iv::Link</class>
+    <class kind="class">iv::VLink</class>
+    <class kind="class">iv::World</class>
   </compound>
   <compound kind="page">
     <name>index</name>
