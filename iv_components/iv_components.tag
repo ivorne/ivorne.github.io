@@ -1426,9 +1426,12 @@
     <class kind="class">comp::Sectors_Loader</class>
   </compound>
   <compound kind="group">
-    <name>GameState</name>
-    <title>GameState</title>
-    <filename>group__GameState.html</filename>
+    <name>Simulation</name>
+    <title>Simulation</title>
+    <filename>group__Simulation.html</filename>
+    <class kind="class">comp::Simulation</class>
+    <class kind="class">comp::SimulationState</class>
+    <class kind="class">comp::SimulationState_Button</class>
   </compound>
   <compound kind="page">
     <name>index</name>
