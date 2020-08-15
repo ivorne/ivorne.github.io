@@ -24,7 +24,7 @@ var searchData=
   ['bool_254',['Bool',['https://ivorne.github.io/ivorium/classiv_1_1JsonLex.html#a5101e4bc2bc0fab2ed8923de1017a961af4887946aa0e397671a5bb96e25a2cbe',1,'iv::JsonLex']]],
   ['bool2_255',['bool2',['https://ivorne.github.io/ivorium/namespaceiv.html#a42b04dc0c544c4e2e9f19bbcc662c182',1,'iv']]],
   ['bool3_256',['bool3',['https://ivorne.github.io/ivorium/namespaceiv.html#a7d34124a56df5a40662290170dec8b55',1,'iv']]],
-  ['border_257',['Border',['https://ivorne.github.io/ivorium/classiv_1_1Border.html',1,'iv::Border'],['../classcomp_1_1GameState__Button.html#aa879125a723b3f9ffd35e6fa434d0026',1,'comp::GameState_Button::border()'],['https://ivorne.github.io/ivorium/classiv_1_1Border.html#a0f0ad69fd1681a3eb629446e1ce5a231',1,'iv::Border::Border()']]],
+  ['border_257',['Border',['https://ivorne.github.io/ivorium/classiv_1_1Border.html',1,'iv::Border'],['../classcomp_1_1SimulationState__Button.html#a7a849d86c1a24e7f8001a84d2258e328',1,'comp::SimulationState_Button::border()'],['https://ivorne.github.io/ivorium/classiv_1_1Border.html#a0f0ad69fd1681a3eb629446e1ce5a231',1,'iv::Border::Border()']]],
   ['border_2ecpp_258',['Border.cpp',['https://ivorne.github.io/ivorium/Border_8cpp.html.html',1,'']]],
   ['border_2ehpp_259',['Border.hpp',['https://ivorne.github.io/ivorium/Border_8hpp.html.html',1,'']]],
   ['borderback_260',['borderBack',['https://ivorne.github.io/ivorium/classiv_1_1Border.html#a0e1711b1684e2e9b69cdb32bce8f5996',1,'iv::Border']]],

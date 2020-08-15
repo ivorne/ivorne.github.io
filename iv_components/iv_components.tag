@@ -8,9 +8,9 @@
     <includes id="Ability__View_8hpp" name="Ability_View.hpp" local="yes" imported="no">iv_components/Ability/Ability_View.hpp</includes>
     <includes id="Ability__Behavior_8hpp" name="Ability_Behavior.hpp" local="yes" imported="no">iv_components/Ability/Ability_Behavior.hpp</includes>
     <includes id="ChargeAbility__Behavior_8hpp" name="ChargeAbility_Behavior.hpp" local="yes" imported="no">iv_components/Ability/ChargeAbility_Behavior.hpp</includes>
-    <includes id="GameState_8hpp" name="GameState.hpp" local="yes" imported="no">iv_components/GameState/GameState.hpp</includes>
-    <includes id="GameState__Behavior_8hpp" name="GameState_Behavior.hpp" local="yes" imported="no">iv_components/GameState/GameState_Behavior.hpp</includes>
-    <includes id="GameState__Button_8hpp" name="GameState_Button.hpp" local="yes" imported="no">iv_components/GameState/GameState_Button.hpp</includes>
+    <includes id="SimulationState_8hpp" name="SimulationState.hpp" local="yes" imported="no">iv_components/Simulation/SimulationState.hpp</includes>
+    <includes id="Simulation_8hpp" name="Simulation.hpp" local="yes" imported="no">iv_components/Simulation/Simulation.hpp</includes>
+    <includes id="SimulationState__Button_8hpp" name="SimulationState_Button.hpp" local="yes" imported="no">iv_components/Simulation/SimulationState_Button.hpp</includes>
     <includes id="Entity2D_8hpp" name="Entity2D.hpp" local="yes" imported="no">iv_components/Entity2D/Entity2D.hpp</includes>
     <includes id="Entity2D__View_8hpp" name="Entity2D_View.hpp" local="yes" imported="no">iv_components/Entity2D/Entity2D_View.hpp</includes>
     <includes id="Entity2D__SimpleView_8hpp" name="Entity2D_SimpleView.hpp" local="yes" imported="no">iv_components/Entity2D/Entity2D_SimpleView.hpp</includes>
@@ -19,10 +19,6 @@
     <includes id="Sectors_8hpp" name="Sectors.hpp" local="yes" imported="no">iv_components/Sectors/Sectors.hpp</includes>
     <includes id="Sectors__Loader_8hpp" name="Sectors_Loader.hpp" local="yes" imported="no">iv_components/Sectors/Sectors_Loader.hpp</includes>
     <includes id="AutorechargeBehavior_8hpp" name="AutorechargeBehavior.hpp" local="yes" imported="no">iv_components/Misc/AutorechargeBehavior.hpp</includes>
-    <includes id="Link_8hpp" name="Link.hpp" local="yes" imported="no">iv_components/Link.hpp</includes>
-    <includes id="ComponentAttr_8hpp" name="ComponentAttr.hpp" local="yes" imported="no">iv_components/ComponentAttr.hpp</includes>
-    <includes id="GenericListener_8hpp" name="GenericListener.hpp" local="yes" imported="no">iv_components/GenericListener.hpp</includes>
-    <includes id="World_8hpp" name="World.hpp" local="yes" imported="no">iv_components/World.hpp</includes>
     <includes id="Defs_8hpp" name="Defs.hpp" local="yes" imported="no">iv_components/Defs.hpp</includes>
   </compound>
   <compound kind="file">
@@ -91,21 +87,6 @@
     <namespace>comp</namespace>
   </compound>
   <compound kind="file">
-    <name>ComponentAttr.hpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>ComponentAttr_8hpp.html</filename>
-    <includes id="ComponentAttr_8inl" name="ComponentAttr.inl" local="yes" imported="no">ComponentAttr.inl</includes>
-    <class kind="class">comp::ComponentAttr_Index</class>
-    <class kind="class">comp::ComponentAttr</class>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>ComponentAttr.inl</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>ComponentAttr_8inl.html</filename>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
     <name>Defs.cpp</name>
     <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
     <filename>Defs_8cpp.html</filename>
@@ -117,9 +98,9 @@
     <namespace>comp::Defs::Time</namespace>
     <member kind="variable">
       <type>const iv::LogId</type>
-      <name>GameState</name>
+      <name>Simulation</name>
       <anchorfile>namespacecomp_1_1Defs_1_1Log.html</anchorfile>
-      <anchor>a18fe383d986696421e43b664eb89bb26</anchor>
+      <anchor>af1767637947ebc507be98b74ef55332d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -170,10 +151,6 @@
     <name>Entity2D.hpp</name>
     <path>/home/runner/work/iv_components/iv_components/src/iv_components/Entity2D/</path>
     <filename>Entity2D_8hpp.html</filename>
-    <includes id="Link_8hpp" name="Link.hpp" local="yes" imported="no">../Link.hpp</includes>
-    <includes id="World_8hpp" name="World.hpp" local="yes" imported="no">../World.hpp</includes>
-    <includes id="ComponentAttr_8hpp" name="ComponentAttr.hpp" local="yes" imported="no">../ComponentAttr.hpp</includes>
-    <includes id="GenericListener_8hpp" name="GenericListener.hpp" local="yes" imported="no">../GenericListener.hpp</includes>
     <class kind="class">comp::Entity2D_TypeId</class>
     <class kind="class">comp::Entity2D</class>
     <class kind="class">comp::Entity2D_Listener</class>
@@ -209,98 +186,6 @@
     <filename>Entity2D__View_8hpp.html</filename>
     <includes id="Entity2D_8hpp" name="Entity2D.hpp" local="yes" imported="no">Entity2D.hpp</includes>
     <class kind="class">comp::Entity2D_View</class>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GameState.cpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/GameState/</path>
-    <filename>GameState_8cpp.html</filename>
-    <includes id="GameState_8hpp" name="GameState.hpp" local="yes" imported="no">GameState.hpp</includes>
-    <namespace>iv</namespace>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GameState.dox</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/GameState/</path>
-    <filename>GameState_8dox.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>GameState.hpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/GameState/</path>
-    <filename>GameState_8hpp.html</filename>
-    <class kind="class">comp::GameState</class>
-    <class kind="struct">iv::StringIO&lt; comp::GameState::State &gt;</class>
-    <namespace>comp</namespace>
-    <namespace>iv</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GameState_Behavior.cpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/GameState/</path>
-    <filename>GameState__Behavior_8cpp.html</filename>
-    <includes id="GameState__Behavior_8hpp" name="GameState_Behavior.hpp" local="yes" imported="no">GameState_Behavior.hpp</includes>
-    <includes id="Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GameState_Behavior.hpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/GameState/</path>
-    <filename>GameState__Behavior_8hpp.html</filename>
-    <includes id="GameState_8hpp" name="GameState.hpp" local="yes" imported="no">GameState.hpp</includes>
-    <class kind="class">comp::GameState_Behavior</class>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GameState_Button.cpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/GameState/</path>
-    <filename>GameState__Button_8cpp.html</filename>
-    <includes id="GameState__Button_8hpp" name="GameState_Button.hpp" local="yes" imported="no">GameState_Button.hpp</includes>
-    <includes id="Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GameState_Button.hpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/GameState/</path>
-    <filename>GameState__Button_8hpp.html</filename>
-    <includes id="GameState_8hpp" name="GameState.hpp" local="yes" imported="no">GameState.hpp</includes>
-    <class kind="class">comp::GameState_Button</class>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GenericListener.hpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>GenericListener_8hpp.html</filename>
-    <includes id="GenericListener_8inl" name="GenericListener.inl" local="yes" imported="no">GenericListener.inl</includes>
-    <class kind="class">comp::GenericListener_Index</class>
-    <class kind="class">comp::GenericListener</class>
-    <class kind="class">comp::GenericListener_Index</class>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>GenericListener.inl</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>GenericListener_8inl.html</filename>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>Link.cpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>Link_8cpp.html</filename>
-    <includes id="Link_8hpp" name="Link.hpp" local="yes" imported="no">Link.hpp</includes>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>Link.hpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>Link_8hpp.html</filename>
-    <includes id="Link_8inl" name="Link.inl" local="yes" imported="no">Link.inl</includes>
-    <class kind="class">comp::Link</class>
-    <class kind="class">comp::VLink</class>
-    <namespace>comp</namespace>
-  </compound>
-  <compound kind="file">
-    <name>Link.inl</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>Link_8inl.html</filename>
     <namespace>comp</namespace>
   </compound>
   <compound kind="file">
@@ -343,7 +228,6 @@
     <name>Physical2D.hpp</name>
     <path>/home/runner/work/iv_components/iv_components/src/iv_components/Physical2D/</path>
     <filename>Physical2D_8hpp.html</filename>
-    <includes id="Link_8hpp" name="Link.hpp" local="yes" imported="no">../Link.hpp</includes>
     <includes id="Entity2D_8hpp" name="Entity2D.hpp" local="yes" imported="no">../Entity2D/Entity2D.hpp</includes>
     <class kind="class">comp::Physical2D</class>
     <class kind="class">comp::Physical2D_Listener</class>
@@ -403,17 +287,57 @@
     <namespace>comp</namespace>
   </compound>
   <compound kind="file">
-    <name>World.hpp</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>World_8hpp.html</filename>
-    <includes id="World_8inl" name="World.inl" local="yes" imported="no">World.inl</includes>
-    <class kind="class">comp::World</class>
+    <name>Simulation.cpp</name>
+    <path>/home/runner/work/iv_components/iv_components/src/iv_components/Simulation/</path>
+    <filename>Simulation_8cpp.html</filename>
+    <includes id="Simulation_8hpp" name="Simulation.hpp" local="yes" imported="no">Simulation.hpp</includes>
+    <includes id="Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
     <namespace>comp</namespace>
   </compound>
   <compound kind="file">
-    <name>World.inl</name>
-    <path>/home/runner/work/iv_components/iv_components/src/iv_components/</path>
-    <filename>World_8inl.html</filename>
+    <name>Simulation.dox</name>
+    <path>/home/runner/work/iv_components/iv_components/src/iv_components/Simulation/</path>
+    <filename>Simulation_8dox.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>Simulation.hpp</name>
+    <path>/home/runner/work/iv_components/iv_components/src/iv_components/Simulation/</path>
+    <filename>Simulation_8hpp.html</filename>
+    <includes id="SimulationState_8hpp" name="SimulationState.hpp" local="yes" imported="no">SimulationState.hpp</includes>
+    <class kind="class">comp::Simulation</class>
+    <namespace>comp</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SimulationState.cpp</name>
+    <path>/home/runner/work/iv_components/iv_components/src/iv_components/Simulation/</path>
+    <filename>SimulationState_8cpp.html</filename>
+    <includes id="SimulationState_8hpp" name="SimulationState.hpp" local="yes" imported="no">SimulationState.hpp</includes>
+    <namespace>iv</namespace>
+    <namespace>comp</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SimulationState.hpp</name>
+    <path>/home/runner/work/iv_components/iv_components/src/iv_components/Simulation/</path>
+    <filename>SimulationState_8hpp.html</filename>
+    <class kind="class">comp::SimulationState</class>
+    <class kind="struct">iv::StringIO&lt; comp::SimulationState::State &gt;</class>
+    <namespace>comp</namespace>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SimulationState_Button.cpp</name>
+    <path>/home/runner/work/iv_components/iv_components/src/iv_components/Simulation/</path>
+    <filename>SimulationState__Button_8cpp.html</filename>
+    <includes id="SimulationState__Button_8hpp" name="SimulationState_Button.hpp" local="yes" imported="no">SimulationState_Button.hpp</includes>
+    <includes id="Defs_8hpp" name="Defs.hpp" local="yes" imported="no">../Defs.hpp</includes>
+    <namespace>comp</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SimulationState_Button.hpp</name>
+    <path>/home/runner/work/iv_components/iv_components/src/iv_components/Simulation/</path>
+    <filename>SimulationState__Button_8hpp.html</filename>
+    <includes id="SimulationState_8hpp" name="SimulationState.hpp" local="yes" imported="no">SimulationState.hpp</includes>
+    <class kind="class">comp::SimulationState_Button</class>
     <namespace>comp</namespace>
   </compound>
   <compound kind="class">
@@ -591,222 +515,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>comp::ComponentAttr</name>
-    <filename>classcomp_1_1ComponentAttr.html</filename>
-    <templarg></templarg>
-    <templarg></templarg>
-    <base protection="private">iv::AttributeEventProcessor</base>
-    <base>SharedAttr_I&lt; T &gt;</base>
-    <member kind="function">
-      <type></type>
-      <name>ComponentAttr</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>aa61d19c713d753b5dba0d90b61c0fc94</anchor>
-      <arglist>(iv::ClientMarker *cm, T const &amp;initial_value=T())</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~ComponentAttr</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a59fc10f14b19e4d1cdeb56f6f796e375</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>ComponentAttr</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>adb78a3dcb656643d33464ed2aa1d4490</anchor>
-      <arglist>(ComponentAttr&lt; Component, T &gt; const &amp;src)</arglist>
-    </member>
-    <member kind="function">
-      <type>ComponentAttr&lt; Component, T &gt; &amp;</type>
-      <name>operator=</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a4643c498046f74bf30530a38313e8452</anchor>
-      <arglist>(ComponentAttr&lt; Component, T &gt; const &amp;src)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Index</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a0bc5cd10cb385d410746ae70d0ed3e0a</anchor>
-      <arglist>(Component *component, ComponentAttr_Index&lt; Component &gt; *index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Index</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a3add06c7595846c8bd768001b0475d7f</anchor>
-      <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>ComponentAttr&lt; comp::Entity2D, iv::float2 &gt;</name>
-    <filename>classcomp_1_1ComponentAttr.html</filename>
-    <base protection="private">iv::AttributeEventProcessor</base>
-    <base>SharedAttr_I&lt; iv::float2 &gt;</base>
-    <member kind="function">
-      <type></type>
-      <name>ComponentAttr</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>aa61d19c713d753b5dba0d90b61c0fc94</anchor>
-      <arglist>(iv::ClientMarker *cm, iv::float2 const &amp;initial_value=iv::float2())</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>ComponentAttr</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>adb78a3dcb656643d33464ed2aa1d4490</anchor>
-      <arglist>(ComponentAttr&lt; comp::Entity2D, iv::float2 &gt; const &amp;src)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~ComponentAttr</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a59fc10f14b19e4d1cdeb56f6f796e375</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>ComponentAttr&lt; comp::Entity2D, iv::float2 &gt; &amp;</type>
-      <name>operator=</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a4643c498046f74bf30530a38313e8452</anchor>
-      <arglist>(ComponentAttr&lt; comp::Entity2D, iv::float2 &gt; const &amp;src)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Index</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a0bc5cd10cb385d410746ae70d0ed3e0a</anchor>
-      <arglist>(comp::Entity2D *component, ComponentAttr_Index&lt; comp::Entity2D &gt; *index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Index</name>
-      <anchorfile>classcomp_1_1ComponentAttr.html</anchorfile>
-      <anchor>a3add06c7595846c8bd768001b0475d7f</anchor>
-      <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>comp::ComponentAttr_Index</name>
-    <filename>classcomp_1_1ComponentAttr__Index.html</filename>
-    <templarg></templarg>
-    <member kind="function">
-      <type></type>
-      <name>ComponentAttr_Index</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a52449cbf4f51a44793bb28e881ba1aca</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>ad9740a4a49c7b52e12f07c137b9282e8</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttributeEvent</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>ae4a8e14ae3c8911c977c232deb644d0b</anchor>
-      <arglist>(iv::AttributeEventProcessor::Event event, Component *component, iv::Attribute *attr, iv::AttributeListener *listener)</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a8ed30af4bee42917d303db0d8ae92d1d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_AttrChanged</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a9e232a36b2055fe839fca8bd53ec4f2f</anchor>
-      <arglist>(Component *component, iv::Attribute *attr)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>ComponentAttr_Index&lt; comp::Entity2D &gt;</name>
-    <filename>classcomp_1_1ComponentAttr__Index.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>ComponentAttr_Index</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a52449cbf4f51a44793bb28e881ba1aca</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>ad9740a4a49c7b52e12f07c137b9282e8</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttributeEvent</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>ae4a8e14ae3c8911c977c232deb644d0b</anchor>
-      <arglist>(iv::AttributeEventProcessor::Event event, comp::Entity2D *component, iv::Attribute *attr, iv::AttributeListener *listener)</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a8ed30af4bee42917d303db0d8ae92d1d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_AttrChanged</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a9e232a36b2055fe839fca8bd53ec4f2f</anchor>
-      <arglist>(comp::Entity2D *component, iv::Attribute *attr)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>ComponentAttr_Index&lt; Entity2D &gt;</name>
-    <filename>classcomp_1_1ComponentAttr__Index.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>ComponentAttr_Index</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a52449cbf4f51a44793bb28e881ba1aca</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>ad9740a4a49c7b52e12f07c137b9282e8</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttributeEvent</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>ae4a8e14ae3c8911c977c232deb644d0b</anchor>
-      <arglist>(iv::AttributeEventProcessor::Event event, Entity2D *component, iv::Attribute *attr, iv::AttributeListener *listener)</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a8ed30af4bee42917d303db0d8ae92d1d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_AttrChanged</name>
-      <anchorfile>classcomp_1_1ComponentAttr__Index.html</anchorfile>
-      <anchor>a9e232a36b2055fe839fca8bd53ec4f2f</anchor>
-      <arglist>(Entity2D *component, iv::Attribute *attr)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>comp::Entity2D</name>
     <filename>classcomp_1_1Entity2D.html</filename>
     <member kind="function">
@@ -866,17 +574,17 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>VLink</type>
+      <type>iv::VLink</type>
       <name>v_entity</name>
       <anchorfile>classcomp_1_1Entity2D.html</anchorfile>
-      <anchor>a28aa505c2a796034c61fd9af9f737fb8</anchor>
+      <anchor>a7cd982411582cbb020d82559a2e825ed</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>comp::ComponentAttr&lt; Entity2D, iv::float2 &gt;</type>
+      <type>iv::ComponentAttr&lt; Entity2D, iv::float2 &gt;</type>
       <name>position</name>
       <anchorfile>classcomp_1_1Entity2D.html</anchorfile>
-      <anchor>a0fa95b2cf6e9d5446ba577f8b23fcb53</anchor>
+      <anchor>a67d262ae751bc070ca6bfc3beb40be6f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1075,573 +783,10 @@
       <arglist>(Entity2D *entity, iv::Attribute *attr) override</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>comp::GameState</name>
-    <filename>classcomp_1_1GameState.html</filename>
-    <member kind="enumeration">
-      <type></type>
-      <name>State</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>aacc9919c25108ed8866d345ccf44cb35</anchor>
-      <arglist></arglist>
-      <enumvalue file="classcomp_1_1GameState.html" anchor="aacc9919c25108ed8866d345ccf44cb35ace2c8aed9c2fa0cfbed56cbda4d8bf07">Empty</enumvalue>
-      <enumvalue file="classcomp_1_1GameState.html" anchor="aacc9919c25108ed8866d345ccf44cb35a5bda814c4aedb126839228f1a3d92f09">Running</enumvalue>
-      <enumvalue file="classcomp_1_1GameState.html" anchor="aacc9919c25108ed8866d345ccf44cb35ae99180abf47a8b3a856e0bcb2656990a">Paused</enumvalue>
-      <enumvalue file="classcomp_1_1GameState.html" anchor="aacc9919c25108ed8866d345ccf44cb35a0157fbb99be9622bdaa6e544270c0622">Ended</enumvalue>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>GameState</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>a9af7938d9dc63d6cd3b0cdd26a4902a0</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>a1760434a0771da71670a60d9c20f4562</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>a8b699d9e5080b705f1435a0056ecdfa0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::SharedAttr&lt; iv::Activator &gt;</type>
-      <name>restart</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>a4368e2c082ef30371dddd2b680899a80</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::SharedAttr&lt; iv::Activator &gt;</type>
-      <name>end</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>a4b3005d84588b086a901149947a1a1c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::SharedAttr&lt; bool &gt;</type>
-      <name>pause</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>afe65c9070716844c6eb3557499a8d7e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::SharedAttr&lt; State &gt;</type>
-      <name>game_state</name>
-      <anchorfile>classcomp_1_1GameState.html</anchorfile>
-      <anchor>aba0b744f029063ef0007a468338b9d04</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>comp::GameState_Behavior</name>
-    <filename>classcomp_1_1GameState__Behavior.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>GameState_Behavior</name>
-      <anchorfile>classcomp_1_1GameState__Behavior.html</anchorfile>
-      <anchor>a2ec8d56bceaca618a63276bf22b7aaa2</anchor>
-      <arglist>(iv::Instance *inst, GameState *m_game)</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GameState__Behavior.html</anchorfile>
-      <anchor>a3d0b7ad57cdfd57779f323981f7e7590</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>comp::GameState_Button</name>
-    <filename>classcomp_1_1GameState__Button.html</filename>
-    <base>iv::LumaButton</base>
-    <member kind="function">
-      <type></type>
-      <name>GameState_Button</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>aafb2b3f0b7bd53e381a535a41e13c112</anchor>
-      <arglist>(iv::Instance *inst, GameState *m_game, iv::LumaStyleId style_id=iv::LumaStyleId())</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>ColorsChanged</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>a6b7e40cdb8382e31b5f62c663dab98cd</anchor>
-      <arglist>(iv::float4 surface, iv::float4 on_surface) override</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>aff483be47239ca27fae41c36a86202b4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>GameState *</type>
-      <name>m_game</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>a7a8073ee5a162a9da75b4076c6450025</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::Heap</type>
-      <name>heap</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>aeb469457ff7f865e5cc10098a30400e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::AnimHeap</type>
-      <name>anim</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>a2e9916db330f25670787820dde711282</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>GameState::State</type>
-      <name>previous_state</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>ad2e2625c7ad755789c197c91ce22cb5d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::Image *</type>
-      <name>icon</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>ad2cb308b0dbac9889bc02a7b55a27079</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::Image *</type>
-      <name>border</name>
-      <anchorfile>classcomp_1_1GameState__Button.html</anchorfile>
-      <anchor>aa879125a723b3f9ffd35e6fa434d0026</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>comp::GenericListener</name>
-    <filename>classcomp_1_1GenericListener.html</filename>
-    <templarg></templarg>
-    <member kind="function">
-      <type></type>
-      <name>GenericListener</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a0ad1db54545af8607587794f61d9070f</anchor>
-      <arglist>(iv::Instance *inst, GenericListener_Index&lt; Listener &gt; *index)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~GenericListener</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a31b832cf41e94a570b89cccaa16a4d44</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>afed3b9f5a6661714186234c30e449788</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Initialize</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>af08604adf00d2425a637f16eec87b0eb</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>VerifyInitialization</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a027af80f9d35e988bd2f59061a69a851</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a6e3e1a336fb7cebf169d12338b6eb255</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>GenericListener&lt; Entity2D_Listener &gt;</name>
-    <filename>classcomp_1_1GenericListener.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>GenericListener</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a0ad1db54545af8607587794f61d9070f</anchor>
-      <arglist>(iv::Instance *inst, GenericListener_Index&lt; Entity2D_Listener &gt; *index)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~GenericListener</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a31b832cf41e94a570b89cccaa16a4d44</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>afed3b9f5a6661714186234c30e449788</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Initialize</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>af08604adf00d2425a637f16eec87b0eb</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>VerifyInitialization</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a027af80f9d35e988bd2f59061a69a851</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a6e3e1a336fb7cebf169d12338b6eb255</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>GenericListener&lt; Physical2D_Listener &gt;</name>
-    <filename>classcomp_1_1GenericListener.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>GenericListener</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a0ad1db54545af8607587794f61d9070f</anchor>
-      <arglist>(iv::Instance *inst, GenericListener_Index&lt; Physical2D_Listener &gt; *index)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~GenericListener</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a31b832cf41e94a570b89cccaa16a4d44</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>afed3b9f5a6661714186234c30e449788</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Initialize</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>af08604adf00d2425a637f16eec87b0eb</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>VerifyInitialization</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a027af80f9d35e988bd2f59061a69a851</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GenericListener.html</anchorfile>
-      <anchor>a6e3e1a336fb7cebf169d12338b6eb255</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>comp::GenericListener_Index</name>
-    <filename>classcomp_1_1GenericListener__Index.html</filename>
-    <templarg></templarg>
-    <member kind="function">
-      <type></type>
-      <name>GenericListener_Index</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a02755f3d21adbeb58997e5b576cbcadd</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a024ad414e138fa02406a4279e5958863</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>ac82fdbce256125d9569700d3b5a0cb41</anchor>
-      <arglist>(Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>RemoveListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>abad9d664bf7885e57eccaf973a822047</anchor>
-      <arglist>(Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>InitializeListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>adb6a709e10fbc8f0675fda32570957fc</anchor>
-      <arglist>(Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>InvokeListeners</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>aff652e5cf093dc3527d0ee6cee8c4d76</anchor>
-      <arglist>(void(Listener::*member)(Params ...), Params ... params)</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a92c5cf92962b1f2396d8bdd90cf279e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Listener_Initialize</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a5baee6cb1ac0d5808a9be1055d509ac7</anchor>
-      <arglist>(Listener *)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>GenericListener_Index&lt; Entity2D_Listener &gt;</name>
-    <filename>classcomp_1_1GenericListener__Index.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>GenericListener_Index</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a02755f3d21adbeb58997e5b576cbcadd</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a024ad414e138fa02406a4279e5958863</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>ac82fdbce256125d9569700d3b5a0cb41</anchor>
-      <arglist>(Entity2D_Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>RemoveListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>abad9d664bf7885e57eccaf973a822047</anchor>
-      <arglist>(Entity2D_Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>InitializeListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>adb6a709e10fbc8f0675fda32570957fc</anchor>
-      <arglist>(Entity2D_Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>InvokeListeners</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>aff652e5cf093dc3527d0ee6cee8c4d76</anchor>
-      <arglist>(void(Entity2D_Listener ::*member)(Params ...), Params ... params)</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a92c5cf92962b1f2396d8bdd90cf279e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Listener_Initialize</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a5baee6cb1ac0d5808a9be1055d509ac7</anchor>
-      <arglist>(Entity2D_Listener *)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>GenericListener_Index&lt; Physical2D_Listener &gt;</name>
-    <filename>classcomp_1_1GenericListener__Index.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>GenericListener_Index</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a02755f3d21adbeb58997e5b576cbcadd</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a024ad414e138fa02406a4279e5958863</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>ac82fdbce256125d9569700d3b5a0cb41</anchor>
-      <arglist>(Physical2D_Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>RemoveListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>abad9d664bf7885e57eccaf973a822047</anchor>
-      <arglist>(Physical2D_Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>InitializeListener</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>adb6a709e10fbc8f0675fda32570957fc</anchor>
-      <arglist>(Physical2D_Listener *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>InvokeListeners</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>aff652e5cf093dc3527d0ee6cee8c4d76</anchor>
-      <arglist>(void(Physical2D_Listener ::*member)(Params ...), Params ... params)</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a92c5cf92962b1f2396d8bdd90cf279e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Listener_Initialize</name>
-      <anchorfile>classcomp_1_1GenericListener__Index.html</anchorfile>
-      <anchor>a5baee6cb1ac0d5808a9be1055d509ac7</anchor>
-      <arglist>(Physical2D_Listener *)=0</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>std::hash&lt; comp::Entity2D_TypeId &gt;</name>
     <filename>structstd_1_1hash_3_01comp_1_1Entity2D__TypeId_01_4.html</filename>
     <base>hash&lt; comp::Entity2D_TypeId &gt;</base>
-  </compound>
-  <compound kind="class">
-    <name>comp::Link</name>
-    <filename>classcomp_1_1Link.html</filename>
-    <templarg></templarg>
-    <member kind="function">
-      <type></type>
-      <name>Link</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a393ffed6e1730568909f1514919be4ed</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Link</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>ac814ef87000d04ef573a78163b8a5d67</anchor>
-      <arglist>(Target *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a830a53c8a8e957f487fe3c669e07ffaf</anchor>
-      <arglist>(Target *)</arglist>
-    </member>
-    <member kind="function">
-      <type>Target *</type>
-      <name>get</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a92b19da0740a96c25d0a28a54d1b5b37</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>Target *</type>
-      <name>operator-&gt;</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a635e2b8d45aed7e38b1a32ea38d7aa3c</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>Target *</type>
-      <name>operator*</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a9c3b6b37a69a3544c90d7ea644c70f1b</anchor>
-      <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>Link&lt; comp::Entity2D &gt;</name>
-    <filename>classcomp_1_1Link.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>Link</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a393ffed6e1730568909f1514919be4ed</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Link</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>ac814ef87000d04ef573a78163b8a5d67</anchor>
-      <arglist>(comp::Entity2D *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a830a53c8a8e957f487fe3c669e07ffaf</anchor>
-      <arglist>(comp::Entity2D *)</arglist>
-    </member>
-    <member kind="function">
-      <type>comp::Entity2D *</type>
-      <name>get</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a92b19da0740a96c25d0a28a54d1b5b37</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>comp::Entity2D *</type>
-      <name>operator-&gt;</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a635e2b8d45aed7e38b1a32ea38d7aa3c</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>comp::Entity2D *</type>
-      <name>operator*</name>
-      <anchorfile>classcomp_1_1Link.html</anchorfile>
-      <anchor>a9c3b6b37a69a3544c90d7ea644c70f1b</anchor>
-      <arglist>()</arglist>
-    </member>
   </compound>
   <compound kind="class">
     <name>comp::Sectors::Listener</name>
@@ -1735,10 +880,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="variable">
-      <type>Link&lt; Entity2D &gt;</type>
+      <type>iv::Link&lt; Entity2D &gt;</type>
       <name>entity</name>
       <anchorfile>classcomp_1_1Physical2D.html</anchorfile>
-      <anchor>a3a6dca5de21a3777562edc7304923c37</anchor>
+      <anchor>a929f2f9079dc031ed691cc93ad9f2552</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -1936,236 +1081,225 @@
       <arglist>() override final</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>comp::Simulation</name>
+    <filename>classcomp_1_1Simulation.html</filename>
+    <base protection="private">iv::FixedUpdateClient</base>
+    <member kind="function">
+      <type></type>
+      <name>Simulation</name>
+      <anchorfile>classcomp_1_1Simulation.html</anchorfile>
+      <anchor>a354e7858cbff0b45f2222b74b725013c</anchor>
+      <arglist>(iv::Instance *inst, SimulationState *state, iv::TimeId time_id)</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>simulation_reset</name>
+      <anchorfile>classcomp_1_1Simulation.html</anchorfile>
+      <anchor>acc6db4e6c81bbf04d5c0bd080390f7e1</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>simulation_step</name>
+      <anchorfile>classcomp_1_1Simulation.html</anchorfile>
+      <anchor>a8265ff86f9a957c61d8b71d3c80403de</anchor>
+      <arglist>(int step_ms)=0</arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::ClientMarker</type>
+      <name>cm</name>
+      <anchorfile>classcomp_1_1Simulation.html</anchorfile>
+      <anchor>a55eedc19b99cfe7411cd958b10bcf244</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>comp::SimulationState</name>
+    <filename>classcomp_1_1SimulationState.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>State</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Empty</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990a8d4c1eed56feff333e61003500a21145</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Running</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990abdcc5fe7442ce17fcd4721b729826e09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Paused</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990a75be4970952b9ec8a37b72754c6c1770</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Ended</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990a722288df798da56838dd706672628b0c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Empty</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990a8d4c1eed56feff333e61003500a21145</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Running</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990abdcc5fe7442ce17fcd4721b729826e09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Paused</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990a75be4970952b9ec8a37b72754c6c1770</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>Ended</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2f6dc9625f820a0fb1724eca2c54b990a722288df798da56838dd706672628b0c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SimulationState</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a85711fca28b1cdf98642a8928b585871</anchor>
+      <arglist>(iv::Instance *inst)</arglist>
+    </member>
+    <member kind="function">
+      <type>iv::Instance *</type>
+      <name>instance</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a1d8359860f51bcde3162f5fc9fc66595</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::ClientMarker</type>
+      <name>cm</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a95e297a4df38deb6567fdf6f65f543d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::SharedAttr&lt; iv::Activator &gt;</type>
+      <name>restart</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a6dea865ddfda63dc3241424f1e9f75d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::SharedAttr&lt; iv::Activator &gt;</type>
+      <name>end</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>acd848ec86a1d24f0284a274ea61b5d35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::SharedAttr&lt; bool &gt;</type>
+      <name>pause</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a2639afa14e53a99505a5fa3757624c17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::SharedAttr&lt; State &gt;</type>
+      <name>game_state</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a28f00b4e22d2d10bcb8bb5da6496ffc0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>comp::SimulationState_Button</name>
+    <filename>classcomp_1_1SimulationState__Button.html</filename>
+    <base>iv::LumaButton</base>
+    <member kind="function">
+      <type></type>
+      <name>SimulationState_Button</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>ae3743b7c2e89b0c9642ac296511a45aa</anchor>
+      <arglist>(iv::Instance *inst, SimulationState *state, iv::LumaStyleId style_id=iv::LumaStyleId())</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>ColorsChanged</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>a79a5995eed1c448988d5b034c909b757</anchor>
+      <arglist>(iv::float4 surface, iv::float4 on_surface) override</arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::ClientMarker</type>
+      <name>cm</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>a96bb54f956542eb8e2a430dc3787162c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>SimulationState *</type>
+      <name>state</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>aba034ce4fb6c2c4a70e9da187867cdca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::Heap</type>
+      <name>heap</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>ac7fb4dfdc9b8e2cbd624c9a6bf57553a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::AnimHeap</type>
+      <name>anim</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>ab9de48d76ca9838da241b0f57319fedb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>SimulationState::State</type>
+      <name>previous_state</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>a2ee2a261d2b614281a3a295ed122763d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::Image *</type>
+      <name>icon</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>a684c9b1ce862d098bbd6dedd9893cb83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::Image *</type>
+      <name>border</name>
+      <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
+      <anchor>a7a849d86c1a24e7f8001a84d2258e328</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="struct">
-    <name>iv::StringIO&lt; comp::GameState::State &gt;</name>
-    <filename>structiv_1_1StringIO_3_01comp_1_1GameState_1_1State_01_4.html</filename>
-    <base>StringIO_Table&lt; comp::GameState::State &gt;</base>
+    <name>iv::StringIO&lt; comp::SimulationState::State &gt;</name>
+    <filename>structiv_1_1StringIO_3_01comp_1_1SimulationState_1_1State_01_4.html</filename>
+    <base>StringIO_Table&lt; comp::SimulationState::State &gt;</base>
     <member kind="variable" static="yes">
       <type>static const ValuesType</type>
       <name>Values</name>
-      <anchorfile>structiv_1_1StringIO_3_01comp_1_1GameState_1_1State_01_4.html</anchorfile>
-      <anchor>a966079e6956e3a0df57f577b70ef102a</anchor>
+      <anchorfile>structiv_1_1StringIO_3_01comp_1_1SimulationState_1_1State_01_4.html</anchorfile>
+      <anchor>acf3b0a9278514dcf92179948cc8dbbab</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>comp::VLink</name>
-    <filename>classcomp_1_1VLink.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>VLink</name>
-      <anchorfile>classcomp_1_1VLink.html</anchorfile>
-      <anchor>a258fac65b0d54ef8ddfab248833d00a2</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>VLink</name>
-      <anchorfile>classcomp_1_1VLink.html</anchorfile>
-      <anchor>a2acde2ae0c595037598a77b9fde379cf</anchor>
-      <arglist>(Target *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set</name>
-      <anchorfile>classcomp_1_1VLink.html</anchorfile>
-      <anchor>aaf598944daca2073eeb95116d964e333</anchor>
-      <arglist>(Target *)</arglist>
-    </member>
-    <member kind="function">
-      <type>std::type_index</type>
-      <name>type</name>
-      <anchorfile>classcomp_1_1VLink.html</anchorfile>
-      <anchor>ae032cb08ec9442b599a5e9f3e2c30856</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>Target *</type>
-      <name>get</name>
-      <anchorfile>classcomp_1_1VLink.html</anchorfile>
-      <anchor>a0b4971522c4e678bc4ed0f06049c1f51</anchor>
-      <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>comp::World</name>
-    <filename>classcomp_1_1World.html</filename>
-    <templarg></templarg>
-    <member kind="function">
-      <type></type>
-      <name>World</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>acbea0c24faf4dc5c440e882e69bb80e3</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>aa4d84fbcd7e1354ab6322967ddf566cb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Register</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>aa8fbae3e25add9115b112b638d6ccda9</anchor>
-      <arglist>(Component *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Unregister</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>a953842e875f49fceb0a80bc10e5da5d1</anchor>
-      <arglist>(Component *)</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::unordered_set&lt; Component * &gt; &amp;</type>
-      <name>components</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae1c5027a5d4653940749539340bb81da</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae6d38f58f1f24d3fc6373cec15f136a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_Registered</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae0b3c54d9e2caa387a6b17945263d0ff</anchor>
-      <arglist>(Component *component)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_Unregistered</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ab9afeb785ffce8c31dc32a153a5d3fc1</anchor>
-      <arglist>(Component *component)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>World&lt; Entity2D &gt;</name>
-    <filename>classcomp_1_1World.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>World</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>acbea0c24faf4dc5c440e882e69bb80e3</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>aa4d84fbcd7e1354ab6322967ddf566cb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Register</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>aa8fbae3e25add9115b112b638d6ccda9</anchor>
-      <arglist>(Entity2D *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Unregister</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>a953842e875f49fceb0a80bc10e5da5d1</anchor>
-      <arglist>(Entity2D *)</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::unordered_set&lt; Entity2D * &gt; &amp;</type>
-      <name>components</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae1c5027a5d4653940749539340bb81da</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae6d38f58f1f24d3fc6373cec15f136a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_Registered</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae0b3c54d9e2caa387a6b17945263d0ff</anchor>
-      <arglist>(Entity2D *component)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_Unregistered</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ab9afeb785ffce8c31dc32a153a5d3fc1</anchor>
-      <arglist>(Entity2D *component)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>World&lt; Physical2D &gt;</name>
-    <filename>classcomp_1_1World.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>World</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>acbea0c24faf4dc5c440e882e69bb80e3</anchor>
-      <arglist>(iv::Instance *inst)</arglist>
-    </member>
-    <member kind="function">
-      <type>iv::Instance *</type>
-      <name>instance</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>aa4d84fbcd7e1354ab6322967ddf566cb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Register</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>aa8fbae3e25add9115b112b638d6ccda9</anchor>
-      <arglist>(Physical2D *)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Unregister</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>a953842e875f49fceb0a80bc10e5da5d1</anchor>
-      <arglist>(Physical2D *)</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::unordered_set&lt; Physical2D * &gt; &amp;</type>
-      <name>components</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae1c5027a5d4653940749539340bb81da</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>iv::ClientMarker</type>
-      <name>cm</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae6d38f58f1f24d3fc6373cec15f136a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_Registered</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ae0b3c54d9e2caa387a6b17945263d0ff</anchor>
-      <arglist>(Physical2D *component)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual void</type>
-      <name>Component_Unregistered</name>
-      <anchorfile>classcomp_1_1World.html</anchorfile>
-      <anchor>ab9afeb785ffce8c31dc32a153a5d3fc1</anchor>
-      <arglist>(Physical2D *component)=0</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -2178,8 +1312,6 @@
     <class kind="struct">comp::AbilityInfo</class>
     <class kind="class">comp::AutorechargeBehavior</class>
     <class kind="class">comp::ChargeAbility_Behavior</class>
-    <class kind="class">comp::ComponentAttr</class>
-    <class kind="class">comp::ComponentAttr_Index</class>
     <class kind="class">comp::Entity2D</class>
     <class kind="class">comp::Entity2D_Listener</class>
     <class kind="class">comp::Entity2D_SimpleView</class>
@@ -2187,20 +1319,15 @@
     <class kind="class">comp::Entity2D_TypeId</class>
     <class kind="class">comp::Entity2D_View</class>
     <class kind="class">comp::Entity2D_World</class>
-    <class kind="class">comp::GameState</class>
-    <class kind="class">comp::GameState_Behavior</class>
-    <class kind="class">comp::GameState_Button</class>
-    <class kind="class">comp::GenericListener</class>
-    <class kind="class">comp::GenericListener_Index</class>
-    <class kind="class">comp::Link</class>
     <class kind="class">comp::Physical2D</class>
     <class kind="class">comp::Physical2D_Listener</class>
     <class kind="class">comp::Physical2D_Updater</class>
     <class kind="class">comp::Physical2D_World</class>
     <class kind="class">comp::Sectors</class>
     <class kind="class">comp::Sectors_Loader</class>
-    <class kind="class">comp::VLink</class>
-    <class kind="class">comp::World</class>
+    <class kind="class">comp::Simulation</class>
+    <class kind="class">comp::SimulationState</class>
+    <class kind="class">comp::SimulationState_Button</class>
   </compound>
   <compound kind="namespace">
     <name>comp::Defs</name>
@@ -2225,9 +1352,9 @@
     <filename>namespacecomp_1_1Defs_1_1Log.html</filename>
     <member kind="variable">
       <type>const iv::LogId</type>
-      <name>GameState</name>
+      <name>Simulation</name>
       <anchorfile>namespacecomp_1_1Defs_1_1Log.html</anchorfile>
-      <anchor>a18fe383d986696421e43b664eb89bb26</anchor>
+      <anchor>af1767637947ebc507be98b74ef55332d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -2252,7 +1379,7 @@
   <compound kind="namespace">
     <name>iv</name>
     <filename>namespaceiv.html</filename>
-    <class kind="struct">iv::StringIO&lt; comp::GameState::State &gt;</class>
+    <class kind="struct">iv::StringIO&lt; comp::SimulationState::State &gt;</class>
   </compound>
   <compound kind="group">
     <name>Ability</name>
@@ -2277,14 +1404,6 @@
     <class kind="class">comp::Entity2D_View</class>
   </compound>
   <compound kind="group">
-    <name>GameState</name>
-    <title>GameState</title>
-    <filename>group__GameState.html</filename>
-    <class kind="class">comp::GameState</class>
-    <class kind="class">comp::GameState_Behavior</class>
-    <class kind="class">comp::GameState_Button</class>
-  </compound>
-  <compound kind="group">
     <name>Misc</name>
     <title>Misc</title>
     <filename>group__Misc.html</filename>
@@ -2305,6 +1424,11 @@
     <filename>group__Sectors.html</filename>
     <class kind="class">comp::Sectors</class>
     <class kind="class">comp::Sectors_Loader</class>
+  </compound>
+  <compound kind="group">
+    <name>GameState</name>
+    <title>GameState</title>
+    <filename>group__GameState.html</filename>
   </compound>
   <compound kind="page">
     <name>index</name>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['colorspace_4394',['ColorSpace',['https://ivorne.github.io/ivorium/namespaceiv.html#a7f00314eabad4aa38f18153856c7ba35',1,'iv']]]
+  ['colorspace_4393',['ColorSpace',['https://ivorne.github.io/ivorium/namespaceiv.html#a7f00314eabad4aa38f18153856c7ba35',1,'iv']]]
 ];
