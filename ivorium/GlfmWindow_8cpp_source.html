@@ -123,7 +123,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#if IV_GLPLATFORM_GLFM</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="ivorium__core_8hpp.html">ivorium_core.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="ivorium__core_8hpp.html">ivorium_core/ivorium_core.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;glfm.h&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;utf8.h&gt;</span></div>
@@ -503,7 +503,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160; </div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<span class="keywordtype">void</span> GlfmWindow::CharFunc( <span class="keyword">const</span> <span class="keywordtype">char</span> * value, <span class="keywordtype">int</span> modifiers )</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;{</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="namespaceiv.html#abe6dc20243c43fef124f0f9fe11de8f5">ivorium::utf8_size</a>( value ) != 1 )</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="namespaceiv.html#abe6dc20243c43fef124f0f9fe11de8f5">iv::utf8_size</a>( value ) != 1 )</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    </div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    this-&gt;_current_character = ::utf8::next( value, value + strlen( value ) );</div>
@@ -592,7 +592,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Sat Aug 15 2020 22:52:19 for ivorium by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Sun Aug 16 2020 14:44:13 for ivorium by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>
