@@ -28,7 +28,7 @@ var searchData=
   ['register_5fprovider_1426',['register_provider',['../classiv_1_1ResourceManagementSystem.html#a20c6b684122a77b6f2886d30c45dc260',1,'iv::ResourceManagementSystem']]],
   ['registertype_1427',['RegisterType',['../classiv_1_1StreamResourceProvider.html#a0ddb0232f6f104c4865ae9aa9546a42e',1,'iv::StreamResourceProvider::RegisterType()'],['../classiv_1_1VirtualResourceProvider.html#ab3d9c44cff83f255e0b3c64d26cc680f',1,'iv::VirtualResourceProvider::RegisterType()']]],
   ['relation_5froot_1428',['relation_root',['../classiv_1_1ClientMarker.html#acab1cdae24432d3eb3b9a7c5d4c36bdc',1,'iv::ClientMarker']]],
-  ['release_1429',['Release',['../classiv_1_1Input.html#adea0085a18b7437915446f88a1e3490fab8e7b465df7c5979dc731d06e84ce2cf',1,'iv::Input::Release()'],['../classiv_1_1System.html#a5aa3e5613849eb04f9e68d04b04d7fdc',1,'iv::System::release()']]],
+  ['release_1429',['release',['../classiv_1_1System.html#a5aa3e5613849eb04f9e68d04b04d7fdc',1,'iv::System::release()'],['../classiv_1_1Input.html#adea0085a18b7437915446f88a1e3490fab8e7b465df7c5979dc731d06e84ce2cf',1,'iv::Input::Release()']]],
   ['release_5fattribute_1430',['Release_Attribute',['../classiv_1_1Field.html#ac32821824b0abf7deafd2bd8226ab895',1,'iv::Field']]],
   ['remove_1431',['Remove',['../classiv_1_1MulAgg.html#a0f8546e7193da0e53b6f7e151be45484',1,'iv::MulAgg::Remove()'],['../classiv_1_1SumAgg.html#a99beeced686bcf97be9f109ee20fe3a8',1,'iv::SumAgg::Remove()']]],
   ['remove_5fcharlistener_1432',['Remove_CharListener',['../classiv_1_1Char__InputNode.html#a8644f9f47d2e3deeea71cb46f6ccaa88',1,'iv::Char_InputNode']]],

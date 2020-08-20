@@ -131,48 +131,60 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classiv_1_1Heap.html#ab694d8552c63acddfd2f2b57e035eda5">   11</a></span>&#160;T * <a class="code" href="classiv_1_1Heap.html#a4235153675b5659d1ebc39c12549fab9">Heap::create</a>( CArgs <span class="keyword">const</span> &amp; ... cargs )</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    T * t = <span class="keyword">new</span> T( cargs ... );</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    this-&gt;items.push_back( Item( <span class="keyword">dynamic_cast&lt;</span> <span class="keywordtype">void</span> * <span class="keyword">&gt;</span>( t ), &amp;DeleterImpl&lt; T &gt; ) );</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    this-&gt;items.push_back( Item( Heap::identity_cast( t ), &amp;DeleterImpl&lt; T &gt; ) );</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> t;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class </span>T, <span class="keyword">class </span>... CArgs &gt;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classiv_1_1Heap.html#a28a133ee5958c7f0f76949b0d44e25a0">   19</a></span>&#160;T * <a class="code" href="classiv_1_1Heap.html#aaf591005eb895b29b1dffd1e52e3c4fa">Heap::createInstance</a>( std::string <span class="keyword">const</span> &amp; name, CArgs <span class="keyword">const</span> &amp; ... cargs )</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class</span> T, std::enable_if_t&lt; std::is_polymorphic_v&lt; T &gt;, <span class="keywordtype">int</span> &gt; &gt;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> * Heap::identity_cast( T * ptr )</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> this-&gt;create&lt; I&lt; T &gt; &gt;( name, this-&gt;inst, cargs ... );</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">dynamic_cast&lt;</span> <span class="keywordtype">void</span> * <span class="keyword">&gt;</span>( ptr );</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class </span>T, <span class="keyword">class </span>... CArgs &gt;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classiv_1_1Heap.html#ab5fe3dc8af8cf22569dc2a4e591ecad8">   25</a></span>&#160;T * <a class="code" href="classiv_1_1Heap.html#ae6845b55766de7bdc6301260dac83a26">Heap::createClient</a>( CArgs <span class="keyword">const</span> &amp; ... cargs )</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class</span> T, std::enable_if_t&lt; !std::is_polymorphic_v&lt; T &gt;, <span class="keywordtype">int</span> &gt; &gt;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> * Heap::identity_cast( T * ptr )</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">auto</span> client = this-&gt;create&lt; T &gt;( this-&gt;inst, cargs ... );</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    this-&gt;cm-&gt;<a class="code" href="classiv_1_1ClientMarker.html#abf71fbf91761043bcdd6880f8e7c4145">owns</a>( client-&gt;cm );</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> client;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class</span> T &gt;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classiv_1_1Heap.html#a4d84fe8bc1875f925d1af76fbedd8062">   33</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classiv_1_1Heap.html#a4d84fe8bc1875f925d1af76fbedd8062">Heap::destroy</a>( T * ptr )</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> * identity = <span class="keyword">dynamic_cast&lt;</span> <span class="keywordtype">void</span> * <span class="keyword">&gt;</span>( ptr );</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">auto</span> it = std::find_if( this-&gt;items.begin(), this-&gt;items.end(), [ identity ]( Item <span class="keyword">const</span> &amp; item ){ return item.identity == identity; } );</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span>( it == this-&gt;items.end() )</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keyword">auto</span> error = <span class="stringliteral">&quot;Given object can not be destroyed by this Heap because it was not created by it.&quot;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">if</span>( this-&gt;cm )</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            this-&gt;cm-&gt;<a class="code" href="classiv_1_1Context.html#a77d170be1ce3eb72fad55cd0d38bc189">warning</a>( <a class="code" href="SrcInfo_8hpp.html#a7fb2958639116edaa9531cc293c6da31">SRC_INFO</a>, error );</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="namespaceiv.html#a22c23c34efd7d82a015cfe08803c8620">runtime_warning</a>( <a class="code" href="SrcInfo_8hpp.html#a7fb2958639116edaa9531cc293c6da31">SRC_INFO</a>, error );</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    Item item = *it;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    this-&gt;items.erase( it );</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    item.deleter( item.identity );</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span> <span class="keywordtype">void</span> * <span class="keyword">&gt;</span>( ptr );</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class </span>T, <span class="keyword">class </span>... CArgs &gt;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classiv_1_1Heap.html#a28a133ee5958c7f0f76949b0d44e25a0">   31</a></span>&#160;T * <a class="code" href="classiv_1_1Heap.html#aaf591005eb895b29b1dffd1e52e3c4fa">Heap::createInstance</a>( std::string <span class="keyword">const</span> &amp; name, CArgs <span class="keyword">const</span> &amp; ... cargs )</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> this-&gt;create&lt; I&lt; T &gt; &gt;( name, this-&gt;inst, cargs ... );</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class </span>T, <span class="keyword">class </span>... CArgs &gt;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classiv_1_1Heap.html#ab5fe3dc8af8cf22569dc2a4e591ecad8">   37</a></span>&#160;T * <a class="code" href="classiv_1_1Heap.html#ae6845b55766de7bdc6301260dac83a26">Heap::createClient</a>( CArgs <span class="keyword">const</span> &amp; ... cargs )</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">auto</span> client = this-&gt;create&lt; T &gt;( this-&gt;inst, cargs ... );</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    this-&gt;cm-&gt;<a class="code" href="classiv_1_1ClientMarker.html#abf71fbf91761043bcdd6880f8e7c4145">owns</a>( client-&gt;cm );</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> client;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">class</span> T &gt;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classiv_1_1Heap.html#a4d84fe8bc1875f925d1af76fbedd8062">   45</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classiv_1_1Heap.html#a4d84fe8bc1875f925d1af76fbedd8062">Heap::destroy</a>( T * ptr )</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> * identity = Heap::identity_cast( ptr );</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">auto</span> it = std::find_if( this-&gt;items.begin(), this-&gt;items.end(), [ identity ]( Item <span class="keyword">const</span> &amp; item ){ return item.identity == identity; } );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span>( it == this-&gt;items.end() )</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keyword">auto</span> error = <span class="stringliteral">&quot;Given object can not be destroyed by this Heap because it was not created by it.&quot;</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span>( this-&gt;cm )</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            this-&gt;cm-&gt;<a class="code" href="classiv_1_1Context.html#a77d170be1ce3eb72fad55cd0d38bc189">warning</a>( <a class="code" href="SrcInfo_8hpp.html#a7fb2958639116edaa9531cc293c6da31">SRC_INFO</a>, error );</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="namespaceiv.html#a22c23c34efd7d82a015cfe08803c8620">runtime_warning</a>( <a class="code" href="SrcInfo_8hpp.html#a7fb2958639116edaa9531cc293c6da31">SRC_INFO</a>, error );</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    Item item = *it;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    this-&gt;items.erase( it );</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    item.deleter( item.identity );</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -183,7 +195,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Sun Aug 16 2020 14:44:13 for ivorium by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Thu Aug 20 2020 13:35:50 for ivorium by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>
