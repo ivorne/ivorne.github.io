@@ -110,7 +110,134 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <p>This is the <code>googletest</code> based unit testing file for the <code><a class="el" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">playrho::d2::Contact</a></code> class.</p>
-<div class="fragment"></div><!-- fragment --> </div><!-- contents -->
+<div class="fragment"><div class="line"><span class="comment">/*</span></div>
+<div class="line"><span class="comment"> * Copyright (c) 2017 Louis Langholtz https://github.com/louis-langholtz/PlayRho</span></div>
+<div class="line"><span class="comment"> *</span></div>
+<div class="line"><span class="comment"> * This software is provided &#39;as-is&#39;, without any express or implied</span></div>
+<div class="line"><span class="comment"> * warranty. In no event will the authors be held liable for any damages</span></div>
+<div class="line"><span class="comment"> * arising from the use of this software.</span></div>
+<div class="line"><span class="comment"> *</span></div>
+<div class="line"><span class="comment"> * Permission is granted to anyone to use this software for any purpose,</span></div>
+<div class="line"><span class="comment"> * including commercial applications, and to alter it and redistribute it</span></div>
+<div class="line"><span class="comment"> * freely, subject to the following restrictions:</span></div>
+<div class="line"><span class="comment"> *</span></div>
+<div class="line"><span class="comment"> * 1. The origin of this software must not be misrepresented; you must not</span></div>
+<div class="line"><span class="comment"> *    claim that you wrote the original software. If you use this software</span></div>
+<div class="line"><span class="comment"> *    in a product, an acknowledgment in the product documentation would be</span></div>
+<div class="line"><span class="comment"> *    appreciated but is not required.</span></div>
+<div class="line"><span class="comment"> * 2. Altered source versions must be plainly marked as such, and must not be</span></div>
+<div class="line"><span class="comment"> *    misrepresented as being the original software.</span></div>
+<div class="line"><span class="comment"> * 3. This notice may not be removed or altered from any source distribution.</span></div>
+<div class="line"><span class="comment"> */</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &quot;UnitTests.hpp&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="Contact_8hpp.html">PlayRho/Dynamics/Contacts/Contact.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="Fixture_8hpp.html">PlayRho/Dynamics/Fixture.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="Body_8hpp.html">PlayRho/Dynamics/Body.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="World_8hpp.html">PlayRho/Dynamics/World.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="BodyConf_8hpp.html">PlayRho/Dynamics/BodyConf.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="FixtureConf_8hpp.html">PlayRho/Dynamics/FixtureConf.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="DiskShapeConf_8hpp.html">PlayRho/Collision/Shapes/DiskShapeConf.hpp</a>&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceplayrho.html">playrho</a>;</div>
+<div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceplayrho_1_1d2.html">playrho::d2</a>;</div>
+<div class="line"> </div>
+<div class="line">TEST(<a name="_a0"></a><a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>, ByteSize)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordflow">switch</span> (<span class="keyword">sizeof</span>(<a class="code" href="namespaceplayrho.html#a1fc125070a08100d083a1360f7167f87" title="Real-number type.">Real</a>))</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">case</span>  4: EXPECT_EQ(<span class="keyword">sizeof</span>(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>), std::size_t(128)); <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span>  8: EXPECT_EQ(<span class="keyword">sizeof</span>(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>), std::size_t(192)); <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">case</span> 16: EXPECT_EQ(<span class="keyword">sizeof</span>(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>), std::size_t(384)); <span class="keywordflow">break</span>;</div>
+<div class="line">        <span class="keywordflow">default</span>: FAIL(); <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">TEST(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>, Traits)</div>
+<div class="line">{</div>
+<div class="line">    EXPECT_FALSE(std::is_default_constructible&lt;Contact&gt;::value);</div>
+<div class="line">    EXPECT_TRUE(std::is_copy_constructible&lt;Contact&gt;::value);</div>
+<div class="line">    EXPECT_FALSE(std::is_copy_assignable&lt;Contact&gt;::value);</div>
+<div class="line"> </div>
+<div class="line">    EXPECT_FALSE(<a name="_a1"></a><a class="code" href="structplayrho_1_1IsAddable.html" title="Template for determining if the given types are addable.">IsAddable&lt;Contact&gt;::value</a>);</div>
+<div class="line">    EXPECT_FALSE((<a class="code" href="structplayrho_1_1IsAddable.html" title="Template for determining if the given types are addable.">IsAddable&lt;Contact, Contact&gt;::value</a>));</div>
+<div class="line">    EXPECT_FALSE(<a class="code" href="namespaceplayrho.html#a4708d38a866c6ebc70da3939d5edc8dc" title="Determines whether the given type is an iterable type.">IsIterable&lt;Contact&gt;::value</a>);</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">TEST(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>, Enabled)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> shape = <a name="_a2"></a><a class="code" href="structplayrho_1_1d2_1_1DiskShapeConf.html" title="Disk shape configuration.">DiskShapeConf</a>{};</div>
+<div class="line">    <span class="keyword">auto</span> world = <a name="_a3"></a><a class="code" href="classplayrho_1_1d2_1_1World.html" title="Definition of an independent and simulatable &quot;world&quot;.">World</a>{};</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bA = world.<a name="a4"></a><a class="code" href="classplayrho_1_1d2_1_1World.html#a66716e8c9020509c9891d9223a58be93" title="Creates a rigid body with the given configuration.">CreateBody</a>(<a name="_a5"></a><a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a name="a6"></a><a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a name="a7"></a><a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bB = world.CreateBody(<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fA = bA-&gt;<a name="a8"></a><a class="code" href="classplayrho_1_1d2_1_1Body.html#ae09b2950d8313278578e73dd39c1bd1a" title="Creates a fixture and attaches it to this body.">CreateFixture</a>(<a name="_a9"></a><a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fB = bB-&gt;CreateFixture(<a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">auto</span> c = <a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>{fA, 0u, fB, 0u};</div>
+<div class="line">    EXPECT_TRUE(c.IsEnabled());</div>
+<div class="line">    c.UnsetEnabled();</div>
+<div class="line">    EXPECT_FALSE(c.IsEnabled());</div>
+<div class="line">    c.SetEnabled();</div>
+<div class="line">    EXPECT_TRUE(c.IsEnabled());</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">TEST(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>, <a name="a10"></a><a class="code" href="namespaceplayrho_1_1d2.html#a9b5dc1f3ca395793a68fcc5b87fb34e9" title="Sets awake the fixtures of the given contact.">SetAwake</a>)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> shape = <a class="code" href="structplayrho_1_1d2_1_1DiskShapeConf.html" title="Disk shape configuration.">DiskShapeConf</a>{};</div>
+<div class="line">    <span class="keyword">auto</span> world = <a class="code" href="classplayrho_1_1d2_1_1World.html" title="Definition of an independent and simulatable &quot;world&quot;.">World</a>{};</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bA = world.<a class="code" href="classplayrho_1_1d2_1_1World.html#a66716e8c9020509c9891d9223a58be93" title="Creates a rigid body with the given configuration.">CreateBody</a>(<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bB = world.CreateBody(<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fA = bA-&gt;<a class="code" href="classplayrho_1_1d2_1_1Body.html#ae09b2950d8313278578e73dd39c1bd1a" title="Creates a fixture and attaches it to this body.">CreateFixture</a>(<a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fB = bB-&gt;CreateFixture(<a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> c = <a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>{fA, 0u, fB, 0u};</div>
+<div class="line">    </div>
+<div class="line">    bA-&gt;UnsetAwake();</div>
+<div class="line">    ASSERT_FALSE(bA-&gt;IsAwake());</div>
+<div class="line"> </div>
+<div class="line">    bB-&gt;UnsetAwake();</div>
+<div class="line">    ASSERT_FALSE(bB-&gt;IsAwake());</div>
+<div class="line">    </div>
+<div class="line">    <a class="code" href="namespaceplayrho_1_1d2.html#a9b5dc1f3ca395793a68fcc5b87fb34e9" title="Sets awake the fixtures of the given contact.">SetAwake</a>(c);</div>
+<div class="line"> </div>
+<div class="line">    EXPECT_TRUE(bA-&gt;IsAwake());</div>
+<div class="line">    EXPECT_TRUE(bB-&gt;IsAwake());</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">TEST(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>, <a name="a11"></a><a class="code" href="namespaceplayrho_1_1d2.html#a6364ce32adb82c7dd45b80e8b0c9bfd5" title="Resets the friction mixture to the default value.">ResetFriction</a>)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> shape = <a class="code" href="structplayrho_1_1d2_1_1DiskShapeConf.html" title="Disk shape configuration.">DiskShapeConf</a>{};</div>
+<div class="line">    <span class="keyword">auto</span> world = <a class="code" href="classplayrho_1_1d2_1_1World.html" title="Definition of an independent and simulatable &quot;world&quot;.">World</a>{};</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bA = world.<a class="code" href="classplayrho_1_1d2_1_1World.html#a66716e8c9020509c9891d9223a58be93" title="Creates a rigid body with the given configuration.">CreateBody</a>(<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bB = world.CreateBody(<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fA = bA-&gt;<a class="code" href="classplayrho_1_1d2_1_1Body.html#ae09b2950d8313278578e73dd39c1bd1a" title="Creates a fixture and attaches it to this body.">CreateFixture</a>(<a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fB = bB-&gt;CreateFixture(<a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">auto</span> c = <a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>{fA, 0u, fB, 0u};</div>
+<div class="line"> </div>
+<div class="line">    ASSERT_GT(<a name="a12"></a><a class="code" href="namespaceplayrho_1_1d2.html#a9280854f98c5d8557ca57847171de630" title="Gets the coefficient of friction.">GetFriction</a>(shape), <a name="a13"></a><a class="code" href="namespaceplayrho.html#a1fc125070a08100d083a1360f7167f87" title="Real-number type.">Real</a>(0));</div>
+<div class="line">    ASSERT_NEAR(<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(c.GetFriction()), <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<a class="code" href="namespaceplayrho.html#a1fc125070a08100d083a1360f7167f87" title="Real-number type.">Real</a>{GetFriction(shape)}), 0.01);</div>
+<div class="line">    c.SetFriction(<a class="code" href="namespaceplayrho_1_1d2.html#a9280854f98c5d8557ca57847171de630" title="Gets the coefficient of friction.">GetFriction</a>(shape) * <a class="code" href="namespaceplayrho.html#a1fc125070a08100d083a1360f7167f87" title="Real-number type.">Real</a>(2));</div>
+<div class="line">    ASSERT_NE(c.GetFriction(), <a class="code" href="namespaceplayrho_1_1d2.html#a9280854f98c5d8557ca57847171de630" title="Gets the coefficient of friction.">GetFriction</a>(shape));</div>
+<div class="line">    <a class="code" href="namespaceplayrho_1_1d2.html#a6364ce32adb82c7dd45b80e8b0c9bfd5" title="Resets the friction mixture to the default value.">ResetFriction</a>(c);</div>
+<div class="line">    EXPECT_NEAR(<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(c.GetFriction()), <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<a class="code" href="namespaceplayrho.html#a1fc125070a08100d083a1360f7167f87" title="Real-number type.">Real</a>{GetFriction(shape)}), 0.01);</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">TEST(<a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>, <a name="a14"></a><a class="code" href="namespaceplayrho_1_1d2.html#ae7c83e82f89844199f5c06c5cda3749d" title="Reset the restitution to the default value.">ResetRestitution</a>)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> shape = <a class="code" href="structplayrho_1_1d2_1_1DiskShapeConf.html" title="Disk shape configuration.">DiskShapeConf</a>{};</div>
+<div class="line">    <span class="keyword">auto</span> world = <a class="code" href="classplayrho_1_1d2_1_1World.html" title="Definition of an independent and simulatable &quot;world&quot;.">World</a>{};</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bA = world.<a class="code" href="classplayrho_1_1d2_1_1World.html#a66716e8c9020509c9891d9223a58be93" title="Creates a rigid body with the given configuration.">CreateBody</a>(<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> bB = world.CreateBody(<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html" title="Body configuration.">BodyConf</a>{}.<a class="code" href="structplayrho_1_1d2_1_1BodyConf.html#ac2af87244b6172527a527793ff3614fc" title="Use the given type.">UseType</a>(<a class="code" href="namespaceplayrho.html#a098b0ef528e3b728af8e3e17873963f7a971fd8cc345d8bd9f92e9f7d88fdf20c">BodyType::Dynamic</a>));</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fA = bA-&gt;<a class="code" href="classplayrho_1_1d2_1_1Body.html#ae09b2950d8313278578e73dd39c1bd1a" title="Creates a fixture and attaches it to this body.">CreateFixture</a>(<a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> fB = bB-&gt;CreateFixture(<a class="code" href="classplayrho_1_1d2_1_1Shape.html" title="Shape.">Shape</a>{shape});</div>
+<div class="line">    <span class="keyword">auto</span> c = <a class="code" href="classplayrho_1_1d2_1_1Contact.html" title="A potential contact between the children of two Fixture objects.">Contact</a>{fA, 0u, fB, 0u};</div>
+<div class="line"> </div>
+<div class="line">    ASSERT_EQ(<a name="a15"></a><a class="code" href="namespaceplayrho_1_1d2.html#a73fdd9b13d08d04db4ad170afac115b7" title="Gets the coefficient of restitution value of the given shape.">GetRestitution</a>(shape), <a class="code" href="namespaceplayrho.html#a1fc125070a08100d083a1360f7167f87" title="Real-number type.">Real</a>(0));</div>
+<div class="line">    ASSERT_EQ(c.GetRestitution(), <a class="code" href="namespaceplayrho_1_1d2.html#a73fdd9b13d08d04db4ad170afac115b7" title="Gets the coefficient of restitution value of the given shape.">GetRestitution</a>(shape));</div>
+<div class="line">    c.SetRestitution(<a class="code" href="namespaceplayrho.html#a1fc125070a08100d083a1360f7167f87" title="Real-number type.">Real</a>(2));</div>
+<div class="line">    ASSERT_NE(c.GetRestitution(), <a class="code" href="namespaceplayrho_1_1d2.html#a73fdd9b13d08d04db4ad170afac115b7" title="Gets the coefficient of restitution value of the given shape.">GetRestitution</a>(shape));</div>
+<div class="line">    <a class="code" href="namespaceplayrho_1_1d2.html#ae7c83e82f89844199f5c06c5cda3749d" title="Reset the restitution to the default value.">ResetRestitution</a>(c);</div>
+<div class="line">    EXPECT_EQ(c.GetRestitution(), <a class="code" href="namespaceplayrho_1_1d2.html#a73fdd9b13d08d04db4ad170afac115b7" title="Gets the coefficient of restitution value of the given shape.">GetRestitution</a>(shape));</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
 </div>
@@ -120,7 +247,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Wed Aug 19 2020 11:18:05 for PlayRho by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Thu Aug 20 2020 09:24:56 for PlayRho by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>

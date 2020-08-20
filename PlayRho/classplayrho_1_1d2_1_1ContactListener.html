@@ -158,6 +158,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A pure-virtual interface for "listeners" for contacts. </p>
 <p>Implement this class to get contact information. You can use these results for things like sounds and game logic. You can also get contact results by traversing the contact lists after the time step. However, you might miss some contacts because continuous physics leads to sub-stepping. Additionally you may receive multiple callbacks for the same contact in a single time step. You should strive to make your callbacks efficient because there may be many callbacks per time step.</p>
 <dl class="section warning"><dt>Warning</dt><dd>You cannot create/destroy PlayRho entities inside these callbacks. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#_a133">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="WorldCallbacks_8hpp_source.html#l00069">69</a> of file <a class="el" href="WorldCallbacks_8hpp_source.html">WorldCallbacks.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -231,6 +233,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called when two fixtures begin to touch. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a137">World.cpp</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -380,7 +384,7 @@ This is only called for contacts that are touching, solid, and awake. </dd></dl>
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Wed Aug 19 2020 11:18:06 for PlayRho by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Thu Aug 20 2020 09:24:58 for PlayRho by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>

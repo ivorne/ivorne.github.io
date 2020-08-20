@@ -2517,6 +2517,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes the point states given two manifolds. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a185">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Collision_8cpp_source.html#l00027">27</a> of file <a class="el" href="Collision_8cpp_source.html">Collision.cpp</a>.</p>
 
@@ -2697,6 +2699,8 @@ On the first call, the Simplex::Cache.count should be set to zero. <div class="i
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Closest points between the two shapes and the count of iterations it took to determine them. The iteration count will always be greater than zero unless <code>DefaultMaxDistanceIters</code> is zero. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a119">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Distance_8cpp_source.html#l00108">108</a> of file <a class="el" href="Distance_8cpp_source.html">Distance.cpp</a>.</p>
 
@@ -2932,6 +2936,8 @@ On the first call, the Simplex::Cache.count should be set to zero. <div class="i
 </div><div class="memdoc">
 
 <p>Gets the vertex radius property of a given distance proxy. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Body_8cpp-example.html#a31">Body.cpp</a>, and <a class="el" href="World_8cpp-example.html#a113">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="DistanceProxy_8hpp_source.html#l00205">205</a> of file <a class="el" href="DistanceProxy_8hpp_source.html">DistanceProxy.hpp</a>.</p>
 
@@ -3063,6 +3069,8 @@ template&lt;class T &gt; </div>
 
 <p>Query the given dynamic tree and find nodes overlapping the given AABB. </p>
 <dl class="section note"><dt>Note</dt><dd>The callback instance is called for each leaf node that overlaps the supplied AABB. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a25">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="DynamicTree_8cpp_source.html#l00677">677</a> of file <a class="el" href="DynamicTree_8cpp_source.html">DynamicTree.cpp</a>.</p>
 
@@ -3173,6 +3181,8 @@ template&lt;class T &gt; </div>
 <p>Gets the ratio of the sum of the perimeters of nodes to the root perimeter. </p>
 <dl class="section note"><dt>Note</dt><dd>Zero is returned if no proxies exist at the time of the call. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Value of zero or more. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a19">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="DynamicTree_8cpp_source.html#l00734">734</a> of file <a class="el" href="DynamicTree_8cpp_source.html">DynamicTree.cpp</a>.</p>
 
@@ -3253,6 +3263,8 @@ template&lt;class T &gt; </div>
 
 <p>Gets the maximum imbalance. </p>
 <p>This gets the maximum imbalance of nodes in the given tree. </p><dl class="section note"><dt>Note</dt><dd>The imbalance is the difference in height of the two children of a node. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a59">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="DynamicTree_8cpp_source.html#l00759">759</a> of file <a class="el" href="DynamicTree_8cpp_source.html">DynamicTree.cpp</a>.</p>
 
@@ -3653,6 +3665,8 @@ template&lt;class T &gt; </div>
 
 <p>Gets the height of the binary tree. </p>
 <dl class="section return"><dt>Returns</dt><dd>Height of the tree (as stored in the root node) or 0 if the root node is not valid. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a18">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="DynamicTree_8hpp_source.html#l00673">673</a> of file <a class="el" href="DynamicTree_8hpp_source.html">DynamicTree.hpp</a>.</p>
 
@@ -4722,6 +4736,8 @@ This provides ancillary support for the container concept's size method. </dd></
 </div><div class="memdoc">
 
 <p>Gets the child count for a given chain shape configuration. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a90">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="ChainShapeConf_8hpp_source.html#l00154">154</a> of file <a class="el" href="ChainShapeConf_8hpp_source.html">ChainShapeConf.hpp</a>.</p>
 
@@ -6256,6 +6272,8 @@ This provides ancillary support for the container concept's size method. </dd></
 
 <p>Gets the coefficient of friction. </p>
 <dl class="section return"><dt>Returns</dt><dd>Value of 0 or higher. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Contact_8cpp-example.html#a12">Contact.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Shape_8hpp_source.html#l00219">219</a> of file <a class="el" href="Shape_8hpp_source.html">Shape.hpp</a>.</p>
 
@@ -6286,6 +6304,8 @@ This provides ancillary support for the container concept's size method. </dd></
 </div><div class="memdoc">
 
 <p>Gets the coefficient of restitution value of the given shape. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Contact_8cpp-example.html#a15">Contact.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Shape_8hpp_source.html#l00224">224</a> of file <a class="el" href="Shape_8hpp_source.html">Shape.hpp</a>.</p>
 
@@ -6474,6 +6494,8 @@ This provides ancillary support for the container concept's size method. </dd></
 <dl class="section note"><dt>Note</dt><dd>Provided for introspective purposes like visitation. </dd>
 <dd>
 Generally speaking, try to avoid using this method unless there's no other way to access the underlying data. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Body_8cpp-example.html#a32">Body.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Shape_8hpp_source.html#l00246">246</a> of file <a class="el" href="Shape_8hpp_source.html">Shape.hpp</a>.</p>
 
@@ -8345,6 +8367,8 @@ This only works for two disjoint convex sets.</dd></dl>
 </div><div class="memdoc">
 
 <p>Gets a <code>Vec2</code> representation of the given value. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a189">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Math_8hpp_source.html#l00697">697</a> of file <a class="el" href="Math_8hpp_source.html">Math.hpp</a>.</p>
 
@@ -10938,6 +10962,8 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Gets the fixture count of the given body. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Body_8cpp-example.html#a23">Body.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Body_8cpp_source.html#l00504">504</a> of file <a class="el" href="Body_8cpp_source.html">Body.cpp</a>.</p>
 
@@ -11213,6 +11239,8 @@ A non-zero acceleration will also awaken the body. </dd></dl>
 </div><div class="memdoc">
 
 <p>Awakens the body if it's asleep. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Body_8cpp-example.html#a18">Body.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Body_8hpp_source.html#l00917">917</a> of file <a class="el" href="Body_8hpp_source.html">Body.hpp</a>.</p>
 
@@ -12538,6 +12566,8 @@ Non-zero impulses wakes up the body. </dd></dl>
 
 <p>Sets the body's transformation. </p>
 <dl class="section note"><dt>Note</dt><dd>This operation isn't exact. I.e. don't expect that <code>GetTransformation</code> will return exactly the transformation that had been set. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Body_8cpp-example.html#a74">Body.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Body_8hpp_source.html#l01309">1309</a> of file <a class="el" href="Body_8hpp_source.html">Body.hpp</a>.</p>
 
@@ -13009,6 +13039,8 @@ Non-zero impulses wakes up the body. </dd></dl>
 </div><div class="memdoc">
 
 <p>Sets awake the fixtures of the given contact. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Contact_8cpp-example.html#a10">Contact.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Contact_8cpp_source.html#l00264">264</a> of file <a class="el" href="Contact_8cpp_source.html">Contact.cpp</a>.</p>
 
@@ -13032,6 +13064,8 @@ Non-zero impulses wakes up the body. </dd></dl>
 
 <p>Resets the friction mixture to the default value. </p>
 <p>Resets the friction mixture to the default value. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Contact_8cpp-example.html#a11">Contact.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Contact_8cpp_source.html#l00271">271</a> of file <a class="el" href="Contact_8cpp_source.html">Contact.cpp</a>.</p>
 
@@ -13063,6 +13097,8 @@ Non-zero impulses wakes up the body. </dd></dl>
 
 <p>Reset the restitution to the default value. </p>
 <p>Reset the restitution to the default value. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="Contact_8cpp-example.html#a14">Contact.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Contact_8cpp_source.html#l00277">277</a> of file <a class="el" href="Contact_8cpp_source.html">Contact.cpp</a>.</p>
 
@@ -14931,6 +14967,8 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Gets the type of the given joint. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a71">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="JointType_8cpp_source.html#l00028">28</a> of file <a class="el" href="JointType_8cpp_source.html">JointType.cpp</a>.</p>
 
@@ -15711,6 +15749,8 @@ Dynamic bodies are moved based on their previous velocities, gravity, applied fo
 </div><div class="memdoc">
 
 <p>Gets the count of awake bodies in the given world. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a193">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="World_8cpp_source.html#l02638">2638</a> of file <a class="el" href="World_8cpp_source.html">World.cpp</a>.</p>
 
@@ -15824,6 +15864,8 @@ Dynamic bodies are moved based on their previous velocities, gravity, applied fo
 
 <p>Sets the accelerations of all the world's bodies to the given value. </p>
 <dl class="section note"><dt>Note</dt><dd>This will leave the angular acceleration alone. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a192">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="World_8cpp_source.html#l02668">2668</a> of file <a class="el" href="World_8cpp_source.html">World.cpp</a>.</p>
 
@@ -15895,6 +15937,8 @@ Dynamic bodies are moved based on their previous velocities, gravity, applied fo
 
 <p>Gets the body count in the given world. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 or higher. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a10">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="World_8hpp_source.html#l01036">1036</a> of file <a class="el" href="World_8hpp_source.html">World.hpp</a>.</p>
 
@@ -15924,6 +15968,8 @@ Dynamic bodies are moved based on their previous velocities, gravity, applied fo
 </table>
 </div><div class="memdoc">
 <p>Gets the count of joints in the given world. </p><dl class="section return"><dt>Returns</dt><dd>0 or higher. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a14">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="World_8hpp_source.html#l01044">1044</a> of file <a class="el" href="World_8hpp_source.html">World.hpp</a>.</p>
 
@@ -15956,6 +16002,8 @@ Dynamic bodies are moved based on their previous velocities, gravity, applied fo
 <p>Gets the count of contacts in the given world. </p>
 <dl class="section note"><dt>Note</dt><dd>Not all contacts are for shapes that are actually touching. Some contacts are for shapes which merely have overlapping AABBs. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>0 or higher. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a16">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="World_8hpp_source.html#l01054">1054</a> of file <a class="el" href="World_8hpp_source.html">World.hpp</a>.</p>
 
@@ -16065,6 +16113,8 @@ template&lt;class F &gt; </div>
 </div><div class="memdoc">
 <p>Gets the default definitions value. </p><dl class="section note"><dt>Note</dt><dd>This method exists as a work-around for providing the <a class="el" href="classplayrho_1_1d2_1_1World.html" title="Definition of an independent and simulatable &quot;world&quot;.">World</a> constructor a default value without otherwise getting a compiler error such as: "cannot use defaulted constructor of '&lt;code&gt;Conf&lt;/code&gt;' within '&lt;code&gt;World&lt;/code&gt;'
     outside of member functions because 'gravity' has an initializer" </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="World_8cpp-example.html#a5">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="WorldConf_8hpp_source.html#l00092">92</a> of file <a class="el" href="WorldConf_8hpp_source.html">WorldConf.hpp</a>.</p>
 
@@ -16108,6 +16158,8 @@ template&lt;class F &gt; </div>
 </div><!-- fragment -->
 <p>Earthly gravity in 2-dimensions. </p>
 <p>Linear acceleration in 2-dimensions of an earthly object due to Earth's mass. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="group__UnitConstants.html#gabf0c6abc7c1d4718b4c2e21b2a866780" title="Earthly gravity.">EarthlyLinearAcceleration</a> </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="HelloWorld_8cpp-example.html#a9">HelloWorld.cpp</a>, and <a class="el" href="World_8cpp-example.html#a53">World.cpp</a>.</dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="Vector2_8hpp_source.html#l00154">154</a> of file <a class="el" href="Vector2_8hpp_source.html">Vector2.hpp</a>.</p>
 
@@ -16123,7 +16175,7 @@ template&lt;class F &gt; </div>
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Wed Aug 19 2020 11:18:06 for PlayRho by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Thu Aug 20 2020 09:24:58 for PlayRho by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>
