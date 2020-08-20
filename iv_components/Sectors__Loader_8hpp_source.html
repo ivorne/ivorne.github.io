@@ -125,32 +125,31 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecomp.html">comp</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classcomp_1_1Sectors__Loader.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcomp_1_1Sectors__Loader.html">Sectors_Loader</a> : <span class="keyword">public</span> <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1FrameUpdateClient.html">iv::FrameUpdateClient</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using</span> <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1FrameUpdateClient.html#a59fd69db8e2ff5c3f884988c2ab50f23">iv::FrameUpdateClient::instance</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classcomp_1_1Sectors__Loader.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcomp_1_1Sectors__Loader.html" title="Keeps sectors in range loaded. Needs to be updated from a simulaiton (Sectors_Loader::update).">Sectors_Loader</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">   16</a></span>&#160;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1ClientMarker.html">iv::ClientMarker</a> <a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                            <a class="code" href="classcomp_1_1Sectors__Loader.html#af614068ae4027a956b20f975789c29cf">Sectors_Loader</a>( <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Instance.html">iv::Instance</a> * inst, <a class="code" href="classcomp_1_1Sectors.html">Sectors</a> * sectors, <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html">iv::Attr&lt; iv::float2 &gt;</a> * position, <span class="keywordtype">float</span> load_range, <span class="keywordtype">int</span> sector_size );</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>                            <a class="code" href="classcomp_1_1Sectors__Loader.html#af27d4579adbe4e1b449542fbcfd6fe77">frame_update</a>() override final;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;private:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span>                                    Load( <a class="code" href="namespaceiv.html">iv</a>::<a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> block );</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span>                                    Unload( <a class="code" href="namespaceiv.html">iv</a>::<a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> block );</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;private:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="classcomp_1_1Sectors.html">Sectors</a> * sectors;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="namespaceiv.html">iv</a>::Attr&lt; <a class="code" href="namespaceiv.html">iv</a>::<a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#ade95aaafb3a54caec767b15aecfd8fc5">float2</a> &gt; * position;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">float</span> load_range;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">int</span> sector_size;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="namespaceiv.html">iv</a>::<a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> current_begin;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="namespaceiv.html">iv</a>::<a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> current_end;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Instance.html">iv::Instance</a> *                          <a class="code" href="classcomp_1_1Sectors__Loader.html#a54cad7593217b9a598b470d0cd4858d9">instance</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span>                                    <a class="code" href="classcomp_1_1Sectors__Loader.html#a7324180b91adecd0bc23469c96b37ae4">update</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span>                                    Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> block );</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span>                                    Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> block );</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="classcomp_1_1Sectors.html">Sectors</a> * sectors;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html">iv::Attr&lt; iv::float2 &gt;</a> * position;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">float</span> load_range;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span> sector_size;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> current_begin;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> current_end;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -161,7 +160,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Sun Aug 16 2020 14:42:27 for iv_components by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Thu Aug 20 2020 13:31:31 for iv_components by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>

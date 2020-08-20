@@ -1058,13 +1058,26 @@
   <compound kind="class">
     <name>comp::Sectors_Loader</name>
     <filename>classcomp_1_1Sectors__Loader.html</filename>
-    <base>iv::FrameUpdateClient</base>
     <member kind="function">
       <type></type>
       <name>Sectors_Loader</name>
       <anchorfile>classcomp_1_1Sectors__Loader.html</anchorfile>
       <anchor>af614068ae4027a956b20f975789c29cf</anchor>
       <arglist>(iv::Instance *inst, Sectors *sectors, iv::Attr&lt; iv::float2 &gt; *position, float load_range, int sector_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>iv::Instance *</type>
+      <name>instance</name>
+      <anchorfile>classcomp_1_1Sectors__Loader.html</anchorfile>
+      <anchor>a54cad7593217b9a598b470d0cd4858d9</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>update</name>
+      <anchorfile>classcomp_1_1Sectors__Loader.html</anchorfile>
+      <anchor>a7324180b91adecd0bc23469c96b37ae4</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>iv::ClientMarker</type>
@@ -1073,24 +1086,17 @@
       <anchor>a73555e3597a4a7c32a583042a0e3ea98</anchor>
       <arglist></arglist>
     </member>
-    <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual void</type>
-      <name>frame_update</name>
-      <anchorfile>classcomp_1_1Sectors__Loader.html</anchorfile>
-      <anchor>af27d4579adbe4e1b449542fbcfd6fe77</anchor>
-      <arglist>() override final</arglist>
-    </member>
   </compound>
   <compound kind="class">
     <name>comp::Simulation</name>
     <filename>classcomp_1_1Simulation.html</filename>
-    <base protection="private">iv::FixedUpdateClient</base>
+    <base protection="protected">iv::FixedUpdateClient</base>
     <member kind="function">
       <type></type>
       <name>Simulation</name>
       <anchorfile>classcomp_1_1Simulation.html</anchorfile>
-      <anchor>a354e7858cbff0b45f2222b74b725013c</anchor>
-      <arglist>(iv::Instance *inst, SimulationState *state, iv::TimeId time_id)</arglist>
+      <anchor>a743bc854785b806560777b17ec672cb2</anchor>
+      <arglist>(iv::Instance *inst, SimulationState *sim, iv::TimeId time_id)</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
@@ -1216,9 +1222,16 @@
     </member>
     <member kind="variable">
       <type>iv::SharedAttr&lt; State &gt;</type>
-      <name>game_state</name>
+      <name>state</name>
       <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
-      <anchor>a28f00b4e22d2d10bcb8bb5da6496ffc0</anchor>
+      <anchor>a0d4f3c2ed0c6620bc0893e61d2b83dd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>iv::SharedAttr&lt; long &gt;</type>
+      <name>time_ms</name>
+      <anchorfile>classcomp_1_1SimulationState.html</anchorfile>
+      <anchor>a50105e6632ae6a82358b55d519b9e3b5</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1230,8 +1243,8 @@
       <type></type>
       <name>SimulationState_Button</name>
       <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
-      <anchor>ae3743b7c2e89b0c9642ac296511a45aa</anchor>
-      <arglist>(iv::Instance *inst, SimulationState *state, iv::LumaStyleId style_id=iv::LumaStyleId())</arglist>
+      <anchor>af47e0eae51819cfe0cc65b8af850b9d5</anchor>
+      <arglist>(iv::Instance *inst, SimulationState *sim, iv::LumaStyleId style_id=iv::LumaStyleId())</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual void</type>
@@ -1249,9 +1262,9 @@
     </member>
     <member kind="variable">
       <type>SimulationState *</type>
-      <name>state</name>
+      <name>sim</name>
       <anchorfile>classcomp_1_1SimulationState__Button.html</anchorfile>
-      <anchor>aba034ce4fb6c2c4a70e9da187867cdca</anchor>
+      <anchor>a04985413a610eae6497cc42f7d8717ec</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">

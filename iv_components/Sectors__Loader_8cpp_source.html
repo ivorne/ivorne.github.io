@@ -126,91 +126,94 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classcomp_1_1Sectors__Loader.html#af614068ae4027a956b20f975789c29cf">    9</a></span>&#160;Sectors_Loader::Sectors_Loader( <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Instance.html">iv::Instance</a> * inst, <a class="code" href="classcomp_1_1Sectors.html">Sectors</a> * sectors, <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html">iv::Attr&lt; iv::float2 &gt;</a> * position, <span class="keywordtype">float</span> load_range, <span class="keywordtype">int</span> sector_size ) :</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="namespaceiv.html">iv</a>::<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1FrameUpdateClient.html">FrameUpdateClient</a>( inst ),</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    cm( inst, this, <span class="stringliteral">&quot;Sectors_Loader&quot;</span> ),</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    sectors( sectors ),</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    position( position ),</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    load_range( load_range ),</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    sector_size( sector_size ),</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    current_begin( 0, 0 ),</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    current_end( 0, 0 )</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>.<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1ClientMarker.html#ac8250fe9298abe13f86df7d62b043012">inherits</a>( this-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1FrameUpdateClient.html#a7f70b02d0702120c97ba77e25b0dd7b6">iv::FrameUpdateClient::cm</a> );</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span> Sectors_Loader::Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> block )</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>.<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Context.html#ad373cd04568ac8977f7ac776722e5d63">log</a>( SRC_INFO, ::<a class="code" href="namespacecomp_1_1Defs_1_1Log.html#a3f1f74aa834f585e717a96f71b99e50e">comp::Defs::Log::Sectors</a>, <span class="stringliteral">&quot;Load block &quot;</span>, block, <span class="stringliteral">&quot;.&quot;</span> );</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    this-&gt;sectors-&gt;<a class="code" href="classcomp_1_1Sectors.html#a6ea29ef7a6d5f9bebdc16f02e1c6c7fc">Load</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>, block );</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> Sectors_Loader::Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> block )</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>.<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Context.html#ad373cd04568ac8977f7ac776722e5d63">log</a>( SRC_INFO, ::<a class="code" href="namespacecomp_1_1Defs_1_1Log.html#a3f1f74aa834f585e717a96f71b99e50e">comp::Defs::Log::Sectors</a>, <span class="stringliteral">&quot;Unload block &quot;</span>, block, <span class="stringliteral">&quot;.&quot;</span> );</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    this-&gt;sectors-&gt;<a class="code" href="classcomp_1_1Sectors.html#acb7d9761457e87613099d17644badf2a">Unload</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>, block );</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classcomp_1_1Sectors__Loader.html#af27d4579adbe4e1b449542fbcfd6fe77">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classcomp_1_1Sectors__Loader.html#af27d4579adbe4e1b449542fbcfd6fe77">Sectors_Loader::frame_update</a>()</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">//--------------------- compute block ranges --------------------------------</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">auto</span> center_position = this-&gt;position-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> current_begin = this-&gt;current_begin;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> current_end = this-&gt;current_end;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> target_begin = <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a6d42d0e6cfc4995cdf6ab45471ab99a3">sig_div</a>( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( center_position - <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#ade95aaafb3a54caec767b15aecfd8fc5">float2</a>( this-&gt;load_range, this-&gt;load_range ) ), this-&gt;sector_size );</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> target_end = <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a6d42d0e6cfc4995cdf6ab45471ab99a3">sig_div</a>( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( center_position + <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#ade95aaafb3a54caec767b15aecfd8fc5">float2</a>( this-&gt;load_range, this-&gt;load_range ) ), this-&gt;sector_size );</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> max_begin_x = std::max( current_begin.x, target_begin.x );</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">int</span> min_end_x = std::min( current_end.x, target_end.x );</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    cm( inst, this, <span class="stringliteral">&quot;Sectors_Loader&quot;</span> ),</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    sectors( sectors ),</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    position( position ),</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    load_range( load_range ),</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    sector_size( sector_size ),</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    current_begin( 0, 0 ),</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    current_end( 0, 0 )</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classcomp_1_1Sectors__Loader.html#a54cad7593217b9a598b470d0cd4858d9">   20</a></span>&#160;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Instance.html">iv::Instance</a> * <a class="code" href="classcomp_1_1Sectors__Loader.html#a54cad7593217b9a598b470d0cd4858d9">Sectors_Loader::instance</a>()</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>.<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1ClientMarker.html#a9ac93d3a01f683e82e5028b9f38b556d">instance</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> Sectors_Loader::Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> block )</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>.<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Context.html#ad373cd04568ac8977f7ac776722e5d63">log</a>( SRC_INFO, ::<a class="code" href="namespacecomp_1_1Defs_1_1Log.html#a3f1f74aa834f585e717a96f71b99e50e">comp::Defs::Log::Sectors</a>, <span class="stringliteral">&quot;Load block &quot;</span>, block, <span class="stringliteral">&quot;.&quot;</span> );</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    this-&gt;sectors-&gt;<a class="code" href="classcomp_1_1Sectors.html#a6ea29ef7a6d5f9bebdc16f02e1c6c7fc">Load</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>, block );</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> Sectors_Loader::Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">iv::int2</a> block )</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>.<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Context.html#ad373cd04568ac8977f7ac776722e5d63">log</a>( SRC_INFO, ::<a class="code" href="namespacecomp_1_1Defs_1_1Log.html#a3f1f74aa834f585e717a96f71b99e50e">comp::Defs::Log::Sectors</a>, <span class="stringliteral">&quot;Unload block &quot;</span>, block, <span class="stringliteral">&quot;.&quot;</span> );</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    this-&gt;sectors-&gt;<a class="code" href="classcomp_1_1Sectors.html#acb7d9761457e87613099d17644badf2a">Unload</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1Sectors__Loader.html#a73555e3597a4a7c32a583042a0e3ea98">cm</a>, block );</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classcomp_1_1Sectors__Loader.html#a7324180b91adecd0bc23469c96b37ae4">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classcomp_1_1Sectors__Loader.html#a7324180b91adecd0bc23469c96b37ae4">Sectors_Loader::update</a>()</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">//--------------------- compute block ranges --------------------------------</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">auto</span> center_position = this-&gt;position-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> current_begin = this-&gt;current_begin;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> current_end = this-&gt;current_end;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> target_begin = <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a6d42d0e6cfc4995cdf6ab45471ab99a3">sig_div</a>( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( center_position - <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#ade95aaafb3a54caec767b15aecfd8fc5">float2</a>( this-&gt;load_range, this-&gt;load_range ) ), this-&gt;sector_size );</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a> target_end = <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a6d42d0e6cfc4995cdf6ab45471ab99a3">sig_div</a>( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( center_position + <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#ade95aaafb3a54caec767b15aecfd8fc5">float2</a>( this-&gt;load_range, this-&gt;load_range ) ), this-&gt;sector_size );</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">//--------------------- unload blocks -------------------</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// left unload</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = current_begin.x; x &lt; std::min( current_end.x, target_begin.x ); x++ )</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = current_begin.y; y &lt; current_end.y; y++ )</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// right unload</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = std::max( target_end.x, current_begin.x ); x &lt; current_end.x; x++ )</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = current_begin.y; y &lt; current_end.y; y++ )</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// top unload</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = current_begin.y; y &lt; std::min( current_end.y, target_begin.y ); y++ )</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// bottom unload</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = std::max( target_end.y, current_begin.y ); y &lt; current_end.y; y++ )</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">//------------------ load blocks -----------------------</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// left load</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = target_begin.x; x &lt; std::min( target_end.x, current_begin.x ); x++ )</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = target_begin.y; y &lt; target_end.y; y++ )</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// right load</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = std::max( current_end.x, target_begin.x ); x &lt; target_end.x; x++ )</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = target_begin.y; y &lt; target_end.y; y++ )</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// top load</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = target_begin.y; y &lt; std::min( target_end.y, current_begin.y ); y++ )</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="comment">// bottom load</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = std::max( current_end.y, target_begin.y ); y &lt; target_end.y; y++ )</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">//------------------ store new state ----------------</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    this-&gt;current_begin = target_begin;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    this-&gt;current_end = target_end;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> max_begin_x = std::max( current_begin.x, target_begin.x );</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">int</span> min_end_x = std::min( current_end.x, target_end.x );</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">//--------------------- unload blocks -------------------</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// left unload</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = current_begin.x; x &lt; std::min( current_end.x, target_begin.x ); x++ )</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = current_begin.y; y &lt; current_end.y; y++ )</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// right unload</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = std::max( target_end.x, current_begin.x ); x &lt; current_end.x; x++ )</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = current_begin.y; y &lt; current_end.y; y++ )</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// top unload</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = current_begin.y; y &lt; std::min( current_end.y, target_begin.y ); y++ )</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// bottom unload</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = std::max( target_end.y, current_begin.y ); y &lt; current_end.y; y++ )</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            this-&gt;Unload( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">//------------------ load blocks -----------------------</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// left load</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = target_begin.x; x &lt; std::min( target_end.x, current_begin.x ); x++ )</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = target_begin.y; y &lt; target_end.y; y++ )</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// right load</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = std::max( current_end.x, target_begin.x ); x &lt; target_end.x; x++ )</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = target_begin.y; y &lt; target_end.y; y++ )</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// top load</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = target_begin.y; y &lt; std::min( target_end.y, current_begin.y ); y++ )</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="comment">// bottom load</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> y = std::max( current_end.y, target_begin.y ); y &lt; target_end.y; y++ )</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> x = max_begin_x; x &lt; min_end_x; x++ )</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            this-&gt;Load( <a class="codeRef" href="https://ivorne.github.io/ivorium/namespaceiv.html#a0974e051990cbde8148d81bd221e7b7e">int2</a>( x, y ) );</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="comment">//------------------ store new state ----------------</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    this-&gt;current_begin = target_begin;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    this-&gt;current_end = target_end;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -221,7 +224,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Sun Aug 16 2020 14:42:27 for iv_components by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Thu Aug 20 2020 13:31:31 for iv_components by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>
