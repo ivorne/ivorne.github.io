@@ -3281,6 +3281,7 @@
     <includes id="ComponentAttr_8hpp" name="ComponentAttr.hpp" local="yes" imported="no">ModelTools/ComponentAttr.hpp</includes>
     <includes id="GenericListener_8hpp" name="GenericListener.hpp" local="yes" imported="no">ModelTools/GenericListener.hpp</includes>
     <includes id="World_8hpp" name="World.hpp" local="yes" imported="no">ModelTools/World.hpp</includes>
+    <includes id="Sub_8hpp" name="Sub.hpp" local="yes" imported="no">ModelTools/Sub.hpp</includes>
   </compound>
   <compound kind="file">
     <name>ComponentAttr.hpp</name>
@@ -3341,6 +3342,25 @@
     <name>ModelTools.dox</name>
     <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
     <filename>ModelTools_8dox.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>Sub.hpp</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>Sub_8hpp.html</filename>
+    <includes id="ivorium__core_8hpp" name="ivorium_core.hpp" local="no" imported="no">ivorium_core/ivorium_core.hpp</includes>
+    <includes id="Sub_8inl" name="Sub.inl" local="yes" imported="no">Sub.inl</includes>
+    <class kind="class">iv::SubId</class>
+    <class kind="class">iv::SubDirectory</class>
+    <class kind="class">iv::Sub_StructorFunctions</class>
+    <class kind="class">iv::Sub</class>
+    <namespace>iv</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Sub.inl</name>
+    <path>/home/runner/work/ivorium/ivorium/src/ivorium_model/ModelTools/</path>
+    <filename>Sub_8inl.html</filename>
+    <class kind="class">iv::Sub_StructorFunctionsT</class>
+    <namespace>iv</namespace>
   </compound>
   <compound kind="file">
     <name>World.hpp</name>
@@ -23238,6 +23258,222 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>iv::Sub</name>
+    <filename>classiv_1_1Sub.html</filename>
+    <templarg></templarg>
+    <templarg>LocalItems</templarg>
+    <templarg>LocalStorage</templarg>
+    <member kind="function">
+      <type></type>
+      <name>Sub</name>
+      <anchorfile>classiv_1_1Sub.html</anchorfile>
+      <anchor>a926f1d386cd4ffa1a296bcf45774c9a7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Sub</name>
+      <anchorfile>classiv_1_1Sub.html</anchorfile>
+      <anchor>abc0c664525c3ad14c646e41767664adf</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Sub</name>
+      <anchorfile>classiv_1_1Sub.html</anchorfile>
+      <anchor>a6cbb36a9874f1b46f83f2d38f8a251fd</anchor>
+      <arglist>(Sub const &amp;src)</arglist>
+    </member>
+    <member kind="function">
+      <type>Sub &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classiv_1_1Sub.html</anchorfile>
+      <anchor>a54c62f18c047c082473e289d2161fed1</anchor>
+      <arglist>(Sub const &amp;src)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>clear</name>
+      <anchorfile>classiv_1_1Sub.html</anchorfile>
+      <anchor>a419cd4fddb091ba5c02170c598d71390</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>SubType &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classiv_1_1Sub.html</anchorfile>
+      <anchor>ad7e2f75dda4cab609049d1bf05c5e14f</anchor>
+      <arglist>(SubId&lt; Type, SubType &gt; const &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>iv::Sub_StructorFunctions</name>
+    <filename>classiv_1_1Sub__StructorFunctions.html</filename>
+    <member kind="variable">
+      <type>size_t</type>
+      <name>sizeof_v</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>ac372a8005240ed8d2baa3dea42926fd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>size_t</type>
+      <name>alignof_v</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>a5f0352ae92e2640dee0fd209e2d5c370</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>void *(*</type>
+      <name>copy_new</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>ab0251dd6be5f9f317c66462e2d5b0db7</anchor>
+      <arglist>)(void *src)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void *(*</type>
+      <name>copy_inplace</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>a9ee585ce670826c2da5a25301e013cb1</anchor>
+      <arglist>)(void *place, void *src)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>destroy_inplace</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>a0cf9290d659b0ea1e221f7c9423b56a0</anchor>
+      <arglist>)(void *self)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>destroy_delete</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>ad8edc9e729ccf0bb47362c705de05d77</anchor>
+      <arglist>)(void *self)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>assign_copy</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>a54c70173ae17e24d68d915247fb4e6d4</anchor>
+      <arglist>)(void *self, void *src)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>assign_default</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctions.html</anchorfile>
+      <anchor>a11b0d44227bb3d93c68519268600e9fd</anchor>
+      <arglist>)(void *self)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>iv::Sub_StructorFunctionsT</name>
+    <filename>classiv_1_1Sub__StructorFunctionsT.html</filename>
+    <templarg></templarg>
+    <base>iv::Sub_StructorFunctions</base>
+    <member kind="function">
+      <type></type>
+      <name>Sub_StructorFunctionsT</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>a918977c8f529d9d66abcce4819078dbb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void *</type>
+      <name>T_copy_new</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>a521f054de33219038ca7e53898f096a7</anchor>
+      <arglist>(void *src)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void *</type>
+      <name>T_copy_inplace</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>a8c82af18d7abe274411843f314999068</anchor>
+      <arglist>(void *place, void *src)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>T_destroy_inplace</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>a3f90ff3ad8322e726e313f8115b916d9</anchor>
+      <arglist>(void *self)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>T_destroy_delete</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>a5396d65ee15651a9e72add7e827632bc</anchor>
+      <arglist>(void *self)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>T_assign_copy</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>ae158d64c2ecbf276cb2789aec2bdc4ac</anchor>
+      <arglist>(void *self, void *src)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>T_assign_default</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>af5f5024d046f464078329031ee1f3b14</anchor>
+      <arglist>(void *self)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static Sub_StructorFunctionsT&lt; T &gt;</type>
+      <name>Def</name>
+      <anchorfile>classiv_1_1Sub__StructorFunctionsT.html</anchorfile>
+      <anchor>a11881b8d28ead7762b7a3a9106fec744</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>iv::SubDirectory</name>
+    <filename>classiv_1_1SubDirectory.html</filename>
+    <member kind="variable">
+      <type>size_t</type>
+      <name>next</name>
+      <anchorfile>classiv_1_1SubDirectory.html</anchorfile>
+      <anchor>aeae631d62e24ac68198971c1d31bf636</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>iv::SubId</name>
+    <filename>classiv_1_1SubId.html</filename>
+    <templarg></templarg>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>SubId</name>
+      <anchorfile>classiv_1_1SubId.html</anchorfile>
+      <anchor>a07d3cc2e11fe37aec8fe47867c9d350a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SubId</name>
+      <anchorfile>classiv_1_1SubId.html</anchorfile>
+      <anchor>a768419717c526a2f75673b6f9fb06599</anchor>
+      <arglist>(SubId const &amp;)=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>idx</name>
+      <anchorfile>classiv_1_1SubId.html</anchorfile>
+      <anchor>aa2af410dbe07d8eb5415b0ac8b3da9e7</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>idx_count</name>
+      <anchorfile>classiv_1_1SubId.html</anchorfile>
+      <anchor>a54bfd3e6d822374895295e02011859a0</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>iv::SumAgg</name>
     <filename>classiv_1_1SumAgg.html</filename>
     <templarg></templarg>
@@ -26776,6 +27012,11 @@
     <class kind="struct">iv::StringIO&lt; TypedRuntimeId, std::enable_if_t&lt; std::is_base_of&lt; RuntimeId&lt; TypedRuntimeId &gt;, TypedRuntimeId &gt;::value &gt; &gt;</class>
     <class kind="struct">iv::StringIO_Table</class>
     <class kind="struct">iv::StringIOIndex</class>
+    <class kind="class">iv::Sub</class>
+    <class kind="class">iv::Sub_StructorFunctions</class>
+    <class kind="class">iv::Sub_StructorFunctionsT</class>
+    <class kind="class">iv::SubDirectory</class>
+    <class kind="class">iv::SubId</class>
     <class kind="class">iv::SumAgg</class>
     <class kind="class">iv::System</class>
     <class kind="class">iv::SystemContainer</class>
