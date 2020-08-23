@@ -19,10 +19,10 @@
 /* @license-end */
 </script>
         <link href="doxygen.css" rel="stylesheet" type="text/css" />
-        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="doxy-boot.js"></script>
     </head>
@@ -123,41 +123,42 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classcomp_1_1AutorechargeBehavior.html#aa6ac29dca80950e2e79e6cdeee6b93ee">    6</a></span>&#160;<a class="code" href="classcomp_1_1AutorechargeBehavior.html#aa6ac29dca80950e2e79e6cdeee6b93ee">AutorechargeBehavior::AutorechargeBehavior</a>( <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Instance.html">iv::Instance</a> * inst, <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1TimeId.html">iv::TimeId</a> time, <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html">iv::Attr&lt; int &gt;</a> * m_charges, uint64_t recharge_ms, <span class="keywordtype">int</span> max ) :</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="namespaceiv.html">iv</a>::FixedUpdateClient( inst, time ),</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    cm( inst, this, <span class="stringliteral">&quot;AutorechargeBehavior&quot;</span> ),</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    m_charges( m_charges ),</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    recharge_ms( recharge_ms ),</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    max( max ),</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    cooldown_ms( 0 )</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    this-&gt;<a class="code" href="classcomp_1_1AutorechargeBehavior.html#a7bd0a5c7d384e8b764db7f047f15784d">cm</a>.<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1ClientMarker.html#ac8250fe9298abe13f86df7d62b043012">inherits</a>( this-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1FixedUpdateClient.html#ad45b04df73e90ee257a93bf957ff55e7">iv::FixedUpdateClient::cm</a> );</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#aa8a8337c8d2d5c5ef4819a87ab77ab05">Modify</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1AutorechargeBehavior.html#a7bd0a5c7d384e8b764db7f047f15784d">cm</a>, max );</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcomp_1_1AutorechargeBehavior.html#ac2683853ecff82162727b871e8019e8e">   18</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classcomp_1_1AutorechargeBehavior.html#ac2683853ecff82162727b871e8019e8e">AutorechargeBehavior::fixed_update</a>( <a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1TimeId.html">iv::TimeId</a> time, <span class="keywordtype">int</span> time_step, <span class="keywordtype">int</span> steps )</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> i = 0; i &lt; steps; i++ )</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">if</span>( this-&gt;cooldown_ms &gt; 0 )</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keywordflow">if</span>( this-&gt;cooldown_ms &gt; time_step )</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                this-&gt;cooldown_ms -= time_step;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                this-&gt;cooldown_ms = 0;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">if</span>( this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>() &lt; this-&gt;max )</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                    this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#aa8a8337c8d2d5c5ef4819a87ab77ab05">Modify</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1AutorechargeBehavior.html#a7bd0a5c7d384e8b764db7f047f15784d">cm</a>, this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>() + 1 );</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span>( this-&gt;cooldown_ms == 0 &amp;&amp; this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>() &lt; this-&gt;max )</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            this-&gt;cooldown_ms = this-&gt;recharge_ms;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    cm( inst, this, <span class="stringliteral">&quot;AutorechargeBehavior&quot;</span> ),</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    m_charges( m_charges ),</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    recharge_ms( recharge_ms ),</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    max( max ),</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    cooldown_ms( 0 )</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#aa8a8337c8d2d5c5ef4819a87ab77ab05">Modify</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1AutorechargeBehavior.html#a7bd0a5c7d384e8b764db7f047f15784d">cm</a>, this-&gt;max );</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classcomp_1_1AutorechargeBehavior.html#afba3e24361d1c5324209364fda57cdcd">   16</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classcomp_1_1AutorechargeBehavior.html#afba3e24361d1c5324209364fda57cdcd">AutorechargeBehavior::reset</a>()</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    this-&gt;cooldown_ms = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#aa8a8337c8d2d5c5ef4819a87ab77ab05">Modify</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1AutorechargeBehavior.html#a7bd0a5c7d384e8b764db7f047f15784d">cm</a>, this-&gt;max );</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classcomp_1_1AutorechargeBehavior.html#aed68efc4ae4032b09fd3289fe51078f4">   22</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classcomp_1_1AutorechargeBehavior.html#aed68efc4ae4032b09fd3289fe51078f4">AutorechargeBehavior::step</a>( <span class="keywordtype">int</span> step_ms )</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">if</span>( this-&gt;cooldown_ms &gt; 0 )</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span>( this-&gt;cooldown_ms &gt; step_ms )</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            this-&gt;cooldown_ms -= step_ms;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            this-&gt;cooldown_ms = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">if</span>( this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>() &lt; this-&gt;max )</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#aa8a8337c8d2d5c5ef4819a87ab77ab05">Modify</a>( &amp;this-&gt;<a class="code" href="classcomp_1_1AutorechargeBehavior.html#a7bd0a5c7d384e8b764db7f047f15784d">cm</a>, this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>() + 1 );</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>( this-&gt;cooldown_ms == 0 &amp;&amp; this-&gt;m_charges-&gt;<a class="codeRef" href="https://ivorne.github.io/ivorium/classiv_1_1Attr.html#abc71c8d460a69bc0edf663392004ea45">Get</a>() &lt; this-&gt;max )</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this-&gt;cooldown_ms = this-&gt;recharge_ms;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -168,7 +169,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Thu Aug 20 2020 13:31:31 for iv_components by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Sun Aug 23 2020 16:09:40 for iv_components by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>

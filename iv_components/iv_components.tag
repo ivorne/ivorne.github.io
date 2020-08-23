@@ -458,7 +458,6 @@
   <compound kind="class">
     <name>comp::AutorechargeBehavior</name>
     <filename>classcomp_1_1AutorechargeBehavior.html</filename>
-    <base protection="private">iv::FixedUpdateClient</base>
     <member kind="function">
       <type></type>
       <name>AutorechargeBehavior</name>
@@ -466,12 +465,19 @@
       <anchor>aa6ac29dca80950e2e79e6cdeee6b93ee</anchor>
       <arglist>(iv::Instance *inst, iv::TimeId time, iv::Attr&lt; int &gt; *m_charges, uint64_t recharge_ms, int max)</arglist>
     </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>fixed_update</name>
+    <member kind="function">
+      <type>void</type>
+      <name>reset</name>
       <anchorfile>classcomp_1_1AutorechargeBehavior.html</anchorfile>
-      <anchor>ac2683853ecff82162727b871e8019e8e</anchor>
-      <arglist>(iv::TimeId time, int time_step, int steps) override final</arglist>
+      <anchor>afba3e24361d1c5324209364fda57cdcd</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>step</name>
+      <anchorfile>classcomp_1_1AutorechargeBehavior.html</anchorfile>
+      <anchor>aed68efc4ae4032b09fd3289fe51078f4</anchor>
+      <arglist>(int step_ms)</arglist>
     </member>
     <member kind="variable">
       <type>iv::ClientMarker</type>
