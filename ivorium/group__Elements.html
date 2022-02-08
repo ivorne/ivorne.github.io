@@ -203,7 +203,7 @@ About scene tree pre-render refresh</h3>
 <p>Each frame, before all the renderables are rendered, whole scene tree is traversed and all values are updated. This refresh has three stages: down-phase of first pass, up-phase of first pass and second pass.</p><ol type="1">
 <li>Down-phase of first pass is not that important, it mainly refreshes <a class="el" href="classiv_1_1SlotChild.html#a640d240f8bc41decdf561ba08e1035ae">iv::SlotChild::expectedSize</a> which is not used by many Elements. Tree is traversed from root to children.</li>
 <li>Up-phase of first pass aggregates so called <b>synthesized parameters</b>. It is mainly <a class="el" href="classiv_1_1SlotChild.html#a1167cd88b599e8b1362ba382d5c4c1eb">iv::SlotChild::preferredSize</a> which is used by containers to resize their layouts. Tree is traversed from children to root in this stage. Renderable Elements also assign themselves to render queue in this stage (they must register each frame).</li>
-<li>In second pass, containers assign so called <b>inherited parameters</b> to their children. Best example of such parameter is <a class="el" href="classiv_1_1SlotChild.html#a1180286bc1c7edd85815e3feb9ac45b3">iv::SlotChild::size</a>. Tree is traversed from children to root again. The second pass is not called each frame on each Element, Elements have to request second pass during first pass using <a class="el" href="classiv_1_1ElementRenderer.html#a10e9fda830e5edc14b934c6df0b54605">iv::ElementRenderer::QueueSecondPass</a> and then call <a class="el" href="classiv_1_1ElementRenderer.html#a4007a1c9e05a2f8f253f22dd912a89e6">iv::ElementRenderer::DequeueSecondPass</a> during second pass.</li>
+<li>In second pass, containers assign so called <b>inherited parameters</b> to their children. Best example of such parameter is <a class="el" href="classiv_1_1SlotChild.html#a1180286bc1c7edd85815e3feb9ac45b3">iv::SlotChild::size</a>. Tree is traversed from root to children again. The second pass is not called each frame on each Element, Elements have to request second pass during first pass using <a class="el" href="classiv_1_1ElementRenderer.html#a10e9fda830e5edc14b934c6df0b54605">iv::ElementRenderer::QueueSecondPass</a> and then call <a class="el" href="classiv_1_1ElementRenderer.html#a4007a1c9e05a2f8f253f22dd912a89e6">iv::ElementRenderer::DequeueSecondPass</a> during second pass.</li>
 </ol>
 <p>Most attributes used in scene tree are <a class="el" href="classiv_1_1DirtyAttr.html">iv::DirtyAttr</a>. Apart from given value, it contains dirty flag that is set to true each time value is modified. That can be used to optimize recomputations during pre-render scene tree refresh.</p>
 <p>Initialization parameters:</p><ul>
@@ -233,7 +233,7 @@ About scene tree pre-render refresh</h3>
 </div>
 <div id="footer">
     <div class="container">
-    <address class="footer"><small>Generated on Sun Aug 23 2020 16:08:51 for ivorium by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
+    <address class="footer"><small>Generated on Tue Feb 8 2022 15:53:10 for ivorium by &#160<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17</small></address>
 </div>
 </div>
 </body>
